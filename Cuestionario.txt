@@ -1,28 +1,30 @@
 
 ¿Qué hace el comando git init y en qué situaciones se utiliza?
-
+El git init sirve para crear un nuevo repositorio, un nuevo proyecto. Se usa para asignar una carpeta y que detecte las modificaciones que sucedan dentro.
 
 ¿Cuál es la diferencia entre git add y git commit en el flujo de trabajo de Git?
-
+Git add sirve para añadir archivos al área de preparación o stage, mientras que git commit confirma los cambios en el repositorio y los nombra.
 
 ¿Qué significa que un archivo esté en estado "staged" en Git y cómo se coloca en este estado?
-
+Significa que ya fue revisado y está listo para subir en tu cliente git, para hacer el commit. Se coloca seleccionando el archivo revisado, que previamente se encuentra en "unstaged" y presionar el botón "staged".
 
 ¿Cuál es la diferencia entre git reset --soft, git reset --mixed y git reset --hard?
-
+El git reset funciona para borrar los últimos commits y volver al estado anterior. El git reset --hard borra tanto los commits posteriores como los archivos desde la computadora, el git reset --mixed borra el commit y pone en archivo de ese commit borrado en "unstaged", mientras que el git reset --soft deshace los commits pero mantiene los archivos en "staged".
 
 ¿Qué es una fusión (merge) en Git y cuáles son los posibles conflictos que pueden ocurrir durante el proceso?
-
+Merge es una función para que los archivos creado en ramas se puedan transferir a otras ramas, al hacer un merge el conflicto que se podría generar es tener un mismo archivo que haya sido modificado diferentemente en las dos ramas que se quieren fusionar, por lo que al querer unirlo se tiene que seleccionar una versión para mantener o fusionar ambas.
 
 ¿Para qué se usa el comando git checkout y cuál es su diferencia con git switch?
-
+El comando de checkout sirve para seleccionar una rama y trabajar en ella, además de restaurar archivos o revertir cambios; también git switch, sirve para cambiar de rama y no te deja cambiar si tienes cambios pendientes.
 
 ¿Cómo funciona git pull y en qué se diferencia de git fetch?
-
+Git pull sirve para, cuando se trabaja en un repositorio online, "jalar" o descargar los cambios que no hayan sido echos por ti en tu dispositivo. En cambio git fetch sirve para visualizar los cambios antes de hacer el pull.
 
 ¿Qué ocurre cuando se ejecuta git push y qué problemas pueden surgir si hay cambios en el repositorio remoto?
-
+Al hacer un git push se suben los cambios de tu dispositivo al repositorio en línea, podría generarse un conflicto como los de merge si hay varias versiones de un mismo archivo u otros cambios en el repositorio online, por eso se recomienda hacer un git fetch antes.
 
 ¿Cuál es la diferencia entre git clone y git init?
 Flujo de trabajo en Git
+Git clone se trata de clonar un repositorio en línea para poder trabajar en él, mientras que git init sirve para crear un repositorio en tu propio dispositivo.
 
+Yana Sinaí Cruz Balam
