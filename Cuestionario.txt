@@ -1,28 +1,42 @@
 
-¿Qué hace el comando git init y en qué situaciones se utiliza?
+¿Qué hace el comando git init y en qué situaciones se utiliza? 
+R=El git init inicia un nuevo repositorio de git en un directorio, Crea una carpeta oculta llamada .git, donde git almacenara todo el historial de versiones,y ramas del proyecto
 
+Situaciones en las que se usa:
+Cuando se comienza un nuevo proyecto desde cero
+Para convertir un proyecto existente en un repositorio de Git
+Si se perdió la carpeta .git, se puede volver a iniciar, aunque se perdería el historial anterior
 
 ¿Cuál es la diferencia entre git add y git commit en el flujo de trabajo de Git?
-
+git add: Agrega archivos al área de preparación, preparándolos para ser confirmados en el historial
+git commit: Toma los archivos en el área de preparación y los guarda como una nueva versión en el historial de Git.
 
 ¿Qué significa que un archivo esté en estado "staged" en Git y cómo se coloca en este estado?
-
+R= Significa que un archivo ha sido preparado para ser confirmado
 
 ¿Cuál es la diferencia entre git reset --soft, git reset --mixed y git reset --hard?
-
+--soft: Deshace el commit, pero mantiene los cambios en el área de staging
+--mixed: Deshace el commit y quita los cambios del área de staging, pero los deja en el archivo
+--hard: Deshace todo, incluso los cambios en los archivos
 
 ¿Qué es una fusión (merge) en Git y cuáles son los posibles conflictos que pueden ocurrir durante el proceso?
-
+R= Hacer un merge es cuando se une los cambios de una rama con otra y los posbles conflictos que se podrían generar es que no se pueda combinar los cambios automáticamente
 
 ¿Para qué se usa el comando git checkout y cuál es su diferencia con git switch?
-
+git checkout: se usa para cambiar de rama o para moverse a una versión anterior de un archivo
+git switch: se usa para cambiar de rama, de una forma más fácil
 
 ¿Cómo funciona git pull y en qué se diferencia de git fetch?
-
+git fetch: Solo descarga los cambios
+git pull: Descarga y fusiona los cambios automáticamente 
 
 ¿Qué ocurre cuando se ejecuta git push y qué problemas pueden surgir si hay cambios en el repositorio remoto?
-
+R= sube los cambios al repositorio remoto y los problemas que podría surgir si hay cambios en el repositorio remoto es que git puede rechazar tu push
 
 ¿Cuál es la diferencia entre git clone y git init?
+git clone: Copia un repositorio ya existente desde un servidor remoto a la compu
+git init: Crea un repositorio vacío desde cero en la carpeta actual
 Flujo de trabajo en Git
+
+
 
