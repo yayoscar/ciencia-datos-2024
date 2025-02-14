@@ -1,28 +1,43 @@
 
-¿Qué hace el comando git init y en qué situaciones se utiliza?
+Daniela Beatriz Chin Morales 
+¿Qué hace el comando git init y en qué situaciones se utiliza? crea un nuevo repositorio/ proyecto.
 
 
-¿Cuál es la diferencia entre git add y git commit en el flujo de trabajo de Git?
+¿Cuál es la diferencia entre git add y git commit en el flujo de trabajo de Git? Git add: para agregar cambios al área de reparación de git
+git commit: para comprometer los cambios que se agreguen al área de reparación y que se agreguen al repositorio
 
 
-¿Qué significa que un archivo esté en estado "staged" en Git y cómo se coloca en este estado?
+
+¿Qué significa que un archivo esté en estado "staged" en Git y cómo se coloca en este estado? que está en el área de reparación, se coloca con git add
 
 
-¿Cuál es la diferencia entre git reset --soft, git reset --mixed y git reset --hard?
+¿Cuál es la diferencia entre git reset --soft, git reset --mixed y git reset --hard? git reset --soft : Revierte los cambios en el área de preparación, pero no elimina los cambios en el directorio de trabajo. Los cambios se mantienen en el directorio de trabajo y se pueden volver a agregar al área de preparación con git add .
+git reset --mixed : Revierte los cambios en el área de preparación y elimina los cambios en el directorio de trabajo. Los cambios se eliminan del directorio de trabajo y se deben volver a realizar.
+git reset --hard : Revierte los cambios en el área de preparación, elimina los cambios en el directorio de trabajo y elimina todos los commits realizados después del commit especificado. 
 
 
-¿Qué es una fusión (merge) en Git y cuáles son los posibles conflictos que pueden ocurrir durante el proceso?
+¿Qué es una fusión (merge) en Git y cuáles son los posibles conflictos que pueden ocurrir durante el proceso? es el proceso de combinar cambios de dos o más ramas en una sola rama.
+Posibles conflictos: Durante el proceso de fusión, pueden ocurrir conflictos si hay cambios en el mismo archivo en ambas ramas. Los conflictos se deben resolver manualmente editando el archivo y eliminando las marcas de conflicto.
+Para resolver los conflictos: Los conflictos se resuelven editando el archivo y eliminando las marcas de conflicto. Luego, se debe agregar el archivo al área de preparación con git add y confirmar los cambios con git commit.
 
 
-¿Para qué se usa el comando git checkout y cuál es su diferencia con git switch?
+¿Para qué se usa el comando git checkout y cuál es su diferencia con git switch? se utiliza para cambiar de rama o para restaurar un archivo a su versión anterior. El comando git switch es casi igual a git checkout, pero se utiliza solo para cambiar de rama. git switch es más seguro que git checkout porque no puede ser utilizado para restaurar un archivo a su versión anterior. git checkout se utiliza para cambiar de rama con git checkout nombre-rama, o para restaurar un archivo a su versión anterior con git checkout -- nombre-archivo.
 
 
-¿Cómo funciona git pull y en qué se diferencia de git fetch?
+¿Cómo funciona git pull y en qué se diferencia de git fetch? comando git pull se utiliza para descargar cambios desde un repositorio remoto y mergearlos con la rama actual. Diferencia con git fetch: El comando git fetch se utiliza para descargar cambios desde un repositorio remoto, pero no los mergea con la rama actual. En su lugar, crea una rama nueva con los cambios descargados.
 
 
-¿Qué ocurre cuando se ejecuta git push y qué problemas pueden surgir si hay cambios en el repositorio remoto?
+¿Qué ocurre cuando se ejecuta git push y qué problemas pueden surgir si hay cambios en el repositorio remoto? git push se utiliza para enviar cambios a un repositorio remoto.
+Problemas que pueden surgir: Si hay cambios en el repositorio remoto que no están en la rama local, git push puede fallar. En este caso, se debe realizar un git pull para descargar los cambios del repositorio remoto y mergearlos con la rama local.
 
 
-¿Cuál es la diferencia entre git clone y git init?
+¿Cuál es la diferencia entre git clone y git init? El comando git clone se utiliza para clonar un repositorio existente desde un servidor remoto o una ubicación local.
+Diferencia con git init: El comando git init se utiliza para inicializar un nuevo repositorio de Git en un directorio existente. No clona un repositorio existente.
 Flujo de trabajo en Git
+Crear un nuevo repositorio: git init o git clone para crear un nuevo repositorio o clonar uno existente.
+Agregar archivos: git add para agregar archivos al área de preparación (staging area).
+Confirmar cambios: git commit para confirmar los cambios y crear un nuevo commit.
+Enviar cambios: git push para enviar los cambios al repositorio remoto.
+Descargar cambios: git pull para descargar los cambios del repositorio remoto y mergearlos con los cambios locales.
+Revisar historia: git log para revisar la historia de commits y verificar los cambios realizados.
 
