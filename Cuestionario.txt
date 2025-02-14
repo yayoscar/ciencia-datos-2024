@@ -1,28 +1,38 @@
 
 ¿Qué hace el comando git init y en qué situaciones se utiliza?
-
+Crea un repositorio Git local en el directorio donde lo ejecutas y se usa en proyectos nuevos o para agregar control de versiones a proyectos existentes
 
 ¿Cuál es la diferencia entre git add y git commit en el flujo de trabajo de Git?
-
+El git add agrega los cambios en tus archivos al área de preparación de Git y git commit guarda los cambios preparados en el historial del repositorio, creando una nueva versión o snapshot del proyecto
 
 ¿Qué significa que un archivo esté en estado "staged" en Git y cómo se coloca en este estado?
-
+Significa que el archivo ha sido modificado, pero los cambios aún no han sido confirmados en el repositorio y para colocar utilizas el comando git add
 
 ¿Cuál es la diferencia entre git reset --soft, git reset --mixed y git reset --hard?
-
+El git reset--soft mantiene los cambios en staging, el git reset--mixed quita los cambios de staging, pero mantiene los cambios en el directorio de trabajo y el git reset--hard descarta todos los cambios, tanto en staging como en el directorio de trabajo
 
 ¿Qué es una fusión (merge) en Git y cuáles son los posibles conflictos que pueden ocurrir durante el proceso?
-
+Combina dos ramas diferentes y los posibles conflictos ocurren cuando Git no puede fusionar automáticamente cambios incompatibles
 
 ¿Para qué se usa el comando git checkout y cuál es su diferencia con git switch?
-
+Se usa para cambiar de una rama a otra o restaurar archivos en tu directorio de trabajo, mientras que git switch fue introducido como una alternativa más moderna y específica para cambiar de ramas, con una sintaxis más sencilla y clara
 
 ¿Cómo funciona git pull y en qué se diferencia de git fetch?
-
+El git fetch obtiene los cambios remotos, pero no los aplicas a tu rama local y el git pull obtiene y fusionas los cambios remotos en tu rama local
 
 ¿Qué ocurre cuando se ejecuta git push y qué problemas pueden surgir si hay cambios en el repositorio remoto?
-
+Cuando ejecutas git push, Git intenta subir los cambios que tienes en tu repositorio local a un repositorio remoto, esto actualiza la rama remota con los commits que has hecho en tu rama local
 
 ¿Cuál es la diferencia entre git clone y git init?
 Flujo de trabajo en Git
+1. Clonar un repositorio
+2. Crear una nueva rama
+3. Modificar archivos
+4. Agregar cambios al área de preparación
+5. Realizar un commit
+6. Sincronizar cambios con el repositorio remoto
+7. Subir cambios al repositorio remoto
+8. Crear una solicitud de extracción
+9. Revisión y fusión
+10. Eliminar ramas locales
 
