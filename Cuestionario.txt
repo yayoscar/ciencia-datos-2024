@@ -1,28 +1,28 @@
 
-¿Qué hace el comando git init y en qué situaciones se utiliza?
-
+¿Qué hace el comando git init y en qué situaciones se utiliza? 
+Para crear un nuevo repositorio desde cero o uno ya existente convertirlo en un repositorio 
 
 ¿Cuál es la diferencia entre git add y git commit en el flujo de trabajo de Git?
-
+el git add se utiliza para agregar todos los archivos modificados en el directorio actual
 
 ¿Qué significa que un archivo esté en estado "staged" en Git y cómo se coloca en este estado?
-
+significa que esta en estado de preparcion para hacer un commit
 
 ¿Cuál es la diferencia entre git reset --soft, git reset --mixed y git reset --hard?
-
+el reset soft sirve para los archivos se elimen pero se queden en stage con los cambios para hacer el commit, el reset mixed lo deja en el area de stage y el hard lo elimina por completo 
 
 ¿Qué es una fusión (merge) en Git y cuáles son los posibles conflictos que pueden ocurrir durante el proceso?
-
+merge es fusionar una rama con la rama main/master y un confilcto seria que los cambios de la rama no sean los mismos que el de main y entonces no se podria fusionar
 
 ¿Para qué se usa el comando git checkout y cuál es su diferencia con git switch?
-
+el checkout es para cambiar a una rama y puedes mas funciones y su diferencia es que git switch solo se enfoca en cambiar de rama 
 
 ¿Cómo funciona git pull y en qué se diferencia de git fetch?
-
+git pull es para bajar archivos y git fetch hce los mismo pero al ejecutarlo puedes ver las actualizaciones del repositorio remoto
 
 ¿Qué ocurre cuando se ejecuta git push y qué problemas pueden surgir si hay cambios en el repositorio remoto?
-
+Cuando se ejecuta git push, lo que ocurre es que Git envía los cambios confirmados en tu repositorio local a un repositorio remoto. Específicamente, git push sube tus commits (es decir, las versiones confirmadas) desde tu rama local hacia la rama correspondiente en el repositorio remoto.
 
 ¿Cuál es la diferencia entre git clone y git init?
 Flujo de trabajo en Git
-
+que git clone sirve para descargar un repositorio ya existente para configurarlo y trabajar con el en cambio git init realiza un repositorio vacio desde la maquina local
