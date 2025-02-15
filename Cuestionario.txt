@@ -1,59 +1,41 @@
 
-¿Qué hace el comando git init y en qué situaciones se utiliza? se utiliza para inicializar un repositorio de Git en un directorio.
- Crea un nuevo repositorio vacío donde se pueden empezar a rastrear los cambios de archivos. Se usa cuando se quiere convertir 
-un proyecto o carpeta existente en un repositorio Git o al comenzar un nuevo proyecto desde cero.
+¿Qué hace el comando git init y en qué situaciones se utiliza? Este se utiliza para inicializar  un nuevo repositorio de git en un directorio cuando ejecutas este comando git crea un subdirectorio oculto llamado .git
 
 
 
-¿Cuál es la diferencia entre git add y git commit en el flujo de trabajo de Git? git add prepara los archivos.
-git commit guarda los cambios en el historial.
+¿Cuál es la diferencia entre git add y git commit en el flujo de trabajo de Git? Lo que hace git add es preparar los archivos y git commit confirma y guarda esos cambios en el historial
 
 
-¿Que significa que un archivo este en estado "stage" en Git y como se coloca en este estado?Un archivo en estado "stage" en Git significa que está preparado para ser 
-incluido en el próximo commit. Para poner un archivo en este estado, usas el comando git add.
+¿Que significa que un archivo este en estado "stage" en Git y como se coloca en este estado?Poner un archivo en estado stage significa que esta preparado para incluirse en el siguiente commit
 
 
-¿Cuál es la diferencia entre git reset --soft, git reset --mixed y git reset --hard?  --soft: Deshace commit, mantiene en staging.
---mixed: Deshace commit, quita de staging.
---hard: Deshace commit, elimina cambios.
+¿Cuál es la diferencia entre git reset --soft, git reset --mixed y git reset --hard?  --soft: Revierte el commit pero mantiene los cambios en el área de preparación.
+--mixed: Revierte el commit y mueve los cambios fuera del área de preparación.
+--hard: Revierte el commit y descarta completamente los cambios realizados.
 
 
-¿Qué es una fusión (merge) en Git y cuáles son los posibles conflictos que pueden ocurrir durante el proceso? Una fusión (merge) en Git es el proceso de combinar dos ramas 
-diferentes en una sola. Esto se hace para integrar los cambios realizados en ambas ramas.
+¿Qué es una fusión (merge) en Git y cuáles son los posibles conflictos que pueden ocurrir durante el proceso? Una fusión (merge) en Git es el procedimiento mediante el cual se combinan dos ramas en una única, incorporando los cambios efectuados en cada una de ellas.
 
-Conflictos que pueden ocurrir:
-
-Conflictos de contenido: Ocurren cuando dos ramas modifican la misma línea de un archivo. Git no puede decidir qué versión conservar, por lo que se necesita intervención manual.
-Conflictos de eliminación: Si un archivo se elimina en una rama y se modifica en otra, Git no sabe qué hacer con él.
+Conflictos de contenido: Suceden cuando dos ramas editan la misma línea de un archivo. Git no puede determinar automáticamente cuál versión mantener, por lo que requiere una corrección manual.
+Conflictos de eliminación: Se producen cuando un archivo es eliminado en una rama pero modificado en otra, generando incertidumbre sobre su destino
 
 
-¿Para qué se usa el comando git checkout y cuál es su diferencia con git switch? El comando git checkout se usa para cambiar de rama o restaurar archivos a su estado anterior.
-
-Diferencias con git switch:
-
-git checkout: Cambia de rama o restaura archivos. Es más versátil, pero puede ser confuso.
-git switch: Es una versión más específica y moderna de git checkout, diseñada solo para cambiar de rama, haciendo el proceso más claro y fácil de entender.
+¿Para qué se usa el comando git checkout y cuál es su diferencia con git switch? git checkout y sus diferencias con git switch
+git checkout: Permite cambiar de rama o restaurar archivos a un estado previo. Es más flexible, pero puede resultar confuso.
+git switch: Una alternativa más reciente y específica para cambiar de rama, simplificando el proceso y haciéndolo más intuitivo.
 
 
-¿Cómo funciona git pull y en qué se diferencia de git fetch? El comando git pull y git fetch están relacionados con la sincronización de tu repositorio local con un
- repositorio remoto, pero funcionan de manera diferente.
+¿Cómo funciona git pull y en qué se diferencia de git fetch? git pull contra git fetch
+Ambos comandos permiten sincronizar el repositorio local con el remoto, pero tienen funciones distintas:
 
-Diferencias clave:
-
-git fetch solo descarga los cambios del repositorio remoto, pero no hace ninguna modificación en tu rama local.
-git pull descarga y fusiona automáticamente esos cambios con tu rama local, actualizándola de inmediato.
+git fetch: Descarga los cambios del repositorio remoto sin aplicarlos a la rama local.
+git pull: Descarga y fusiona automáticamente los cambios en la rama local, actualizándola al instante.
 
 
-¿Qué ocurre cuando se ejecuta git push y qué problemas pueden surgir si hay cambios en el repositorio remoto? Cuando ejecutas git push, envías tus cambios locales al 
-repositorio remoto. Si hay cambios en el remoto que no tienes, el push puede ser rechazado. En este caso, debes hacer un git pull primero para traer esos cambios y luego 
-hacer el push nuevamente.
+¿Qué ocurre cuando se ejecuta git push y qué problemas pueden surgir si hay cambios en el repositorio remoto? Al ejecutar git push, los cambios locales se envían al repositorio remoto. Sin embargo, si el remoto tiene modificaciones que no están en tu copia local, el push puede ser rechazado. Para solucionarlo, primero debes ejecutar git pull para actualizar tu repositorio y luego intentar el push nuevamente.
 
 
 ¿Cuál es la diferencia entre git clone y git init?La diferencia entre git clone y git init es:
 
-git clone: Se usa para copiar un repositorio remoto completo (incluyendo todo su historial y ramas) a tu máquina local.
-
-git init: Se usa para inicializar un nuevo repositorio vacío en tu directorio local, sin contenido ni historial, para empezar a trabajar en un proyecto.
-
-Flujo de trabajo en Git
-
+git clone: Copia un repositorio remoto completo, incluyendo su historial y ramas, en tu máquina local.
+git init: Crea un nuevo repositorio vacío en el directorio local, sin historial ni contenido, para comenzar un proyecto desde cero.
