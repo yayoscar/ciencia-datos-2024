@@ -1,28 +1,37 @@
 
-¿Qué hace el comando git init y en qué situaciones se utiliza?
+1¿Qué hace el comando git init y en qué situaciones se utiliza?
+crea un repositorio de Git, el cual permite registrar los cambios de un proyecto. Se utiliza cuando se inicia un nuevo proyecto y también cuando se requiere convertir un proyecto existente sin versiones a un repositorio Git.
+
+2¿Cuál es la diferencia entre git add y git commit en el flujo de trabajo de Git?
+git add prepara los cambios para la confirmación, mientras que git commit guarda los cambios en el repositorio.
+
+Paso a paso 
+
+    Usa git add para preparar los cambios.
+    Usa git commit para guardar los cambios en el repositorio.
+    Usa git status para ver el estado de los cambios.
+3¿Qué significa que un archivo esté en estado "staged" en Git y cómo se coloca en este estado?
+En Git, cuando un archivo está en estado "staged", significa que ha sido marcado para ser incluido en el próximo commit, pero aún no ha sido registrado en el historial del repositorio. Este es un paso intermedio entre la modificación de los archivos en tu área de trabajo y su inclusión definitiva en el repositorio.
+Un archivo entra en estado "staged" cuando usas el comando git add. Este comando toma los cambios que has realizado en un archivo (o conjunto de archivos) y los coloca en el área de preparación o staging area. El staging area es una especie de "zona intermedia" entre los archivos modificados y el commit final.
+¿Un archivo entra en estado "staged" cuando usas el comando git add. Este comando toma los cambios que has realizado en un archivo (o conjunto de archivos) y los coloca en el área de preparación o staging area. El staging area es una especie de "zona intermedia" entre los archivos modificados y el commit final.
+4¿Cual es la diferencia entre git add y commit en el flujo de trabajo de Git?git add prepara los archivos git comit guarda los cambios en el historial
+
+5¿Para qué se usa el comando git checkout y cuál es su diferencia con git switch? El comando git se usa para cambiar de rama 
+Diferencias con git switch
+git checkout: cambia de rama o restaura archivos, es mas versátil pero puede ser confuso 
+git switch : es una versión mas especifica y moderna en git checkout , diseña solo para cambiar de rama, haciendo es profeso mas complicado
 
 
-¿Cuál es la diferencia entre git add y git commit en el flujo de trabajo de Git?
+6¿Cómo funciona git pull y en qué se diferencia de git fetch?
+El comando git pull y git fetch están relacionadas con la sincronización  de repositorio remoto, pero funcionan de manera remota diferente 
 
+diferencias clave :
+git fetch solo descarga los cambios del repositorio remoto , pero no hace ninguna modificación en tu rama local.
+git pull descarga y fusiona automáticamente esos cambios en tu rama local ,actualizándola de inmediato .
 
-¿Qué significa que un archivo esté en estado "staged" en Git y cómo se coloca en este estado?
+7¿Qué ocurre cuando se ejecuta git push y qué problemas pueden surgir si hay cambios en el repositorio remoto?
+cuando ejecutas git repositorio remoto . si hay cambios en el remoto que no tienes , es push puede ser rechazado .En este caso ,debes hacer un un git pull hacer el push nuevamente .
 
-
-¿Cuál es la diferencia entre git reset --soft, git reset --mixed y git reset --hard?
-
-
-¿Qué es una fusión (merge) en Git y cuáles son los posibles conflictos que pueden ocurrir durante el proceso?
-
-
-¿Para qué se usa el comando git checkout y cuál es su diferencia con git switch?
-
-
-¿Cómo funciona git pull y en qué se diferencia de git fetch?
-
-
-¿Qué ocurre cuando se ejecuta git push y qué problemas pueden surgir si hay cambios en el repositorio remoto?
-
-
-¿Cuál es la diferencia entre git clone y git init?
-Flujo de trabajo en Git
-
+8¿Cuál es la diferencia entre git clone y git init?
+git clone : se usa para copiar un repositorio remoto completo incluyendo todo su historial y ramas a tu maquina local .
+git init se usa para inicializar un nuevo repositorio vacio en tu directorio local ,sin contenido ni historial para empezar 
