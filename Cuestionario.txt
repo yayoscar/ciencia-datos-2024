@@ -1,28 +1,42 @@
 
 ¿Qué hace el comando git init y en qué situaciones se utiliza?
+Este se utiliza para crear un repositorio nuevo y poder realizar un nuevo proyecto
 
 
 ¿Cuál es la diferencia entre git add y git commit en el flujo de trabajo de Git?
+El comando git add, prepara los cambios para ser realizados sin ningún problema  y Git commit los guarda en el historial del repositorio.
 
 
 ¿Qué significa que un archivo esté en estado "staged" en Git y cómo se coloca en este estado?
+Significa que el commit esta listo para ejecutarse y ser realizado , se hace tocando "Staged" cuando esta en el apartado " Unstaged"
 
 
 ¿Cuál es la diferencia entre git reset --soft, git reset --mixed y git reset --hard?
+  EL git reset -- soft matienen los cambios en staging, el git reset -- mixed los mueve al repositorio y el git reset -- hard elimina completamente.
 
 
 ¿Qué es una fusión (merge) en Git y cuáles son los posibles conflictos que pueden ocurrir durante el proceso?
+combina los cambios en dos ramas distintas . los conflictos pueden ser cuando se llegan a modificar lineas de un archivo y cuando hay eliminaciones que lo contradicen 
+
 
 
 ¿Para qué se usa el comando git checkout y cuál es su diferencia con git switch?
+El Git checkout se utiliza para moverse de una rama a otra y el git switch es una forma mas moderna de cambiar de rama.
 
 
 ¿Cómo funciona git pull y en qué se diferencia de git fetch?
+El git pull sirve patra traer o fucionar los cambios de tu rama actual y el git fetch solo trae los cambios.
+
 
 
 ¿Qué ocurre cuando se ejecuta git push y qué problemas pueden surgir si hay cambios en el repositorio remoto?
+El git push agrega los cambios al repositorio, pero pueden llegar a ser rechazados si hay cambios no integrados al repositorio.
+
 
 
 ¿Cuál es la diferencia entre git clone y git init?
+el git clone crea una copia local de un repositorio ya real o existente  y el git init crea un repositorio vacío en un directorio local para llegar a empezar un nuevo proyecto.
+
+
 Flujo de trabajo en Git
 
