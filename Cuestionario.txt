@@ -1,18 +1,18 @@
-¿Qué hace el comando git init y en qué situaciones se utiliza? se utiliza para inicializar un repositorio de Git en un directorio.
+¿Qué hace el comando git init y en qué situaciones se utiliza? crea un repositorio y se utiliza para inicializar un repositorio de Git en un directorio.
 
-¿Cuál es la diferencia entre git add y git commit en el flujo de trabajo de Git? git add prepara los archivos.
+¿Cuál es la diferencia entre git add y git commit en el flujo de trabajo de Git? git add prepara los archivos,git commit ya termina el archivo y los cambios.
 
-¿Que significa que un archivo este en estado "stage" en Git y como se coloca en este estado?Un archivo en estado "stage" en Git significa que está preparado para ser 
+¿Que significa que un archivo este en estado "stage" en Git y como se coloca en este estado?Un archivo en estado "stage" en Git significa que está preparado para ser llevado a convertir en commit,se coloca en ese estado en automatico cuando el archivo es creado o tiene corecciones,para después pasarlo a commit.
 
-¿Cuál es la diferencia entre git reset --soft, git reset --mixed y git reset --hard?  --soft: Deshace commit, mantiene en staging.
+¿Cuál es la diferencia entre git reset --soft, git reset --mixed y git reset --hard?  --soft: Deshace commit, mantiene en staging --hart:borra--mixed:quita los cambios de stage --hart reset:elimina errores.txt completamente.
 
-¿Qué es una fusión (merge) en Git y cuáles son los posibles conflictos que pueden ocurrir durante el proceso? Una fusión (merge) en Git es el proceso de combinar dos ramas 
+¿Qué es una fusión (merge) en Git y cuáles son los posibles conflictos que pueden ocurrir durante el proceso? Una fusión (merge) en Git es el proceso de combinar dos ramas,puede aver el conflicto de tener un texto con diferente información cada quien y se nesesite decidir como se arregla el archivo al final.
 
-¿Para qué se usa el comando git checkout y cuál es su diferencia con git switch? El comando git checkout se usa para cambiar de rama o restaurar archivos a su estado anterior.
+¿Para qué se usa el comando git checkout y cuál es su diferencia con git switch? El comando git checkout se usa para cambiar de rama o restaurar archivos a su estado anterior y el otro se utiliza para deshacer cualquier cambio y regresar a la rama anterior.
 
-¿Cómo funciona git pull y en qué se diferencia de git fetch? El comando git pull y git fetch están relacionados con la sincronización de tu repositorio local con un
+¿Cómo funciona git pull y en qué se diferencia de git fetch? El comando git pull y git fetch están relacionados con la sincronización de tu repositorio local con un cambio el cual uno lo puede crear y general conflictos y el otro no.
 
-¿Qué ocurre cuando se ejecuta git push y qué problemas pueden surgir si hay cambios en el repositorio remoto? 
+¿Qué ocurre cuando se ejecuta git push y qué problemas pueden surgir si hay cambios en el repositorio remoto?uno un repositorio con otro y ve los cambios,si hay cambios puede generar conflictos a causa de eso.
 
-¿Cuál es la diferencia entre git clone y git init?La diferencia entre git clone y git init es:
+¿Cuál es la diferencia entre git clone y git init?La diferencia entre git clone y git init es:uno crea un repositorio y otro lo crea.
 
