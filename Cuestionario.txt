@@ -1,11 +1,11 @@
 
-¿Qué hace el comando git init y en qué situaciones se utiliza?
+¿Qué hace el comando git init y en qué situaciones se utiliza? Se utiliza para inicializar un nuevo repositorio de Git en un directorio, contiene toda la información de configuración y los archivos necesarios para el  control.
 
 
-¿Cuál es la diferencia entre git add y git commit en el flujo de trabajo de Git?
+¿Cuál es la diferencia entre git add y git commit en el flujo de trabajo de Git? Git Add prepara los cambios en los archivos y no se agregan automáticamente al historial. Git commit registra los cambios en el repositorio creando algún punto en el historial de proyecto.
 
 
-¿Qué significa que un archivo esté en estado "staged" en Git y cómo se coloca en este estado?
+¿Qué significa que un archivo esté en estado "staged" en Git y cómo se coloca en este estado? significa que el archivo se preparo para ser incluido en el próximo commit y Git ah registrado el archivo y se preparo para ser listo en el historial del reositorio.
 
 
 ¿Cuál es la diferencia entre git reset --soft, git reset --mixed y git reset --hard?
