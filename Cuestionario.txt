@@ -1,4 +1,4 @@
-¿Qué hace el comando git init y en qué situaciones se utiliza?Sirve para crear un repositorio git en una carpeta, se utiliza cuando creas un nuevo proyecto y para convertir un proyecto que no es de git en un repositorio. 
+¿Qué hace el comando git init y en qué situaciones se utiliza?Sirve para crear un repositorio git en una carpeta, se utiliza cuando creas un nuevo proyecto y para convertir un proyecto que no es de git en un repositorio..
 
 ¿Cuál es la diferencia entre git add y git commit en el flujo de trabajo de Git? git add prepara los archivos para ser confirmados y git commit registra los cambios de los archivos agregados en el historial git.
 
