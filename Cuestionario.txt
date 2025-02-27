@@ -17,5 +17,4 @@
 cuando se ejecuta git push, git intenta enviar los cambios del repositorio al repositorio remoto, problemas: rechazo del push, conflictos de fusión, la rama no existe en el remoto, etc.
 
 ¿Cuál es la diferencia entre git clone y git init?
-git init crea un repositorio vacio en una carpeta nueva o que ya existe y git clone copia un repositorio ya existente , incluyendo archivos e historial.
 
