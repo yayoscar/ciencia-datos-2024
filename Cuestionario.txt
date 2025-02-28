@@ -9,20 +9,20 @@
 
 
 ¿Cuál es la diferencia entre git reset --soft, git reset --mixed y git reset --hard?
+--soft descarta el último commit, --mix descarta el último commit y add, --hard descarta el último commit, add y cualquier cambio que se hagan en los códigos.
+
+¿Qué es una fusión (merge) en Git y cuáles son los posibles conflictos que pueden ocurrir durante el proceso?ocurre cuando alguien de un miembros de un equipo hace cambios conflictivos en el mismo archivo desde dos ramas diferentes.
 
 
-¿Qué es una fusión (merge) en Git y cuáles son los posibles conflictos que pueden ocurrir durante el proceso?
+¿Para qué se usa el comando git checkout y cuál es su diferencia con git switch? git checkout se utiliza tanto para cambiar ramas como para restaurar estados de archivos, mientras que git switch está diseñado específicamente para cambiar ramas.
 
 
-¿Para qué se usa el comando git checkout y cuál es su diferencia con git switch?
+¿Cómo funciona git pull y en qué se diferencia de git fetch?git fetch recupera los cambios del repositorio remoto sin aplicarlos a la rama local, ejecutar git pull integra automÃ¡ticamente los cambios del repositorio remoto en la rama local.
 
 
-¿Cómo funciona git pull y en qué se diferencia de git fetch?
+¿Qué ocurre cuando se ejecuta git push y qué problemas pueden surgir si hay cambios en el repositorio remoto?El comando git push sube el contenido de un repositorio local a un repositorio central.
 
 
-¿Qué ocurre cuando se ejecuta git push y qué problemas pueden surgir si hay cambios en el repositorio remoto?
-
-
-¿Cuál es la diferencia entre git clone y git init?
+El comando git push sube el contenido de un repositorio local a un repositorio central.El comando git push te permite subir los commits desde tu rama (branch) local en tu repositorio git local al repositorio remoto. 
 Flujo de trabajo en Git
 
