@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7695bb3e-4284-454f-9f4b-d75afc287b15" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/bonus1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/bonus2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/bucle white.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/bucle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/capitalize_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/capitalize_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/capitalize_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/clase martes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/ejercicio2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/ejercicio3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/ejercicio4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/ejercicio5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/ejercicio6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/ejercisio1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/for_nombres.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/for_numeros.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/match_case_paises.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/contador_palabras.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/convertidor_texto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/eliminar_espacios.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/for_contar_letras.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/for_contar_vocales.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/for_mayusculas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/for_reverse_lista.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/formato_nombre.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/match_case_dias.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/match_case_frutas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/reemplazo_palabras.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2tPspiLkJXcfFyvVpMPJiB1KADj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.bonus1.executor": "Run",
+    "Python.bonus2.executor": "Run",
+    "Python.bucle white.executor": "Run",
+    "Python.bucle.executor": "Run",
+    "Python.capitalize_1.executor": "Run",
+    "Python.capitalize_2.executor": "Run",
+    "Python.capitalize_3.executor": "Run",
+    "Python.clase martes.executor": "Run",
+    "Python.contador_palabras.executor": "Run",
+    "Python.convertidor_texto.executor": "Run",
+    "Python.ejercicio2.executor": "Run",
+    "Python.ejercicio3.executor": "Run",
+    "Python.ejercicio4.executor": "Run",
+    "Python.ejercicio5.executor": "Run",
+    "Python.ejercicio6.executor": "Run",
+    "Python.ejercicios sin calificacion.executor": "Run",
+    "Python.ejercisio1.executor": "Run",
+    "Python.eliminar_espacios.executor": "Run",
+    "Python.for_contar_letras.executor": "Run",
+    "Python.for_contar_vocales.executor": "Run",
+    "Python.for_mayusculas.executor": "Run",
+    "Python.for_nombres.executor": "Run",
+    "Python.for_numeros.executor": "Run",
+    "Python.for_reverse_lista.executor": "Run",
+    "Python.formato_nombre.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.match_case_dias.executor": "Run",
+    "Python.match_case_frutas.executor": "Run",
+    "Python.match_case_paises.executor": "Run",
+    "Python.reemplazo_palabras.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "moo-daniel",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/d8186/ciencia-datos-2024"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\d8186\ciencia-datos-2024\parcial 1\tareas" />
+      <recent name="C:\Users\d8186\ciencia-datos-2024\parcial 1\snake_case" />
+      <recent name="C:\Users\d8186\ciencia-datos-2024\parcial 1\ejercicios" />
+      <recent name="C:\Users\d8186\ciencia-datos-2024\parcial 1\ejercicios\tareas" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fc1d50d2d915-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.24978.54" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7695bb3e-4284-454f-9f4b-d75afc287b15" name="Changes" comment="" />
+      <created>1740265229677</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740265229677</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/moo-daniel" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
