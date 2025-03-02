@@ -1,0 +1,5 @@
+print("ingresa una frase")
+frase = input("pon la frase ")
+print("ingresa una palabra/letra que desees contar")
+palabra = input("pon la palabra")
+print(frase.count(frase))
