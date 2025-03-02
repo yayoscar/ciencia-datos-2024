@@ -1,0 +1,6 @@
+nombre = input("¿Cuál es su nombre?")
+print(nombre.capitalize())
+nombre = input("¿Cuál es su nombre?")
+print(nombre.capitalize())
+nombre = input("¿Cuál es su nombre?")
+print(nombre.capitalize())

@@ -1,0 +1,5 @@
+#Pide al usuario su nombre, apellido paterno y materno e imprimelos en una sola línea.input("¿Cuál es su nombre?")
+nombre = input("¿Cuál es su nombre?")
+apellido_paterno = input("¿Cuál es su apellido paterno?")
+apellido_materno = input("¿Cuá es su apellido materno?")
+print("Su nombre es:",nombre, apellido_paterno, apellido_materno)
