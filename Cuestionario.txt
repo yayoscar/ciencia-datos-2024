@@ -1,8 +1,8 @@
 
-¿Qué hace el comando git init y en qué situaciones se utiliza?
+¿Qué hace el comando git init y en qué situaciones se utiliza? se utiliza para crear un nuevo repositorio git en un directorio existente,se utiliza para crear nuevos proyectos, crear un repositoriovacio para realizar pruebas o experimentos.
 
 
-¿Cuál es la diferencia entre git add y git commit en el flujo de trabajo de Git?
+¿Cuál es la diferencia entre git add y git commit en el flujo de trabajo de Git? git add se utiliza para agregar cambios al área de preparación y el git commit se utiliza para confirmar los cambios que se han agregado al área de preparación.
 
 
 ¿Qué significa que un archivo esté en estado "staged" en Git y cómo se coloca en este estado?
@@ -17,12 +17,12 @@
 ¿Para qué se usa el comando git checkout y cuál es su diferencia con git switch?
 
 
-¿Cómo funciona git pull y en qué se diferencia de git fetch?
+¿Cómo funciona git pull y en qué se diferencia de git fetch? 
 
 
-¿Qué ocurre cuando se ejecuta git push y qué problemas pueden surgir si hay cambios en el repositorio remoto?
+¿Qué ocurre cuando se ejecuta git push y qué problemas pueden surgir si hay cambios en el repositorio remoto? el git intenta subir todos los cambios locales del repositorio a un repositorio remoto y los problemas pueden ser el conflicto de versiones, rechazo de cambios, error de autenticación 
 
 
-¿Cuál es la diferencia entre git clone y git init?
+¿Cuál es la diferencia entre git clone y git init? git clone se utiliza para crear una copia exacta de un repositorio existente en un servidor remoto o local
 Flujo de trabajo en Git
 
