@@ -1,0 +1,2 @@
+miembros = ["jian", "sara", "dora"]
+ 
