@@ -1,0 +1,1 @@
+temperaturas =[27, 4.7, "secarse"]

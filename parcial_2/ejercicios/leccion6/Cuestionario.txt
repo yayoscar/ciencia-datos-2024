@@ -1,0 +1,17 @@
+¿Qué hace el comando git init y en qué situaciones se utiliza? crea un nuevo repositorio de git
+
+¿Cuál es la diferencia entre git add y git commit en el flujo de trabajo de Git? git add es la preparación de sus cambios, git commit es como su finalización en un punto de control en el historial del proyecto
+
+¿Que significa que un archivo este en estado "stage" en Git y como se coloca en este estado? significa que has marcado un archivo modificado en su versión actual y se coloca apretando el botón "stage" en la zona "unstaged" 
+
+¿Cuál es la diferencia entre git reset --soft, git reset --mixed y git reset --hard? el git reset soft mueve la rama actual al commit especificado, el git reset mixed mueve la rama actual al commit especificado y restablece el área de staging para que coincida con el commit y el git reset hard mueve la rama actual al commit especificado y deshace tanto el área de staging como el directorio de trabajo
+
+¿Qué es una fusión (merge) en Git y cuáles son los posibles conflictos que pueden ocurrir durante el proceso? la fusión es una función que combina secuencias de confirmaciones en un solo historial unificado de confirmaciones y puede ocurrir un conflicto de fusión que ocurre cuando usted o alguno de los miembros de su equipo realizan cambios conflictivos en el mismo archivo desde dos ramas diferentes  
+
+¿Para qué se usa el comando git checkout y cuál es su diferencia con git switch? el git checkout te permite desplazarte entre las ramas creadas por git Branch y su diferencia con git checkout es que se utiliza tanto para cambiar ramas como para restaurar estados de archivos, mientras que git switch está diseñado específicamente para cambiar ramas
+
+¿Cómo funciona git pull y en qué se diferencia de git fetch? git pull sirve para extraer y descargar contenido desde un repositorio remoto y actualizar al instante el repositorio local para reflejar ese contenido, la diferencia de git pull y gitfetch es que git pull copia los cambios desde un repositorio remoto directamente a tu directorio de trabajo, mientras que git fetch no lo hace
+
+¿Qué ocurre cuando se ejecuta git push y qué problemas pueden surgir si hay cambios en el repositorio remoto? cuando se utiliza se envia el contenido del repositorio local a un repositorio remoto y si hay cambios en el repositorio remoto el comando git push los puede sobreescribir
+
+¿Cuál es la diferencia entre git clone y git init? el comando git clone se utiliza para clonar un repositorio remoto existente en tu máquina local y git init se utiliza para iniciar un nuevo repositorio vacío.
