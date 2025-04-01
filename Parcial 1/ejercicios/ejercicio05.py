@@ -1,0 +1,7 @@
+nombre = input("Ingresa tu nombre: ")
+apellido_p = input("Ingresa tu apellido paterno: ")
+apellido_m = input("Ingresa tu apellido materno: ")
+nombre = nombre.title()
+apellido_m = apellido_m.capitalize()
+apellido_p = apellido_p.capitalize()
+print("Tu nombre es: ", nombre, apellido_p, apellido_m)
