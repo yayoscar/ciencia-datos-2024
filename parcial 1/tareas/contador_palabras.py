@@ -1,6 +1,3 @@
-frase = input("ingresa una frase: ")
-palabra = input("palabra o letra a buscar: ")
+frase = input("Dame una frase: ")
+palabra = input("Palabra a o letra a buscar: ")
 print(frase.count(palabra))
-
-
-

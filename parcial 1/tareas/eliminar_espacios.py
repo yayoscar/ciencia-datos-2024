@@ -1,3 +1,5 @@
-f=input(" ingrese una frase con espacios extra al inicio y al final:  ")
-n=f.strip()
-print(n)
+h1 = input("Ingrese una palabra con espacios:")
+h2 = h1.strip()
+print(h2)
+
+

@@ -1,12 +1,17 @@
-fruta = input("Ingresa el nombre de una fruta: ")
-match fruta:
-    case "manzana" | "durazno" | "pera":
-        print("esta fruta entra en la categoria de tipo pomacea")
-    case "limon" | "mandarina" | "naranja":
-        print("esta fruta entra en la categoria de tipo citrica")
-    case "cereza" | "fresa" | "frambuesa":
-        print("esta fruta entra en la categoria de tipo baya")
-    case _:
-        print("no se reconoce la categoria de esta fruta")
+while True:
+    accion_usuario= input("Coloca una fruta: ")
+    match accion_usuario:
+        case "Manzana" | "Pera" | "Durazno" :
+            print("Es una fruta de piel lisa")
+            print( )
+            print("Para salir, ingrese salir ")
 
-
+        case "Naranja" | "Limón" | "Mandarina" :
+            print("Es una fruta cítrica")
+            print()
+            print("Para salir, ingrese salir ")
+        case "Sandía" | "Melón" :
+            print("Es una frutra grande")
+            print()
+            print("Para salir, ingrese salir ")
+cccc

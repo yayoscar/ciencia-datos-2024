@@ -1,3 +1,4 @@
+
 while True:
-    nombre = input("ingresa tu nombre ")
+    nombre = input("Ingresa tu nombre: ")
     print(nombre.capitalize())

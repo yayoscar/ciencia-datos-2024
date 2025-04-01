@@ -1,8 +1,7 @@
-# pide al usuario su nombre, apellido paterno
-#y apellido materno e imprimelos en una sola linea
-nombre = input("ingresa tu nombre")
-apellido_pat = input("ingresa tu apellido paterno")
-apellido_mat = input("ingresat tu apellido materno")
-
-print(nombre, apellido_pat, apellido_mat)
-
+nombre = input("Ingresa tu nombre: ")
+apellido_p = input("Ingresa tu apellido paterno: ")
+apellido_m = input("Ingresa tu apellido materno: ")
+nombre = nombre.title()
+apellido_m = apellido_m.capitalize()
+apellido_p = apellido_p.capitalize()
+print("Tu nombre es: ", nombre, apellido_p, apellido_m)

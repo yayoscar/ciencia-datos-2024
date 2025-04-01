@@ -1,2 +1,2 @@
-juego = ["brawl", "candy crush", "pubg"]
-print(type(juego))
+lista = ["perritos", "amongus", "jamón"]
+print(lista, type(lista))
