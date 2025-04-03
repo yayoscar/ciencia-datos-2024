@@ -6,8 +6,17 @@ while True:
     accion_usuario = accion_usuario.strip()
     match accion_usuario:
         case "agregar"|"añadir":
-            todo = input(mensaje)
+            todo = input(mensaje)+"\n"
+
+            archivo = open("todos.txt",'r')
+            todos=archivo.readlines()
+            archivo.close()
+
             todos.append(todo)
+
+            archivo = open("todos.txt",'w')
+            archivo.writelines(todos)
+            archivo.close()
         case "mostrar"| "listar":
             for indice,elemento in enumerate(todos):
                 elemento = elemento.title()

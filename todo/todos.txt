@@ -1,0 +1,4 @@
+lavar
+correr
+cocinar
+limpiar
