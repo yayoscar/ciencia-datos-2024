@@ -8,13 +8,13 @@ while True:
         case "agregar"|"añadir":
             todo = input(mensaje)+"\n"
 
-            archivo = open("todos.txt",'r')
+            archivo = open("archivos/todos.txt", 'r')
             todos=archivo.readlines()
             archivo.close()
 
             todos.append(todo)
 
-            archivo = open("todos.txt",'w')
+            archivo = open("archivos/todos.txt", 'w')
             archivo.writelines(todos)
             archivo.close()
         case "mostrar"| "listar":
