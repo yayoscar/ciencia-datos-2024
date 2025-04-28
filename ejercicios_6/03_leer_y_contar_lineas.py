@@ -1,0 +1,8 @@
+archivo = open("parrafo.txt","w")
+archivo.write("esta es la primera linea. /n")
+archivo.write("esta es la segunda linea. /n")
+archivo.write("esta es la tercera linea. /n")
+archivo = open("parrafo.txt","r")
+lineas = archivo.readlines()
+cantidad_lineas = len(lineas)
+print(f"el archivo tiene {cantidad_lineas} lineas.")

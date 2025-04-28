@@ -1,0 +1,5 @@
+archivo = open("texto.txt","r")
+contenido = archivo.read()
+buscar_palabra = input("ingresa la palabra a buscar: ")
+conteo = contenido.split().count(buscar_palabra)
+print(f"la palabra {buscar_palabra} aparece {conteo +1} veces")
