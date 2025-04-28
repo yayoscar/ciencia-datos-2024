@@ -1,0 +1,4 @@
+#Contador_palabras
+frase = input ("Ingrese una frase")
+palabra = input ("Palabra o letra a buscar")
+print(frase.count(palabra))
