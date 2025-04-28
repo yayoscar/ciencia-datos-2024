@@ -5,39 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7695bb3e-4284-454f-9f4b-d75afc287b15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/bonus1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/bonus2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/bucle white.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/bucle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/capitalize_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/capitalize_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/capitalize_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/clase martes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/ejercicio2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/ejercicio3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/ejercicio4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/ejercicio5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/ejercicio6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/ejercisio1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/for_nombres.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/for_numeros.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/ejercicios/match_case_paises.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/contador_palabras.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/convertidor_texto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/eliminar_espacios.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/for_contar_letras.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/for_contar_vocales.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/for_mayusculas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/for_reverse_lista.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/formato_nombre.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/match_case_dias.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/match_case_frutas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 1/tareas/reemplazo_palabras.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/ejercicios/Enumeracion_f-strings_y_capitalize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/ejercicios/bucle_for_y_lista_ordenada.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/ejercicios/calculo_de_longitud_en_bucle_for.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/ejercicios/eliminar_elementos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/ejercicios/enumeracion_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/ejercicios/enumeracion_y_f-strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/ejercicios/enumeración_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/ejercicios/escontrar_longitud.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/ejercicios/lista_de_cuatro_elementos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/ejercicios/lista_de_tres_elementos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/lecciones/bonus/bonus2_leccion6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/lecciones/bonus_leccion_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/lecciones/diagnostico4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/lecciones/diagnostico_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/lecciones/diagnostico_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/lecciones/diagnostico_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/lecciones/leccion_06/agregar_miembro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/lecciones/leccion_06/analizar_contenido_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/lecciones/leccion_06/analizar_contenido_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/lecciones/leccion_06/crear_archivo_texto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/lecciones/leccion_06/crear_multiples_archivos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/lecciones/leccion_06/generar_multiples_archivos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/lecciones/leccion_06/leer_imprimir_archivo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/lecciones/leccion_06/leer_modificar_imprimir.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/lecciones/leccion_06/leer_multiples_archivos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/lecciones/leccion_06/zip.funcion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/lecciones/lista de tres elementoa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/tareas/buscar_palabra_en_archivo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/tareas/capitaliza_y_reemplaza.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/tareas/crear_archivo_lista_ordenada.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/tareas/crear_archivos_desde_lista.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/tareas/enumerar_productos_capitalizados.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/tareas/imprimir_indices_y_longitudes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/tareas/leer_y_contar_lineas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/tareas/match_case_dias.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/tareas/menu_interactivo_lista.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/tareas/parrafo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/tareas/texto.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial 2/tareas/usuarios_sin_espacios.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parcial 1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/parcial 1/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,24 +77,48 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Bonus leccion 6.executor": "Run",
+    "Python.analizar_contenido_1.executor": "Run",
+    "Python.bonus leccion 6.executor": "Run",
     "Python.bonus1.executor": "Run",
     "Python.bonus2.executor": "Run",
+    "Python.bonus2_leccion6.executor": "Run",
+    "Python.bonus_leccion_6.executor": "Run",
     "Python.bucle white.executor": "Run",
     "Python.bucle.executor": "Run",
+    "Python.bucle_for_y_lista_ordenada.executor": "Run",
+    "Python.buscar_palabra_en_archivo.executor": "Run",
+    "Python.calculo_de_longitud_en_bucle_for.executor": "Run",
+    "Python.capitaliza_y_reemplaza.executor": "Run",
     "Python.capitalize_1.executor": "Run",
     "Python.capitalize_2.executor": "Run",
     "Python.capitalize_3.executor": "Run",
     "Python.clase martes.executor": "Run",
     "Python.contador_palabras.executor": "Run",
     "Python.convertidor_texto.executor": "Run",
+    "Python.crear_archivo_lista_ordenada.executor": "Run",
+    "Python.crear_archivo_texto.executor": "Run",
+    "Python.crear_archivos_desde_lista.executor": "Run",
+    "Python.crear_multiples_archivos.executor": "Run",
+    "Python.diagnostico4.executor": "Run",
+    "Python.diagnostico_1.executor": "Run",
+    "Python.diagnostico_2.executor": "Run",
+    "Python.diagnostico_3.executor": "Run",
     "Python.ejercicio2.executor": "Run",
     "Python.ejercicio3.executor": "Run",
     "Python.ejercicio4.executor": "Run",
-    "Python.ejercicio5.executor": "Run",
+    "Python.ejercicio5.executor": "Debug",
     "Python.ejercicio6.executor": "Run",
     "Python.ejercicios sin calificacion.executor": "Run",
+    "Python.ejercicios.executor": "Run",
     "Python.ejercisio1.executor": "Run",
+    "Python.eliminar_elementos.executor": "Run",
     "Python.eliminar_espacios.executor": "Run",
+    "Python.enumeracion_2.executor": "Run",
+    "Python.enumeracion_y_f-strings.executor": "Run",
+    "Python.enumeración_1.executor": "Run",
+    "Python.enumerar_productos_capitalizados.executor": "Run",
+    "Python.escontrar_longitud.executor": "Run",
     "Python.for_contar_letras.executor": "Run",
     "Python.for_contar_vocales.executor": "Run",
     "Python.for_mayusculas.executor": "Run",
@@ -94,11 +126,18 @@
     "Python.for_numeros.executor": "Run",
     "Python.for_reverse_lista.executor": "Run",
     "Python.formato_nombre.executor": "Run",
+    "Python.generar_multiples_archivos.executor": "Run",
+    "Python.leer_imprimir_archivo.executor": "Run",
+    "Python.leer_modificar_imprimir.executor": "Run",
+    "Python.leer_y_contar_lineas.executor": "Run",
+    "Python.lista_de_cuatro_elementos.executor": "Run",
     "Python.main.executor": "Run",
     "Python.match_case_dias.executor": "Run",
     "Python.match_case_frutas.executor": "Run",
     "Python.match_case_paises.executor": "Run",
     "Python.reemplazo_palabras.executor": "Run",
+    "Python.usuarios_sin_espacios.executor": "Run",
+    "Python.zip.funcion.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "moo-daniel",
@@ -108,10 +147,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\d8186\ciencia-datos-2024\parcial 2\lecciones\bonus" />
+      <recent name="C:\Users\d8186\ciencia-datos-2024\parcial 2\lecciones\archivos" />
+      <recent name="C:\Users\d8186\ciencia-datos-2024\parcial 2\lecciones" />
       <recent name="C:\Users\d8186\ciencia-datos-2024\parcial 1\tareas" />
       <recent name="C:\Users\d8186\ciencia-datos-2024\parcial 1\snake_case" />
-      <recent name="C:\Users\d8186\ciencia-datos-2024\parcial 1\ejercicios" />
-      <recent name="C:\Users\d8186\ciencia-datos-2024\parcial 1\ejercicios\tareas" />
     </key>
   </component>
   <component name="SharedIndexes">
