@@ -1,19 +1,11 @@
-dia = input("Ingresa un día de la semana: ")
+dia = input("Ingresa un día de la semana (en minúsculas): ").lower()
 
 match dia:
-    case "Lunes":
-        print("Monday")
-    case "Martes":
-        print("Tuesday")
-    case "Miércoles":
-        print("Wednesday")
-    case "Jueves":
-        print("Thursday")
-    case "Viernes":
-        print("Friday")
-    case "Sábado":
-        print("Saturday")
-    case "Domingo":
-        print("Sunday")
+    case "lunes":
+        print("Inicio de semana")
+    case "miércoles":
+        print("Mitad de semana")
+    case "sábado" | "domingo":
+        print("Fin de semana")
     case _:
-        print("Día inválido.")
+        print("Día normal")
