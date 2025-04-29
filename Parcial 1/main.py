@@ -19,9 +19,15 @@ while True:
             archivo = open("todos.txt", "r")
             todos = archivo.readlines()
             archivo.close()
+
+
+            # todos_sin_espacio = [ elemento.strip('\n') for elemento in todos ]
+
+            # Aqui eliminanos el salto de linea
             for indice,elemento in enumerate(todos):
                 elemento = elemento.title()
-                print(f"{indice+1}--{elemento}",end="")
+                elemento = elemento.strip('\n')
+                print(f"{indice+1}--{elemento}")
         case "editar":
             indice= int(input("Ingrese el número de la lista a editar: "))
             nueva_tarea = input("Ingrese el nuevo valor para la tarea: ")
