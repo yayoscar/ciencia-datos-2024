@@ -1,0 +1,6 @@
+archivo = open("texto.txt", "r")
+palabra = input("introduce una palabra para buscar:")
+contenido = archivo.read()
+contador = contenido.lower().count(palabra.lower())
+print(f"la palabra aparece {contador}veces.")
+archivo.close()
