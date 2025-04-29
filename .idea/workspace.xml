@@ -33,27 +33,91 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.IMC.executor": "Run",
+    "Python.aanlizar_contenido.executor": "Run",
+    "Python.buscar_palabra_en_archivo.executor": "Run",
+    "Python.capitaliza_y_remplaza.executor": "Run",
+    "Python.christmastree.executor": "Run",
+    "Python.cin.executor": "Run",
     "Python.contador_palabras.executor": "Run",
+    "Python.corazón.executor": "Run",
+    "Python.crear_archivo_lista_ordenada.executor": "Run",
+    "Python.crear_archivo_texto.executor": "Run",
+    "Python.crear_archivos_desde_lista.executor": "Run",
+    "Python.dialogo.executor": "Run",
     "Python.eliminar_espacios.executor": "Run",
+    "Python.enumerar_productos_capitalizados.executor": "Run",
     "Python.for_contar_letras.executor": "Run",
     "Python.for_contar_vocales.executor": "Run",
     "Python.for_mayusculas.executor": "Run",
     "Python.for_reverse_lista.executor": "Run",
+    "Python.imprimir_indices__y_longitudes.executor": "Run",
+    "Python.leer_imprimir_archivo.executor": "Run",
+    "Python.leer_modificar_imprimir.executor": "Run",
+    "Python.leer_y_contar_lineas.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.match_case_dias.executor": "Run",
     "Python.match_case_días.executor": "Run",
     "Python.match_case_frutas.executor": "Run",
+    "Python.menu_interactivo_lista.executor": "Run",
+    "Python.perimetro.executor": "Run",
     "Python.promedio_de_calificaciones.executor": "Run",
+    "Python.python.executor": "Run",
+    "Python.red.executor": "Run",
     "Python.reemplazo_palabras.executor": "Run",
+    "Python.saludar.executor": "Run",
+    "Python.suma.executor": "Run",
+    "Python.usuarios_sin_espacios.executor": "Run",
+    "Python.velocidad.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "<unknown>",
-    "last_opened_file_path": "C:/Users/viann/OneDrive/Escritorio/repos/ciencia-datos-2024"
+    "last_opened_file_path": "C:/Users/viann/OneDrive/Escritorio/repos/ciencia-datos-2024/tareas_del_bloque_1_codifica",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\viann\OneDrive\Escritorio\repos\ciencia-datos-2024\tareas_del_bloque_1_codifica" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\viann\OneDrive\Escritorio\repos\ciencia-datos-2024\tareas_del_bloque_1_codifica\bloque_1" />
       <recent name="C:\Users\viann\OneDrive\Escritorio\repos\ciencia-datos-2024\tareas" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="saludar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ciencia-datos-2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algoritmos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algoritmos/saludar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.saludar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -73,6 +137,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -80,6 +155,14 @@
           <url>file://$PROJECT_DIR$/tareas/match_case_frutas.py</url>
           <line>1</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/elabora algoritmos/perimetro.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tareas_del_bloque_1_codifica/bloque_1/crear_archivo_lista_ordenada.py</url>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

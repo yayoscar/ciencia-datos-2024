@@ -1,0 +1,3 @@
+este es un ejemplo de texto.
+el texto es un conjunto de palabras.
+las palabras son importantes.
