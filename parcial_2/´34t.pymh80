@@ -1,0 +1,4 @@
+temperatura = 12
+if temperatura > 15:
+    print("hace frio")
+elif 15 <= temperatura .{y}
