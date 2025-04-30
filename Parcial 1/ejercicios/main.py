@@ -8,7 +8,7 @@ while True:
      case "agregar" :
         todo =input(mensaje)
         todos.append(todo)
-     case ("editar")
+     case "editar" :
      case "mostar" | "listar":
         for elemento in todos:
            elemento = elemento.title()
