@@ -1,0 +1,10 @@
+file = open('a.txt', 'r')
+print(file.read())
+file.close()
+file = open('b.txt', 'r')
+print(file.read())
+file.close()
+file = open('c.txt', 'r')
+print(file.read())
+file.close()
+
