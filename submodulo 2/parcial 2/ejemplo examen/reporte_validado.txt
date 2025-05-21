@@ -1,0 +1,3 @@
+Nombre: juan - Promedio: 9.0 - Contraseña: Fuerte
+Nombre: ana - Promedio: 7.5 - Contraseña: Débil
+Nombre: luis - Promedio: 7.17 - Contraseña: Fuerte
