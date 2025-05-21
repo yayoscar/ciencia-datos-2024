@@ -1,5 +1,3 @@
-# examen.py
-
 def validar_contrasena(clave):
     tiene_mayuscula = any(c.isupper() for c in clave)
     tiene_numero = any(c.isdigit() for c in clave)
