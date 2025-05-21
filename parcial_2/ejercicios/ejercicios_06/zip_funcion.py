@@ -1,0 +1,8 @@
+paises = ["albana","belgica","canada","dinamarca","eutopia","francia"]
+nombres_archivo = ["ap.txt","bp.txt","cp.txt","dp.txt","ep.txt","fp.txt"]
+
+
+for pais,nombre_archivo in zip(paises,nombres_archivo):
+    archivo = open(nombre_archivo,"w")
+    archivo.write(pais)
+    archivo.close()

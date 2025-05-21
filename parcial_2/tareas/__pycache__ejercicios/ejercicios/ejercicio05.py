@@ -1,0 +1,5 @@
+nombre = input ("ingrese el nombre")
+apellido_materno = input ("ingrese apellido materno")
+apellido_paterno = input ("ingresa apellido paterno")
+persona = (nombre,apellido_paterno,apellido_materno)
+print(persona)
