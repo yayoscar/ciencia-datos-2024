@@ -1,4 +1,4 @@
-frase = input("por favor ingrese una frase")
+frase = input("Ingrese una frase")
 
 frase_con_guiones = frase.replace(" ", "_")
 
