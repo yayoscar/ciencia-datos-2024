@@ -1,0 +1,2 @@
+def longitud_cuadrado():
+    

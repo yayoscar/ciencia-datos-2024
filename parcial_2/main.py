@@ -17,4 +17,3 @@ while True:
             print("no entiendo esa accion")
 
 print("adios")
-

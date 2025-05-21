@@ -1,0 +1,1 @@
+temperaturass = [12.0,55,'12']
