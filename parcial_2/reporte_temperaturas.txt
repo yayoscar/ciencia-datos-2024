@@ -1,0 +1,4 @@
+Promedio: 16.9
+Máxima: 23.4
+Mínima: 11.3
+Archivos: Sensor_madrugada, Sensor_madrugada, Sensor_madrugada, Sensor_madrugada, Sensor_madrugada, Sensor_madrugada, Sensor_amanecer, Sensor_amanecer, Sensor_mañana, Sensor_mañana, Sensor_mañana, Sensor_medio, Sensor_medio, Sensor_medio, Sensor_tarde, Sensor_tarde, Sensor_tarde, Sensor_tarde, Sensor_tarde, Sensor_noche, Sensor_noche, Sensor_noche, Sensor_noche, Sensor_noche

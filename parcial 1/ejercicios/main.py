@@ -1,20 +1,13 @@
-mensaje = "Ingresa una tarea: "
+mensaje = "Ingrese una tarea"
 todos = []
 while True:
-    accion_usuario=input("Indica que accion quieres realizar agregar/mostrar|listar/salir: ")
-    accion_usuario = accion_usuario.strip()
+    accion_usuario = input("Indica qué acción quieres realizar: agregar/mostrar/editar/: ")
     accion_usuario = accion_usuario.lower()
-    match accion_usuario:
-        case "agregar":
-            todo = input(mensaje)
-            todos.append(todo)
-        case "mostrar"|"listar":
-            for elemento in todos:
-                elemento = elemento.title()
-                print(elemento)
-        case "salir":
-            break
-        case _ :
-            print("No entiendo esta accion")
+    accion_usuario = accion_usuario.strip()
 
-print("Adios")
+    if 'agregar' in accion_usuario:
+        todo = accion_usuario[8:]
+        todo = f"{todo}\n"
+
+        with open("todos.txt") as archivo:
+            todos = archivo.readlines()
