@@ -1,0 +1,3 @@
+lisa|leer|30|lectura2025
+carlos|caminar|45|caminar
+ana|estudiar|60|anafuerza123
