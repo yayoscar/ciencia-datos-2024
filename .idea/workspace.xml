@@ -35,18 +35,25 @@
   "keyToString": {
     "Python.IMC.executor": "Run",
     "Python.aanlizar_contenido.executor": "Run",
+    "Python.actividades.executor": "Run",
     "Python.buscar_palabra_en_archivo.executor": "Run",
+    "Python.cadena extra.executor": "Run",
+    "Python.cambio_y_pago_sofia_y_kamila.executor": "Run",
     "Python.capitaliza_y_remplaza.executor": "Run",
     "Python.christmastree.executor": "Run",
     "Python.cin.executor": "Run",
     "Python.contador_palabras.executor": "Run",
+    "Python.convertir_litros.executor": "Run",
     "Python.corazón.executor": "Run",
     "Python.crear_archivo_lista_ordenada.executor": "Run",
     "Python.crear_archivo_texto.executor": "Run",
     "Python.crear_archivos_desde_lista.executor": "Run",
+    "Python.def_calificaciones.executor": "Run",
     "Python.dialogo.executor": "Run",
     "Python.eliminar_espacios.executor": "Run",
     "Python.enumerar_productos_capitalizados.executor": "Run",
+    "Python.examen.executor": "Run",
+    "Python.extraer_datos_de_una_cadena.executor": "Run",
     "Python.for_contar_letras.executor": "Run",
     "Python.for_contar_vocales.executor": "Run",
     "Python.for_mayusculas.executor": "Run",
@@ -55,16 +62,19 @@
     "Python.leer_imprimir_archivo.executor": "Run",
     "Python.leer_modificar_imprimir.executor": "Run",
     "Python.leer_y_contar_lineas.executor": "Run",
+    "Python.lower.executor": "Run",
     "Python.main.executor": "Run",
     "Python.match_case_dias.executor": "Run",
     "Python.match_case_días.executor": "Run",
     "Python.match_case_frutas.executor": "Run",
     "Python.menu_interactivo_lista.executor": "Run",
+    "Python.orden_lista_con_sort.executor": "Run",
     "Python.perimetro.executor": "Run",
     "Python.promedio_de_calificaciones.executor": "Run",
     "Python.python.executor": "Run",
     "Python.red.executor": "Run",
     "Python.reemplazo_palabras.executor": "Run",
+    "Python.remplazar_caracter_en_cadena.executor": "Run",
     "Python.saludar.executor": "Run",
     "Python.suma.executor": "Run",
     "Python.usuarios_sin_espacios.executor": "Run",
@@ -91,6 +101,72 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="extraer_datos_de_una_cadena" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ciencia-datos-2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algoritmos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algoritmos/extraer_datos_de_una_cadena.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lower" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ciencia-datos-2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algoritmos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algoritmos/lower.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="remplazar_caracter_en_cadena" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ciencia-datos-2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algoritmos" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algoritmos/remplazar_caracter_en_cadena.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="saludar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ciencia-datos-2024" />
       <option name="ENV_FILES" value="" />
@@ -115,6 +191,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.extraer_datos_de_una_cadena" />
+        <item itemvalue="Python.remplazar_caracter_en_cadena" />
+        <item itemvalue="Python.lower" />
         <item itemvalue="Python.saludar" />
       </list>
     </recent_temporary>
@@ -157,12 +236,18 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/elabora algoritmos/perimetro.py</url>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tareas_del_bloque_1_codifica/bloque_1/crear_archivo_lista_ordenada.py</url>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ejercicios lunes 19 prof ólan/validar_contraseña.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/algoritmos/dialogo.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
