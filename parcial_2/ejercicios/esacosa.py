@@ -34,6 +34,7 @@ while True:
             archivo.writelines(todos)
             archivo.close()
         case "salir":
+            break
 
 
 

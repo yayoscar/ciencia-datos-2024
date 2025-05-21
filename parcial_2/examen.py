@@ -14,9 +14,9 @@ def lista_actividades(actividad):
     return actividad
 
 
-def lista_duraciones(duracion):
-    duracion =[float(duracion) for duracion in lista_duraciones.split("-")]
-    return duracion
+def lista_duraciones(duraciones):
+    duracion =[float(duraciones) for duraciones in lista_duraciones.split("-")]
+    return duraciones
 
 
 def validar_contrasena(contrasenas):
@@ -35,4 +35,4 @@ for linea in lineas:
         duracion = duraciones
         seguridad_contrasena = validar_contrasena(contrasenas)
 
-print(f"Nombre: {nombre.capitalize()} - realizo: {actividad} - por: {duracion} minutos - Contraseña segura: {seguridad_contrasena}\n")
+print(f"Nombre: {nombres.capitalize()} - realizo: {actividades} - por: {duraciones} minutos - Contraseña segura: {seguridad_contrasena}\n")
