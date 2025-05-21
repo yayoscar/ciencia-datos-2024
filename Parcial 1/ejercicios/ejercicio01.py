@@ -1,3 +1,3 @@
 nombre = "karen"
-ciudad = "CIUDAD DE MEXICO"
-pais =  "MEXICO"
+ciudad = "ciudad de mexico"
+pais = "mexico"
