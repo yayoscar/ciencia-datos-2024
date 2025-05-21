@@ -1,0 +1,8 @@
+archivo = open("ensayo.txt","r")
+contenido = archivo.read()
+largo_contenido=len(contenido)
+print(largo_contenido)
+archivo = open("miembros.txt","a")
+nombre = input("agregar nuevo miembro: ")
+archivo.write(f"{nombre}/n")
+archivo.close()

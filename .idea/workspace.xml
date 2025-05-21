@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="57176398-081e-4633-9b44-86b7be5a0f10" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/12 leccion/concatenar_cadenas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12 leccion/funcion_convertir.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12 leccion/promedio_lista.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12 leccion/saludo_capitalize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12 leccion/saludo_nombre.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12 leccion/validad_contraseña.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuacion/archivo/calificaciones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuacion/archivo/continuacion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuacion/archivo/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuacion/archivo/funcion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuacion/archivo/funcion_cadena.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuacion/archivo/maximo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuacion/funciones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/continuacion/temperaturas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 1 7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 1 8/04/ejercicio  16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 1 8/04/ejercicio 10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 1 8/04/ejercicio 11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 1 8/04/ejercicio 12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 1 8/04/ejercicio 13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 1 8/04/ejercicio 14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 1 8/04/ejercicio 15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 1 8/04/ejercicio 17.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 1 8/04/ejercicio 18.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 1 8/04/ejercicio 19.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 1 8/validar_contraseña_avanzada.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 1 8/validar_contraseña_basica.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 2 7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 3 7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 4 7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 5 7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/elabora algoritmos/actividad 6 7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leccion13/funcion_area_cuadrado.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leccion13/funcion_edad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leccion13/funcion_separacion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leccion13/verificado_contraseña.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leccion13/verifique_temperatura.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_2/ejercicios 6/lista_comprida_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_2/ejercicios/leccion_8/analizar_contenido_con_with.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_2/ejercicios/leccion_8/archivos_por_idioma_con_with.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_2/ejercicios/leccion_8/copiar_archivo_con_with.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_2/ejercicios/leccion_8/corregir_lectura_archivo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_2/ejercicios/leccion_8/escribir_archivo_con_with.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_2/ejercicios/leccion_8/historia.txt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_2/ejercicios/leccion_8/leer_archivo_con_with.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_2/ejercicios/leccion_8/oso.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_2/examen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_2/lista_comprimida.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_2/lista_comprimida_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_2/listas y comentarios.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_2/temperaturas.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2tAoIlwxUkDSSA2XxvXebkMX1pC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.#bonus2.executor": "Run",
+    "Python.3 calificaciones.executor": "Run",
+    "Python.3 ejercicio.executor": "Run",
+    "Python.ELIMINADOR DE ESOACIOS EXTRAS.executor": "Run",
+    "Python.agregar_miembro.executor": "Run",
+    "Python.analizar_contenido_1.executor": "Run",
+    "Python.analizar_contenido_2.executor": "Run",
+    "Python.analizar_contenido_con_with.executor": "Run",
+    "Python.archivos_por_idioma_con_with.executor": "Run",
+    "Python.bonuc 1 pasword de usuario.executor": "Run",
+    "Python.bucle_infinito_1.executor": "Run",
+    "Python.bucle_while_entrada_usuario.executor": "Run",
+    "Python.calificaciones.executor": "Run",
+    "Python.capytalize_1.executor": "Run",
+    "Python.capytalize_2.executor": "Run",
+    "Python.capytalize_3.executor": "Run",
+    "Python.contador_de_palabras.executor": "Run",
+    "Python.convertidor de texto a minuscula y mayusculas.executor": "Run",
+    "Python.copiar_archivo_con_with.executor": "Run",
+    "Python.crear_multiples_archivos.executor": "Run",
+    "Python.cuestionario.executor": "Run",
+    "Python.ejercicio 1.executor": "Run",
+    "Python.ejercicio 4.executor": "Run",
+    "Python.ejercicio03.executor": "Run",
+    "Python.ejercicio04.executor": "Run",
+    "Python.ejercicio05.executor": "Run",
+    "Python.ejercicio2.executor": "Run",
+    "Python.eliminar_elementos.executor": "Run",
+    "Python.eliminar_espacios.executor": "Run",
+    "Python.ensayo.txt.executor": "Run",
+    "Python.enumeracion 1.executor": "Run",
+    "Python.enumeracion 2.executor": "Run",
+    "Python.enumeracion, f-strings y capitalizacion.executor": "Run",
+    "Python.escribir_archivo_con_with.executor": "Run",
+    "Python.examen.executor": "Run",
+    "Python.for_nombres.executor": "Run",
+    "Python.for_numeros.executor": "Run",
+    "Python.funcion_convertir.executor": "Run",
+    "Python.leer_archivo_con_with.executor": "Run",
+    "Python.lista de cuatro elementos.executor": "Run",
+    "Python.lista_comprimida.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.match_case_frutas.executor": "Run",
+    "Python.match_case_paises.executor": "Run",
+    "Python.numeracion_2.executor": "Run",
+    "Python.open.executor": "Run",
+    "Python.programa 3.executor": "Run",
+    "Python.progrma 2 .executor": "Run",
+    "Python.reemplaso de palaras de texto.executor": "Run",
+    "Python.reemplazo_palabras.executor": "Run",
+    "Python.saludo_capitalize.executor": "Run",
+    "Python.tarea 1.executor": "Run",
+    "Python.temperaturas.executor": "Run",
+    "Python.validar_contraseña_basica.executor": "Run",
+    "Python.verifique_temperatura.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "martinez-xavyer",
+    "last_opened_file_path": "C:/Users/HP/repos/ciencia-datos-2024/parcial_2/ejercicios/leccion_8",
+    "settings.editor.selected.configurable": "Errors",
+    "settings.editor.splitter.proportion": "0.24196787"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\repos\ciencia-datos-2024\parcial_2\ejercicios\leccion_8" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\repos\ciencia-datos-2024\continuacion" />
+      <recent name="C:\Users\HP\repos\ciencia-datos-2024\parcial_2\ejercicios 6" />
+      <recent name="C:\Users\HP\repos\ciencia-datos-2024\parcial_2" />
+      <recent name="C:\Users\HP\repos\ciencia-datos-2024\parcial_2\ejersicio" />
+      <recent name="C:\Users\HP\repos\ciencia-datos-2024\.idea" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="calificaciones" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ciencia-datos-2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/continuacion/archivo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/continuacion/archivo/calificaciones.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ejercicio03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ciencia-datos-2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parcial1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\HP\repos\ciencia-datos-2024\parcial1\ejercicios\ejercicio03.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.calificaciones" />
+        <item itemvalue="Python.ejercicio03" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fc1d50d2d915-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.24978.54" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="57176398-081e-4633-9b44-86b7be5a0f10" name="Changes" comment="" />
+      <created>1739804164744</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739804164744</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

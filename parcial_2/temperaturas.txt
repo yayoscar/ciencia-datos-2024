@@ -1,0 +1,1 @@
+sensor_mañana,sensor_medio,sensor_noche

@@ -1,0 +1,5 @@
+nombre=("cuale es tu nomre")
+apellido_paterno=("ingrese apellido materno")
+apellido_materno=("ingrese apellido paterno")
+persona=(nombre,apellido_paterno,apellido_materno)
+print(persona)
