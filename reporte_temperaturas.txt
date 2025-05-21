@@ -1,0 +1,4 @@
+promedio:18.8
+maxima:22.7
+minima:15.3
+archivos:sensor_mañana,sensor_medio,sensor_noche
