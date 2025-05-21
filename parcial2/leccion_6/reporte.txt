@@ -1,0 +1,3 @@
+juan|8.5,9.0,9.5|MiClave123
+ana|7.0,7.5,8.0|abc
+luis|6.5,7.0,8.0|Segura2024

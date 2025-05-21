@@ -1,0 +1,3 @@
+Error en línea: 08|15.3|sensor_maÃ±ana.txt
+Error en línea: 12|22.7|sensor_medio.txt
+Error en línea: 19|18.4|sensor_noche.txt
