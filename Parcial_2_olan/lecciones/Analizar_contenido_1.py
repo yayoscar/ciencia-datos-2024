@@ -1,0 +1,5 @@
+ensayo=open(r"C:\Users\omary\Downloads\archivos leccion 6\ensayo.txt",'r')
+exp= ensayo.read()
+ensayo.close()
+contenido=len(exp)
+print(contenido)

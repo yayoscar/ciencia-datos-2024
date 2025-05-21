@@ -1,9 +1,9 @@
 tareas = []
 
 while True:
-    print("\n--- MENÚ DE TAREAS ---")
+    print("\n--- MENÚ DE TUS TAREAS DE LA ESCUELA 🥺🥺🥺---")
     print("1. Agregar tarea")
-    print("2. Ver tareas")
+    print("2. Ver tus tareas")
     print("3. Eliminar tarea")
     print("4. Salir")
 
