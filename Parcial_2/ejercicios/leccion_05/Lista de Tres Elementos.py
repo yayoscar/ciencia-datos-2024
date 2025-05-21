@@ -1,0 +1,1 @@
+temperaturas=[25.3,21,"Hace calor"]
