@@ -1,0 +1,1 @@
+if jurado1, jurado2, jurado3 == "x":
