@@ -1,0 +1,28 @@
+
+¿Qué hace el comando git init y en qué situaciones se utiliza?
+
+
+¿Cuál es la diferencia entre git add y git commit en el flujo de trabajo de Git?
+
+
+¿Qué significa que un archivo esté en estado "staged" en Git y cómo se coloca en este estado?
+
+
+¿Cuál es la diferencia entre git reset --soft, git reset --mixed y git reset --hard?
+
+
+¿Qué es una fusión (merge) en Git y cuáles son los posibles conflictos que pueden ocurrir durante el proceso?
+
+
+¿Para qué se usa el comando git checkout y cuál es su diferencia con git switch?
+
+
+¿Cómo funciona git pull y en qué se diferencia de git fetch?
+
+
+¿Qué ocurre cuando se ejecuta git push y qué problemas pueden surgir si hay cambios en el repositorio remoto?
+
+
+¿Cuál es la diferencia entre git clone y git init?
+Flujo de trabajo en Git
+
