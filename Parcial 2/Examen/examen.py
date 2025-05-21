@@ -1,0 +1,1 @@
+actividades = ["lisa|leer|lectura2024", "carlos"]

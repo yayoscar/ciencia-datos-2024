@@ -1,57 +1,75 @@
-def rectangulo(b,h):
-    perimetro= (2*b)+(2*h)
+def rectangulo(b, h):
+    perimetro = (2 + b) * (2 + h)
     return perimetro
 
+
 def cuadrado(lado):
-    perimetro= (4*lado)
+    perimetro = 4 * lado
+    return perimetro
+
 
 def hexagono(lado):
-    perimetro= (6*lado)
+    perimetro = 6 * lado
+    return perimetro
+
 
 def pentagono(lado):
-    perimtero= (5*lado)
+    perimetro = 5 * lado
+    return perimetro
+
 
 def rombo(lado):
-    perimetro= (4*lado)
+    perimetro = 4 * lado
+    return perimetro
 
-def trapecio(B,b,l):
-    perimetro= (B)+(b)+(2*l)
 
-    pi = 3.1416
-def circulo(pi,D):
-    perimetro=(pi*D)
+def trapecio(B, b, lado):
+    perimetro = (B + b) + (2 * lado)
+    return perimetro
 
-print("rectangulo")
-print("cuadrado")
-print("hexagono")
-print("pentagono")
-print("rombo")
-print("trapecio")
-print("circulo")
 
-figura = input("ingrese el nombre de la figura que desea saber su perimetro: ")
+def circulo(diametro):
+    perimetro = 3.14 * diametro
+    return perimetro
 
-if figura == "rectangulo":
-   b = int(input("ingrese 2*b"))
-   h = int(input("ingrese 2*h"))
-   print(rectangulo(b, h))
-elif figura == "cuadrado":
-        lado = int(input("ingrese 4*lado"))
-        print(cuadrado(4*lado))
-elif figura == "hexagono":
-        lado = int(input("ingrese 6*lado"))
-        print(hexagono(6*lado))
-if figura == "pentagono":
-    lado = int(input("ingrese 5*lado"))
-    print(pentagono(5*lado))
 
-if figura == "rombo":
-    lado = int(input("ingrese 4*lado"))
-    print(rombo(4*lado))
+continuar = True
+while continuar:
+    print("Calcula el perímetro de las siguientes figuras: ")
+    print("Rectángulo")
+    print("Cuadrado")
+    print("Hexágono")
+    print("Pentágono")
+    print("Rombo")
+    print("Trapecio")
+    print("Círculo")
+    figura = input("¿De cuál figura deseas calcular su perímetro? ")
 
-if figura == "trapecio":
-    B,b,l = int(input("ingrese B,b,2*l"))
+    if figura == "Rectángulo":
+        b = int(input("Ingrese la base: "))
+        h = int(input("Ingrese la altura: "))
+        print(rectangulo(b, h))
+    elif figura == "Cuadrado":
+        lado = int(input("Ingrese el lado del cuadrado: "))
+        print(cuadrado(lado))
+    elif figura == "Hexágono":
+        lado = int(input("Ingrese el lado del hexágono: "))
+        print(hexagono(lado))
+    elif figura == "Pentágono":
+        lado = int(input("Ingrese el lado del pentágono: "))
+        print(pentagono(lado))
+    elif figura == "Rombo":
+        lado = int(input("Ingrese el lado del rombo: "))
+        print(rombo(lado))
+    elif figura == "Trapecio":
+        B = int(input("Ingrese la base mayor: "))
+        b = int(input("Ingrese la base menor: "))
+        lado = int(input("Ingrese el lado: "))
+        print(trapecio(B, b, lado))
+    elif figura == "Círculo":
+        diametro = int(input("Ingrese el diámetro del círculo: "))
+        print(circulo(diametro))
+    else:
+        print("No entiendo lo que dice.")
 
-if figura == "circulo":
-    lado = int(input("ingrese pi*D"))
-    print(circulo(3.1416*D))
+    continuar = input("¿Desea calcular otra figura? (sí/no): ").lower() == "sí"
