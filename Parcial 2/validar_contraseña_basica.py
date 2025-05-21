@@ -1,0 +1,1 @@
+password = input("Ingrese una contraseña: ")

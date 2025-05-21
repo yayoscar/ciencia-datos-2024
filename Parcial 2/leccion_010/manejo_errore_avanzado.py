@@ -1,0 +1,2 @@
+try:
+    valor_total =

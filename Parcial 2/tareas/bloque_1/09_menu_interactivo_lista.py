@@ -3,7 +3,7 @@ tareas = []
 while True:
   print("\nMenú:")
   print("1. Agregar tarea")
-  print("2. Ver tkj")
+  print("2. Ver tareas")
   print("3. Eliminar tarea (por nombre)")
   print("4. Salir")
 
@@ -15,11 +15,11 @@ while True:
     print("Tarea agregada.")
   elif opcion == "2":
     if tareas:
-      print("\nLista de tkj:")
+      print("\nLista de tareas:")
       for i, tarea in enumerate(tareas):
         print(f"{i+1}. {tarea}")
     else:
-      print("No hay tkj en la lista.")
+      print("No hay tareas en la lista.")
   elif opcion == "3":
     if tareas:
       tarea_eliminar = input("Ingresa el nombre de la tarea a eliminar: ")
@@ -29,7 +29,7 @@ while True:
       else:
         print("La tarea no se encuentra en la lista.")
     else:
-      print("No hay tkj en la lista.")
+      print("No hay tareas en la lista.")
   elif opcion == "4":
     print("Saliendo del programa...")
     break
