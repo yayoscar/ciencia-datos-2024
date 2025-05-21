@@ -1,0 +1,4 @@
+def convertir_a_metros_cubicos(litros):
+    metros_cubicos = litros / 1000
+    return metros_cubicos
+
