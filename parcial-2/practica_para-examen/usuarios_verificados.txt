@@ -1,0 +1,3 @@
+Nombre: luis - Correo:  valido - Estado: Advertencia
+Nombre: maria - Correo:  invalido - Estado: activo
+Nombre: carlos - Correo:  valido - Estado: bloqueada

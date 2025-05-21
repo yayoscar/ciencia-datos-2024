@@ -1,0 +1,3 @@
+Carlos Rivera|carlos@email.com|Car12345
+Lucía Gómez|lucia.gomez@email.com|lucia2020
+Pedro Soto|pedro@email.com|AnaFuerte123

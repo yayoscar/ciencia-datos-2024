@@ -1,0 +1,4 @@
+Nombre: Ana Torres Asistencia: 80.00% Correo: valido
+ Nombre: Luis Díaz Asistencia: 33.33% Correo: invalido
+ Nombre: María Gómez Asistencia: 100.00% Correo: valido
+ 

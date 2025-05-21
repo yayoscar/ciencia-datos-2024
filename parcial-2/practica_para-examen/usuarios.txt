@@ -1,0 +1,3 @@
+luis|luis123@gmail.com|3
+maria|maria_outlook.com|0
+carlos|carlos@empresa.org|5  

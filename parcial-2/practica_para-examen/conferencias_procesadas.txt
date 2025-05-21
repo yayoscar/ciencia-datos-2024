@@ -1,0 +1,3 @@
+Nombre: Pedro Ramírez Telefono: valido Asistencia: 80.00%
+Nombre: Ana López Telefono: invalido Asistencia: 100.00%
+Nombre: Sofía Méndez Telefono: valido Asistencia: 20.00%

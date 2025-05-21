@@ -1,0 +1,3 @@
+Ana Torres|ana123@gmail.com|1,1,0,1,1
+Luis Díaz|luis@hotmail|1,0,0
+María Gómez|maria.gomez@univ.edu|1,1,1,1,1

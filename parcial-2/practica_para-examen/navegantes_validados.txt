@@ -1,0 +1,3 @@
+Nombre: Carlos Rivera - Correo: carlos@email.com validez: valido contraseña:fuerte
+Nombre: LucÃ­a GÃ³mez - Correo: lucia.gomez@email.com validez: valido contraseña:debil
+Nombre: Pedro Soto - Correo: pedro@email.com validez: valido contraseña:fuerte
