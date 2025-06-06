@@ -1,4 +1,4 @@
-'''dict_calificaciones = {
+dict_calificaciones = {
     'español': 7,
     'mate': 8,
     'programación': 10,
@@ -19,7 +19,7 @@ print(dict_calificaciones)
 #del dict_calificaciones['ética']
 print(dict_calificaciones)
 for llave, valor in dict_calificaciones.items():
-    print(f"{llave}:{valor}")'''
+    print(f"{llave}:{valor}")
 lista = ['aunqur', 'bee', 'cool', 'day']
 cadena = "CADENA0081ÑÑÑnnnnnn"
 entero = 8

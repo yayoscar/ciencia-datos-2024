@@ -1,11 +1,12 @@
 def extraer_nombre_archivo(lista_todo):
     archivos = []
+    indice = 0
     for lista in lista_todo:
-        for item in lista:
-            if item.endswith('txt'):
-                archivos.append(item)
-    for nombre in archivos:
-        nombre = nombre.capitalize()
+        for elemento in lista:
+            if elemento.count('.txt'):
+                elemento = elemento[:-4].capitalize().replace('.','')
+                archivos.insert(indice, elemento)
+                indice +=1
     return f"Archivos: {archivos}"
 
 

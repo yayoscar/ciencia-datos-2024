@@ -1,17 +1,10 @@
-def leer_tareas(ruta_archivo= 'todos.txt'):
-    """
-    Retorna una variable con la lectura del archivo de ruta
-    """
-    with open(ruta_archivo, "r") as archivo_local:
-        todos_local = archivo_local.readlines()
-    return todos_local
+from funciones.funciones_main import leer_tareas, guardar_tareas
+from datetime import datetime
 
 
-def guardar_tareas(todos_arg, ruta_archivo= 'todos.txt'):
-    with open(ruta_archivo, 'w') as archivo_local:
-        archivo_local.writelines(todos_arg)
-
-
+fecha = datetime.now()
+fecha_str = fecha.strftime('%d/%m/%Y  %H:%M')
+print("La fecha actual es", fecha_str)
 mensaje = "Ingrese una tarea: "
 todos = []
 while True:
