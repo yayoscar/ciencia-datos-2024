@@ -1,6 +1,6 @@
 def extraer_datos(nombre_archivo):
     datos = []
-    with open(nombre_archivo, 'r') as archivo:
+    with open("temperaturas.txt", 'r') as archivo:
         for linea in archivo:
             hora, temperatura, sensor = linea.strip().split(',')
             datos.append((hora.strip(), float(temperatura.strip()), sensor.strip()))
@@ -16,13 +16,13 @@ def minimo_maximo(datos):
 def reporte(nombre_archivo_entrada, datos, promedio, minima, maxima):
     with open("reporte_temperaturas.txt", "w") as archivo:
         archivo.write(f"Archivo: {nombre_archivo_entrada}")
-        archivo.write("Formato:\nHora, Temperatura, Sensor\n\n")
+        archivo.write("Formato:\nHora, Temperatura,")
         for hora, temp, sensor in datos:
-            archivo.write(f"{hora}, {temp}, {sensor}\n")
+            archivo.write(f"{hora}, {temp}, {sensor}")
         archivo.write("\nResumen estadístico:\n")
-        archivo.write(f"Promedio: {promedio:.1f}\n")
-        archivo.write(f"Mínima: {minima:.1f}\n")
-        archivo.write(f"Máxima: {maxima:.1f}\n")
+        archivo.write(f"Promedio: {promedio:.1f}")
+        archivo.write(f"Mínima: {minima:.1f}")
+        archivo.write(f"Máxima: {maxima:.1f}")
 
 nombre_archivo = "temperaturas.txt"
 datos = extraer_datos(nombre_archivo)
