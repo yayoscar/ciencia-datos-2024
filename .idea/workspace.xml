@@ -5,34 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7695bb3e-4284-454f-9f4b-d75afc287b15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app_tareas/gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 3/Leccion_Free_simple_gui/calculadora.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 3/Leccion_Free_simple_gui/control_temperatura.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 3/Leccion_Free_simple_gui/ejemplo01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 3/Leccion_Free_simple_gui/ejemplo_01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 3/Leccion_Free_simple_gui/encuesta_rapida.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 3/Leccion_Free_simple_gui/eventoa_ejemplo04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 3/Leccion_Free_simple_gui/eventos-ejemplo03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 3/Leccion_Free_simple_gui/eventos_ejemplo02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 3/Leccion_Free_simple_gui/formulario_de_registro.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 3/Leccion_Free_simple_gui/formulario_simple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 3/Leccion_Free_simple_gui/selector_de_genero_de_musica.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 3/leccion_14/ejercicios_practicos/matematicas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 3/leccion_14/ejercicios_practicos/operaciones_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 3/leccion_14/ejercicios_practicos/operaciones_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 3/leccion_14/ejercicios_practicos/operaciones_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 3/leccion_14/ejercicios_practicos/operaciones_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 3/leccion_14/entradas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 3/leccion_14/matematicas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parcial 3/leccion_14/operaciones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pec/datos.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pec/funciones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pec/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pec/prompts.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parcial 1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_tareas/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parcial 1/todos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tareas/todos.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parcial 2/examen.py" beforeDir="false" afterPath="$PROJECT_DIR$/parcial 2/examen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pec/funciones.py" beforeDir="false" afterPath="$PROJECT_DIR$/pec/funciones.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pec/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pec/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
