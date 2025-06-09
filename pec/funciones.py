@@ -4,9 +4,8 @@ import FreeSimpleGUI as sg
 def prepara_datos(valor):
     monto = valor['monto']
     categoria = valor['categoria']
-    nombre = valor['nombre']
     fecha = valor['fecha']
-    fila = [monto, categoria, nombre, fecha]
+    fila = [monto, categoria, fecha]
     return fila
 
 def añade_csv(fila):
@@ -18,8 +17,9 @@ def añade_csv(fila):
 def es_numerico(fila):
     valor = fila[0]
     try:
-        float(valor)
+        valor= float(valor)
         if float(valor).is_integer():
             valor = int(valor)
+        return True
     except ValueError:
         sg.popup("No se puede guardar, el valor de monto debe ser un número", title="Error")
