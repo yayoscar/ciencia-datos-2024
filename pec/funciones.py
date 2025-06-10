@@ -1,15 +1,20 @@
+import csv
+import os
 
-def comparar_precios(producto, p1, p2, p3, cantidad):
-    p1 = float(p1)
-    p2 = float(p2)
-    p3 = float(p3)
-    cantidad = int(cantidad)
+# Nombre del  CSV
+FILENAME = 'comparaciones.csv'
 
-    total1 = p1 * cantidad
-    total2 = p2 * cantidad
-    total3 = p3 * cantidad
+# Crear archivo CSV
+def crear_csv():
+    if not os.path.exists(FILENAME):
+        with open(FILENAME, 'w', newline='') as archivo:
+            escritor = csv.writer(archivo)
 
-    totales = [total1, total2, total3]
-    return resultado
 
-#ME FALTA TERMINAR
+# Comparar precios entre tiendas
+def comparar(producto, cantidad, precio1, precio2):
+
+    return producto, cantidad, "", 0, 0
+
+
+# Guardar

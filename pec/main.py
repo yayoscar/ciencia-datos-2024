@@ -1,23 +1,32 @@
-#Importaciones
 import FreeSimpleGUI as sg
-import funciones as fd
+from funciones import crear_csv, comparar
 
-#El diseño
+crear_csv()
+
 layout = [
-[sg.Text("Nombre del producto:"), sg.Input(key="PRODUCTO"), ],
-[sg.Text("Precio en tienda 1:",text_color='red' ), sg.Input(key="P1")],
-[sg.Text("Precio en tienda 2:",text_color='Black'), sg.Input(key="P2")],
-[sg.Text("Cantidad a comprar:",text_color='green'), sg.Input(key="CANTIDAD")],
-[sg.Button("Comparar precios"), sg.Button("Salir")]
+    [sg.Text("Producto:"), sg.Input(key="PRODUCTO")],
+    [sg.Text("Precio tienda 1:"), sg.Input(key="P1")],
+    [sg.Text("Precio tienda 2:"), sg.Input(key="P2")],
+    [sg.Text("Cantidad:"), sg.Input(key="CANTIDAD")],
+    [sg.Button("Comparar"), sg.Button("Salir")],
+    [sg.Text("", size=(50,3), key="RESULTADO")]
 ]
-#configurando la ventana
-ventana = sg.Window("Encuesta", layout,font=("arial",20))
-# eventos
+
+window = sg.Window("Comparador de Precios", layout)
 
 while True:
-    evento, valores = ventana.read()
-
-    if evento == sg.WINDOW_CLOSED or evento == "Salir":
+    event, values = window.read()
+    if event == sg.WINDOW_CLOSED or event == "Salir":
         break
 
-ventana.close()
+    if event == "Comparar":
+        try:
+            producto = values["PRODUCTO"]
+            p1 = float(values["P1"])
+            p2 = float(values["P2"])
+            cantidad = int(values["CANTIDAD"])
+
+        except:
+            sg.popup("Revisa los datos, deben ser números válidos.")
+
+window.close()
