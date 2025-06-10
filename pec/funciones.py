@@ -13,6 +13,11 @@ def añade_csv(fila):
         escritor = csv.writer(archivo)
         escritor.writerow(fila)
 
+def leer_dict():
+    with open('datos.csv', 'r') as csvfile:
+        campos = ['monto', 'categoria', 'fecha']
+        lector = csv.DictReader(csvfile, fieldnames=campos)
+        return lector
 
 def es_numerico(fila):
     valor = fila[0]
