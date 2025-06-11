@@ -94,3 +94,56 @@ La función puede recibir un diccionario como parámetro.
 Dentro de la función, usas un ciclo for clave, valor in diccionario.items(): para recorrer cada par.
 
 Puedes hacer operaciones con la clave y el valor, como compararlos, imprimirlos, acumular datos, etc.
+
+
+Dijiste:
+por que mi  codigo me marca  un error
+import FreeSimpleGUI as sg
+from funciones import *
+
+layout = [
+    [sg.Text("Nombre del producto:"), sg.Input(key="PRODUCTO")],
+    [sg.Text("Precio en tienda 1:"), sg.Input(key="P1")],
+    [sg.Text("Precio en tienda 2:"), sg.Input(key="P2")],
+    [sg.Text("Precio en tienda 3:"), sg.Input(key="P3")],
+    [sg.Text("Cantidad a comprar:"), sg.Input(key="CANTIDAD")],
+    [sg.Button("Comparar precios")],
+    [sg.Text("Tienda recomendada", key="TIENDA RECOMENDADA")],
+    [sg.Text("ahorro", key="AHORRO")]
+]
+
+window = sg.Window("Proyecto 5", layout, font=("Arial", 20))
+
+while True:
+    event, values = window.read()
+    if event == sg.WINDOW_CLOSED:
+        break
+
+    if event == "Comparar precios":
+        p1 = float(values["P1"])
+        p2 = float(values["P2"])
+        p3 = float(values["P3"])
+        cantidad = (values["CANTIDAD"])
+
+        tienda, ahorros = comparar_precios(P1,P2,P3, cantidad)
+
+        window["RECOMENDACION"].update(f"Tienda recomendada: {tienda}")
+
+        texto_ahorro = "\n".join([f"Ahorro de {t}: ${a}" for t, a in ahorros.items()])
+        window["AHORRO"].update(texto_ahorro)
+
+window.close()
+
+
+ChatGPT dijo:
+Tu código marca error por varias razones:
+
+1. Usas P1, P2, P3 en mayúscula, pero definiste p1, p2, p3 en minúscula.
+Python diferencia entre mayúsculas y minúsculas, así que está buscando variables que no existen.
+
+2. No convertiste cantidad a número.
+values["CANTIDAD"] es texto. Si no lo conviertes a entero o flotante, no se puede usar para hacer cálculos.
+
+3. Usas una clave "RECOMENDACION" que no existe en tu layout.
+La clave correcta es "TIENDA RECOMENDADA". Si intentas actualizar una clave que no está en el layout, te lanza error.
+

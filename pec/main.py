@@ -8,7 +8,7 @@ layout = [
     [sg.Text("Precio en tienda 3:"), sg.Input(key="P3")],
     [sg.Text("Cantidad a comprar:"), sg.Input(key="CANTIDAD")],
     [sg.Button("Comparar precios")],
-    [sg.Text("Tienda recomendada", key="TIENDA RECOMENDADA")],
+    [sg.Text("tienda recomendada", key="TIENDA RECOMENDADA")],
     [sg.Text("ahorro", key="AHORRO")]
 ]
 
@@ -23,13 +23,13 @@ while True:
         p1 = float(values["P1"])
         p2 = float(values["P2"])
         p3 = float(values["P3"])
-        cantidad = (values["CANTIDAD"])
+        cantidad = int(values["CANTIDAD"])
 
         tienda, ahorros = comparar_precios(p1, p2, p3, cantidad)
 
-        window["RECOMENDACION"].update(f"Tienda recomendada: {tienda}")
-
+        window["TIENDA RECOMENDADA"].update(f"Tienda recomendada: {tienda}")
         texto_ahorro = "\n".join([f"Ahorro de {t}: ${a}" for t, a in ahorros.items()])
         window["AHORRO"].update(texto_ahorro)
 
 window.close()
+
