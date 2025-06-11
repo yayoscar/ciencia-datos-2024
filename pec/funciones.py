@@ -1,5 +1,7 @@
 import csv
 import FreeSimpleGUI as sg
+from FreeSimpleGUI import WIN_CLOSED
+
 
 def prepara_datos(valor):
     monto = valor['monto']
@@ -19,15 +21,21 @@ def leer_dict():
         lector = csv.DictReader(csvfile, fieldnames=campos)
         return lector
 
-def es_numerico(fila):
+def comprobar(fila):
     valor = fila[0]
     try:
         valor= float(valor)
         if float(valor).is_integer():
             valor = int(valor)
-        return True
     except ValueError:
         sg.popup("No se puede guardar, el valor de monto debe ser un número", title="Error")
+    ovalor = fila[1]
+    if ovalor == str:
+        ovalor = True
+    if ovalor:
+        return True
+    else:
+        sg.popup("No se puede guardar, debe poner la categoría", title="Error")
 
 def leer_csv(nombre_archivo = 'datos.csv'):
     datos = []
@@ -37,3 +45,18 @@ def leer_csv(nombre_archivo = 'datos.csv'):
             datos.append(fila)
     return datos
 
+def mostrar_tabla():
+    datos = leer_csv()
+    layout2 = [
+        [sg.Table(values=datos, headings=['Montos', 'Categorías', 'Fechas'])],
+        [sg.Button("Cerrar")]
+    ]
+    window = sg.Window("Registro", layout2)
+    while True:
+        evento, diccionario = window.read()
+        if evento == "Cerrar" or evento == WIN_CLOSED:
+            break
+    window.close()
+
+def mostrar_resumen():
+    datos = leer_csv()

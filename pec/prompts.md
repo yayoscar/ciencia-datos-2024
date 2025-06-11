@@ -1,6 +1,6 @@
 La IA que utilicé fue Claude Sonnet 4
 
-*Necesito que me expliques, como si fueras un maestro de programación y paso a paso, cómo puedo guardar una fila de dos datos de un archivo de Python a un archivo csv
+Yo.-Necesito que me expliques, como si fueras un maestro de programación y paso a paso, cómo puedo guardar una fila de dos datos de un archivo de Python a un archivo csv
 Te explico paso a paso cómo guardar datos en un archivo CSV desde Python:
 
 ## Método 1: Usando el módulo csv (Recomendado)
@@ -91,7 +91,7 @@ print("Archivo CSV creado exitosamente")
 
 ¿Te gustaría que profundice en algún aspecto específico o tienes algún caso particular que necesitas resolver?
 
-*Para lo que estoy haciendo tengo que asegurarme que el primer dato sea numérico, paso a paso explícame cómo puedo hacer eso. Son filas de 2 datos
+Yo.-Para lo que estoy haciendo tengo que asegurarme que el primer dato sea numérico, paso a paso explícame cómo puedo hacer eso. Son filas de 2 datos
 Te explico paso a paso cómo validar que el primer dato sea numérico antes de guardarlo en el CSV:
 
 ## Paso 1: Función para verificar si un dato es numérico
@@ -264,7 +264,7 @@ Fila guardada correctamente: [42, 'Ana']
 
 ¿Te gustaría que ajuste algún aspecto específico de la validación o tienes algún caso particular que necesitas manejar?
 
-*Ahora cómo puedo mostrar los datos de un archivo csv en mi interfaz gráfica (usando FreeSimpleGUI) en un archivo .py
+Yo.-Ahora cómo puedo mostrar los datos de un archivo csv en mi interfaz gráfica (usando FreeSimpleGUI) en un archivo .py
 Te explico paso a paso cómo mostrar datos CSV en una interfaz gráfica con FreeSimpleGUI:
 
 ## Paso 1: Instalar FreeSimpleGUI
@@ -482,3 +482,271 @@ Al ejecutar obtendrás una ventana con:
 - Funcionalidad de actualización
 
 ¿Te gustaría que agregue alguna funcionalidad específica como filtros, edición de datos, o búsqueda?
+
+Yo.-Cómo puedo hacer que la lista de listas (del método 1) se muestre en forma de tabla? Explícame paso a paso
+Te explico paso a paso cómo convertir una lista de listas en una tabla visual usando FreeSimpleGUI:
+
+## Paso 1: Entender la estructura de datos
+
+```python
+# Tu lista de listas se ve así:
+datos = [
+    [1, 'Juan'],
+    [2, 'María'],
+    [3, 'Pedro'],
+    [4.5, 'Ana']
+]
+```
+
+## Paso 2: Usar el elemento Table de FreeSimpleGUI
+
+```python
+import FreeSimpleGUI as sg
+
+# Configuración básica del elemento Table
+tabla = sg.Table(
+    values=datos,                    # Tu lista de listas aquí
+    headings=['Número', 'Nombre'],   # Títulos de las columnas
+    max_col_width=25,               # Ancho máximo de columnas
+    num_rows=10,                    # Número de filas visibles
+    key='-TABLA-'                   # Identificador único
+)
+```
+
+## Paso 3: Ejemplo básico completo
+
+```python
+import FreeSimpleGUI as sg
+
+def mostrar_tabla_basica():
+    # Tus datos (lista de listas)
+    datos = [
+        [1, 'Juan'],
+        [2, 'María'],
+        [3, 'Pedro'],
+        [4.5, 'Ana'],
+        [5, 'Carlos']
+    ]
+    
+    # Definir el layout
+    layout = [
+        [sg.Text('Mi Tabla de Datos', font=('Arial', 16))],
+        [sg.Table(values=datos, 
+                 headings=['Número', 'Nombre'],
+                 max_col_width=25,
+                 num_rows=10,
+                 key='-TABLA-',
+                 justification='center')],
+        [sg.Button('Cerrar')]
+    ]
+    
+    # Crear ventana
+    ventana = sg.Window('Tabla Simple', layout)
+    
+    # Bucle de eventos
+    while True:
+        evento, valores = ventana.read()
+        if evento in (sg.WIN_CLOSED, 'Cerrar'):
+            break
+    
+    ventana.close()
+
+# Ejecutar
+mostrar_tabla_basica()
+```
+
+## Paso 4: Versión más personalizada
+
+```python
+import FreeSimpleGUI as sg
+
+def crear_tabla_personalizada(datos, encabezados):
+    """Crea una tabla personalizada con más opciones"""
+    
+    sg.theme('LightBlue2')
+    
+    layout = [
+        [sg.Text('📊 Tabla de Datos', font=('Arial', 16, 'bold'))],
+        [sg.HorizontalSeparator()],
+        
+        # Tabla con más opciones de personalización
+        [sg.Table(values=datos,
+                 headings=encabezados,
+                 max_col_width=30,
+                 num_rows=15,
+                 key='-TABLA-',
+                 enable_events=True,           # Habilita eventos de clic
+                 justification='left',         # Alineación del texto
+                 alternating_row_color='lightgray',  # Color alternado
+                 header_background_color='navy',     # Color del encabezado
+                 header_text_color='white',          # Color texto encabezado
+                 selected_row_colors=('white', 'blue'),  # Color fila seleccionada
+                 enable_click_events=True,     # Eventos de clic
+                 right_click_selects=True)],   # Clic derecho selecciona
+        
+        [sg.Text('Selecciona una fila para ver información', key='-INFO-')],
+        [sg.Button('Cerrar')]
+    ]
+    
+    return sg.Window('Tabla Personalizada', layout, resizable=True)
+
+def main():
+    # Tus datos
+    datos = [
+        [1, 'Juan Pérez'],
+        [2.5, 'María González'],
+        [3, 'Pedro Martínez'],
+        [4.8, 'Ana López'],
+        [5, 'Carlos Rodríguez'],
+        [6.2, 'Sofía Hernández']
+    ]
+    
+    encabezados = ['ID', 'Nombre Completo']
+    
+    ventana = crear_tabla_personalizada(datos, encabezados)
+    
+    while True:
+        evento, valores = ventana.read()
+        
+        if evento in (sg.WIN_CLOSED, 'Cerrar'):
+            break
+        
+        # Manejar selección de fila
+        elif evento == '-TABLA-':
+            if valores['-TABLA-']:  # Si hay fila seleccionada
+                fila_index = valores['-TABLA-'][0]
+                fila_datos = datos[fila_index]
+                ventana['-INFO-'].update(f'Seleccionado: ID={fila_datos[0]}, Nombre={fila_datos[1]}')
+    
+    ventana.close()
+
+if __name__ == '__main__':
+    main()
+```
+
+## Paso 5: Conectar con tu función de leer CSV
+
+```python
+import csv
+import FreeSimpleGUI as sg
+
+def leer_csv_a_lista(nombre_archivo):
+    """Lee CSV y retorna lista de listas"""
+    datos = []
+    try:
+        with open(nombre_archivo, 'r', encoding='utf-8') as archivo:
+            lector = csv.reader(archivo)
+            for fila in lector:
+                # Convertir primer elemento a número si es posible
+                try:
+                    fila[0] = float(fila[0])
+                    if fila[0].is_integer():
+                        fila[0] = int(fila[0])
+                except:
+                    pass  # Mantener como string si no es número
+                datos.append(fila)
+        return True, datos
+    except Exception as e:
+        return False, str(e)
+
+def mostrar_csv_como_tabla():
+    """Muestra CSV como tabla en GUI"""
+    
+    sg.theme('DefaultNoMoreNagging')
+    
+    layout = [
+        [sg.Text('Visualizador CSV como Tabla', font=('Arial', 16))],
+        [sg.Button('📁 Cargar CSV'), sg.Button('🔄 Actualizar'), sg.Button('❌ Cerrar')],
+        [sg.Table(values=[],
+                 headings=['Número', 'Dato'],
+                 max_col_width=35,
+                 num_rows=12,
+                 key='-TABLA-',
+                 enable_events=True,
+                 justification='left',
+                 alternating_row_color='#f0f0f0',
+                 header_background_color='#4472c4',
+                 header_text_color='white',
+                 font=('Courier', 11))],
+        [sg.Text('Total de filas: 0', key='-CONTADOR-')],
+        [sg.Text('Listo para cargar archivo...', key='-STATUS-')]
+    ]
+    
+    ventana = sg.Window('CSV → Tabla', layout, resizable=True)
+    archivo_actual = None
+    
+    while True:
+        evento, valores = ventana.read()
+        
+        if evento in (sg.WIN_CLOSED, '❌ Cerrar'):
+            break
+        
+        elif evento == '📁 Cargar CSV':
+            archivo = sg.popup_get_file('Seleccionar CSV', 
+                                      file_types=(("CSV", "*.csv"),))
+            if archivo:
+                exito, datos = leer_csv_a_lista(archivo)
+                if exito:
+                    ventana['-TABLA-'].update(values=datos)
+                    ventana['-CONTADOR-'].update(f'Total de filas: {len(datos)}')
+                    ventana['-STATUS-'].update(f'✅ Cargado: {archivo}')
+                    archivo_actual = archivo
+                else:
+                    sg.popup_error(f'Error: {datos}')
+        
+        elif evento == '🔄 Actualizar' and archivo_actual:
+            exito, datos = leer_csv_a_lista(archivo_actual)
+            if exito:
+                ventana['-TABLA-'].update(values=datos)
+                ventana['-CONTADOR-'].update(f'Total de filas: {len(datos)}')
+                ventana['-STATUS-'].update('🔄 Actualizado')
+        
+        elif evento == '-TABLA-' and valores['-TABLA-']:
+            indice = valores['-TABLA-'][0]
+            ventana['-STATUS-'].update(f'Fila {indice + 1} seleccionada')
+    
+    ventana.close()
+
+# Ejecutar
+mostrar_csv_como_tabla()
+```
+
+## Paso 6: Personalización avanzada de la tabla
+
+```python
+# Opciones adicionales para el elemento Table:
+
+tabla_avanzada = sg.Table(
+    values=datos,
+    headings=['Col1', 'Col2'],
+    
+    # Apariencia
+    font=('Helvetica', 12),           # Fuente
+    background_color='white',         # Color de fondo
+    text_color='black',              # Color del texto
+    
+    # Comportamiento
+    auto_size_columns=True,          # Ajuste automático de columnas
+    def_col_width=20,               # Ancho por defecto
+    select_mode=sg.TABLE_SELECT_MODE_BROWSE,  # Modo de selección
+    
+    # Barras de desplazamiento
+    vertical_scroll_only=False,      # Solo scroll vertical
+    hide_vertical_scroll=False,      # Ocultar scroll vertical
+    
+    # Eventos
+    bind_return_key=True,           # Enter selecciona fila
+    tooltip='Haz clic para seleccionar una fila'
+)
+```
+
+## Resultado final:
+
+Tu lista de listas se mostrará como una tabla profesional con:
+- Encabezados personalizables
+- Filas seleccionables
+- Colores alternados
+- Información de estado
+- Capacidad de actualización
+
+¿Te gustaría que agregue alguna funcionalidad específica como ordenamiento, filtros o edición de celdas?
