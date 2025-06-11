@@ -1,5 +1,3 @@
-from pec.main import monto_inicial
-
 tasas = {
     "Hey Banco": 0.10,
     "NU": 0.135,
@@ -18,7 +16,7 @@ def calcular_ahorro(cantidad_inicial, mensual, meses, tasa_anual):
 
 def guardar_resultado_csv(nombre_archivo, cantidad_incial, mensual, meses, banco, total):
     import csv
-    with open(nombre_archivo, "w", newline="") as archivo:
+    with open(nombre_archivo, "a", newline="") as archivo:
         writer = csv.writer(archivo)
-        writer.writerow(["cantidad incial", "Ahorro Mensual", "Meses", "Banco", "Total Final"])
+        writer.writerow(["Cantidad Incial", "Ahorro Mensual", "Meses", "Banco", "Total Final"])
         writer.writerow([cantidad_incial, mensual, meses, banco, total])

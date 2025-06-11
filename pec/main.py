@@ -1,36 +1,38 @@
 import FreeSimpleGUI as sg
 from funciones import obtener_tasa, calcular_ahorro, guardar_resultado_csv
+sg.theme("DrakPurple6")
+fuente=("Helvetica", 12)
 
 layout = [
-    [sg.Text("cantidad inicial:"), sg.Input(key="incial")],
+    [sg.Text("Monto inicial:"), sg.Input(key="inicial")],
     [sg.Text("Ahorro mensual:"), sg.Input(key="mensual")],
     [sg.Text("Meses:"), sg.Input(key="meses")],
     [sg.Text("Banco:"), sg.Combo(["Hey Banco", "NU", "Finsus"], key="banco")],
     [sg.Button("Calcular")]
 ]
 
-ventana = sg.Window("simulador de ahorro", layout)
+ventana = sg.Window("Simulador de ahorro", layout)
 
 while True:
     evento, valores = ventana.read()
     if evento == sg.WINDOW_CLOSED:
         break
 
-    if evento == "calcular":
+    if evento == "Calcular":
         try:
-            monto_inicial = float(valores["incial"])
+            inicial = float(valores["inicial"])
             mensual = float(valores["mensual"])
             meses = int(valores["meses"])
             banco = valores["banco"]
 
             tasa = obtener_tasa(banco)
-            total = calcular_ahorro(monto_inicial, mensual, meses, tasa)
+            total = calcular_ahorro(inicial, mensual, meses, tasa)
 
             sg.popup(f"Tendrías ${total} al finalizar los {meses} meses.")
 
-            guardar_resultado_csv("datos.csv", monto_inicial, mensual, meses, banco, total)
+            guardar_resultado_csv("pec/datos.csv", inicial, mensual, meses, banco, total)
 
         except Exception as e:
-            sg.popup("Error: Verifica que los datos sean correctos.")
+            sg.popup("Error:", str(e), title="Error", font=("Helvetica",11))
 
 ventana.close()
