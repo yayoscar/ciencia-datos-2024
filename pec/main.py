@@ -23,10 +23,10 @@ while True:
         cara=max(tiendas)*cantidad
         diferencia=cara-bara
 
-        with open('comparacion.csv','w',newline='') as archivo_csv:
+        with open('comparacion.csv', 'w', newline='') as archivo_csv:
             pepa_pig=csv.writer(archivo_csv)
             pepa_pig.writerow(['PRODUCTO:',nombre,])
-            pepa_pig.writerow(['TIENDA 1: $' ,p1])
+            pepa_pig.writerow(['TIENDA 1: $',p1])
             pepa_pig.writerow(['TIENDA 2: $',p2,])
             pepa_pig.writerow(['TIENDA 3: $',p3,])
             pepa_pig.writerow(['CANTIDAD: ',cantidad, ])
