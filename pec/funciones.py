@@ -28,3 +28,12 @@ def es_numerico(fila):
         return True
     except ValueError:
         sg.popup("No se puede guardar, el valor de monto debe ser un número", title="Error")
+
+def leer_csv(nombre_archivo = 'datos.csv'):
+    datos = []
+    with open(nombre_archivo, 'r', encoding='utf-8') as archivo:
+        lector = csv.reader(archivo)
+        for fila in lector:
+            datos.append(fila)
+    return datos
+

@@ -1,5 +1,4 @@
 import FreeSimpleGUI as sg
-
 import funciones as func
 
 
@@ -9,9 +8,9 @@ layout = [
     [sg.Text("Categoría: "),sg.Push(background_color='yellow'), sg.Combo(["Comida","Transporte","Salud","Ropa o accesorios","Impuestos","Vivienda","Otro"], key = "categoria", size=(19,19))],
     [sg.Text("Fecha (Opcional): "),sg.Push(background_color='yellow'), sg.Input(key= "fecha", size=(20, 90))],
     [sg.Push(background_color='yellow'), sg.Text("DD/MM/AAAA")],
-    [sg.Image(sg.EMOJI_BASE64_FINGERS_CROSSED),sg.Push(background_color='yellow'), sg.Button("Guardar"), sg.Button("Ver resumen"), sg.Button("Salir")]
+    [sg.Image(sg.EMOJI_BASE64_COOL),sg.Push(background_color='yellow'), sg.Button("Guardar"), sg.Button("Ver resumen"), sg.Button("Salir")]
 ]
-ventana = sg.Window("Registro de Gastos y Categorías", layout, font= ("Cascadia Mono", 15), icon=(sg.EMOJI_BASE64_HAPPY_THUMBS_UP))
+ventana = sg.Window("Registro de Gastos y Categorías", layout, font= ("Cascadia Mono", 15), icon=(sg.EMOJI_BASE64_JASON))
 
 while True:
     evento, valor = ventana.read()
@@ -25,7 +24,8 @@ while True:
             continue
         break
     elif evento == "Ver resumen":
-        lector = func.leer_dict()
+        sg.popup(func.leer_csv())
+        continue
 
 
 ventana.close()
