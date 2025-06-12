@@ -1,4 +1,5 @@
 import FreeSimpleGUI as sg
+from pec.funciones import datos_csv
 
 layout = [
     [sg.Text("Proyecto pec:",pad=(300,20),font=('Arial',40))],
@@ -12,11 +13,24 @@ layout = [
 
 window = sg.Window("Proyecto pec", layout,font=('Arial',20))
 
+archivo_csv = 'datos.csv'
+datos_usuario = ['Monto del gasto','Categoria','Fecha(opcional)']
+
 while True:
-    eventos,values = window.read()
-    if eventos == sg.WIN_CLOSED or eventos == 'Salir':
+    evento,values = window.read()
+    if evento == sg.WIN_CLOSED or evento == 'Salir':
         break
-    if eventos == 'Guardar gasto':
+    if evento == 'Guardar gasto':
+        datos = [values['MONTO'],values['CATEGORIA'],values['FECHA']]
+        datos_csv(archivo_csv,datos, datos_usuario)
+        sg.popup('Datos guardados correctamente')
+
+
+
+
+
+
+        
         
 
 
