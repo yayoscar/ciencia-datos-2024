@@ -1,6 +1,7 @@
 La IA que utilicé fue Claude Sonnet 4
 
-Yo.-Necesito que me expliques, como si fueras un maestro de programación y paso a paso, cómo puedo guardar una fila de dos datos de un archivo de Python a un archivo csv
+# Yo.-Necesito que me expliques, como si fueras un maestro de programación y paso a paso, cómo puedo guardar una fila de dos datos de un archivo de Python a un archivo csv
+
 Te explico paso a paso cómo guardar datos en un archivo CSV desde Python:
 
 ## Método 1: Usando el módulo csv (Recomendado)
@@ -91,7 +92,8 @@ print("Archivo CSV creado exitosamente")
 
 ¿Te gustaría que profundice en algún aspecto específico o tienes algún caso particular que necesitas resolver?
 
-Yo.-Para lo que estoy haciendo tengo que asegurarme que el primer dato sea numérico, paso a paso explícame cómo puedo hacer eso. Son filas de 2 datos
+# Yo.-Para lo que estoy haciendo tengo que asegurarme que el primer dato sea numérico, paso a paso explícame cómo puedo hacer eso. Son filas de 2 datos
+
 Te explico paso a paso cómo validar que el primer dato sea numérico antes de guardarlo en el CSV:
 
 ## Paso 1: Función para verificar si un dato es numérico
@@ -264,7 +266,8 @@ Fila guardada correctamente: [42, 'Ana']
 
 ¿Te gustaría que ajuste algún aspecto específico de la validación o tienes algún caso particular que necesitas manejar?
 
-Yo.-Ahora cómo puedo mostrar los datos de un archivo csv en mi interfaz gráfica (usando FreeSimpleGUI) en un archivo .py
+# Yo.-Ahora cómo puedo mostrar los datos de un archivo csv en mi interfaz gráfica (usando FreeSimpleGUI) en un archivo .py
+
 Te explico paso a paso cómo mostrar datos CSV en una interfaz gráfica con FreeSimpleGUI:
 
 ## Paso 1: Instalar FreeSimpleGUI
@@ -483,7 +486,8 @@ Al ejecutar obtendrás una ventana con:
 
 ¿Te gustaría que agregue alguna funcionalidad específica como filtros, edición de datos, o búsqueda?
 
-Yo.-Cómo puedo hacer que la lista de listas (del método 1) se muestre en forma de tabla? Explícame paso a paso
+# Yo.-Cómo puedo hacer que la lista de listas (del método 1) se muestre en forma de tabla? Explícame paso a paso
+
 Te explico paso a paso cómo convertir una lista de listas en una tabla visual usando FreeSimpleGUI:
 
 ## Paso 1: Entender la estructura de datos
@@ -750,3 +754,316 @@ Tu lista de listas se mostrará como una tabla profesional con:
 - Capacidad de actualización
 
 ¿Te gustaría que agregue alguna funcionalidad específica como ordenamiento, filtros o edición de celdas?
+
+# Yo.-Cómo puedo hacer que automáticamente (sin que el usuario lo ingrese) añada la fecha de el día (Día/Mes/Año) como otro dato en cada fila en el archivo csv? Es decir, cuando el usuario ingrese el dinero y la categoría, cómo hago que se añada la fecha? Explícame paso a paso.
+Te explico paso a paso cómo añadir automáticamente la fecha actual a cada fila del CSV:
+
+## Paso 1: Importar el módulo datetime
+
+```python
+import csv
+from datetime import datetime
+```
+
+## Paso 2: Función para obtener la fecha actual
+
+```python
+def obtener_fecha_actual():
+    """Obtiene la fecha actual en formato DD/MM/YYYY"""
+    fecha_hoy = datetime.now()
+    return fecha_hoy.strftime("%d/%m/%Y")
+
+# Ejemplo de uso:
+print(obtener_fecha_actual())  # Salida: 11/06/2025
+```
+
+## Paso 3: Modificar tu función de validación para incluir fecha
+
+```python
+import csv
+from datetime import datetime
+
+def es_numerico(valor):
+    """Verifica si un valor es numérico"""
+    try:
+        float(valor)
+        return True
+    except ValueError:
+        return False
+
+def obtener_fecha_actual():
+    """Obtiene la fecha actual en formato DD/MM/YYYY"""
+    return datetime.now().strftime("%d/%m/%Y")
+
+def validar_y_agregar_fecha(dinero, categoria):
+    """Valida el dinero y agrega la fecha automáticamente"""
+    
+    # Validar que el dinero sea numérico
+    if not es_numerico(dinero):
+        return False, f"El dinero '{dinero}' no es numérico"
+    
+    # Convertir dinero a float o int
+    dinero_numerico = float(dinero)
+    if dinero_numerico.is_integer():
+        dinero_numerico = int(dinero_numerico)
+    
+    # Obtener fecha actual
+    fecha_actual = obtener_fecha_actual()
+    
+    # Crear fila completa: [dinero, categoria, fecha]
+    fila_completa = [dinero_numerico, categoria, fecha_actual]
+    
+    return True, fila_completa
+```
+
+## Paso 4: Función para guardar con fecha automática
+
+```python
+def guardar_gasto_con_fecha(dinero, categoria, archivo_csv):
+    """Guarda un gasto con fecha automática al CSV"""
+    
+    # Validar y preparar datos
+    es_valido, resultado = validar_y_agregar_fecha(dinero, categoria)
+    
+    if not es_valido:
+        print(f"Error: {resultado}")
+        return False
+    
+    # Guardar en CSV
+    try:
+        with open(archivo_csv, 'a', newline='', encoding='utf-8') as archivo:
+            escritor = csv.writer(archivo)
+            escritor.writerow(resultado)
+        
+        print(f"Gasto guardado: {resultado}")
+        return True
+        
+    except Exception as e:
+        print(f"Error al guardar: {e}")
+        return False
+```
+
+## Paso 5: Ejemplo completo de uso
+
+```python
+import csv
+from datetime import datetime
+
+def es_numerico(valor):
+    try:
+        float(valor)
+        return True
+    except ValueError:
+        return False
+
+def obtener_fecha_actual():
+    return datetime.now().strftime("%d/%m/%Y")
+
+def validar_y_agregar_fecha(dinero, categoria):
+    if not es_numerico(dinero):
+        return False, f"El dinero '{dinero}' no es numérico"
+    
+    dinero_numerico = float(dinero)
+    if dinero_numerico.is_integer():
+        dinero_numerico = int(dinero_numerico)
+    
+    fecha_actual = obtener_fecha_actual()
+    fila_completa = [dinero_numerico, categoria, fecha_actual]
+    
+    return True, fila_completa
+
+def guardar_gasto_con_fecha(dinero, categoria, archivo_csv):
+    es_valido, resultado = validar_y_agregar_fecha(dinero, categoria)
+    
+    if not es_valido:
+        print(f"Error: {resultado}")
+        return False
+    
+    try:
+        with open(archivo_csv, 'a', newline='', encoding='utf-8') as archivo:
+            escritor = csv.writer(archivo)
+            escritor.writerow(resultado)
+        
+        print(f"Gasto guardado: {resultado}")
+        return True
+        
+    except Exception as e:
+        print(f"Error al guardar: {e}")
+        return False
+
+def crear_archivo_con_headers(archivo_csv):
+    """Crea el archivo CSV con encabezados si no existe"""
+    try:
+        with open(archivo_csv, 'x', newline='', encoding='utf-8') as archivo:
+            escritor = csv.writer(archivo)
+            escritor.writerow(['Dinero', 'Categoria', 'Fecha'])
+        print("Archivo creado con encabezados")
+    except FileExistsError:
+        print("El archivo ya existe")
+
+# Ejemplo de uso
+if __name__ == "__main__":
+    archivo = "gastos.csv"
+    
+    # Crear archivo con encabezados (solo la primera vez)
+    crear_archivo_con_headers(archivo)
+    
+    # Simular entrada de usuario
+    gastos_ejemplo = [
+        ("250.50", "Comida"),
+        ("1000", "Renta"),
+        ("50", "Transporte"),
+        ("75.25", "Entretenimiento")
+    ]
+    
+    # Guardar cada gasto
+    for dinero, categoria in gastos_ejemplo:
+        print(f"\nGuardando: {dinero} - {categoria}")
+        guardar_gasto_con_fecha(dinero, categoria, archivo)
+```
+
+## Paso 6: Integración con FreeSimpleGUI
+
+```python
+import csv
+import FreeSimpleGUI as sg
+from datetime import datetime
+
+def obtener_fecha_actual():
+    return datetime.now().strftime("%d/%m/%Y")
+
+def es_numerico(valor):
+    try:
+        float(valor)
+        return True
+    except ValueError:
+        return False
+
+def guardar_gasto_automatico(dinero, categoria, archivo):
+    """Guarda gasto con fecha automática"""
+    if not es_numerico(dinero):
+        return False, "El dinero debe ser numérico"
+    
+    dinero_num = float(dinero)
+    if dinero_num.is_integer():
+        dinero_num = int(dinero_num)
+    
+    fecha = obtener_fecha_actual()
+    fila = [dinero_num, categoria, fecha]
+    
+    try:
+        with open(archivo, 'a', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow(fila)
+        return True, fila
+    except Exception as e:
+        return False, str(e)
+
+def crear_interfaz_gastos():
+    """Interfaz para registrar gastos"""
+    sg.theme('LightBlue2')
+    
+    layout = [
+        [sg.Text('💰 Registro de Gastos', font=('Arial', 16, 'bold'))],
+        [sg.HorizontalSeparator()],
+        
+        [sg.Text('Dinero:'), sg.Input(key='-DINERO-', size=(15, 1))],
+        [sg.Text('Categoría:'), sg.Input(key='-CATEGORIA-', size=(20, 1))],
+        
+        [sg.Button('💾 Guardar Gasto'), sg.Button('📊 Ver Gastos'), sg.Button('❌ Salir')],
+        
+        [sg.Text('', key='-STATUS-', text_color='blue')],
+        [sg.Text(f'Fecha actual: {obtener_fecha_actual()}', font=('Arial', 10), text_color='gray')]
+    ]
+    
+    return sg.Window('Control de Gastos', layout)
+
+def main():
+    archivo_gastos = "mis_gastos.csv"
+    
+    # Crear archivo con headers si no existe
+    try:
+        with open(archivo_gastos, 'x', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow(['Dinero', 'Categoria', 'Fecha'])
+    except FileExistsError:
+        pass
+    
+    ventana = crear_interfaz_gastos()
+    
+    while True:
+        evento, valores = ventana.read()
+        
+        if evento in (sg.WIN_CLOSED, '❌ Salir'):
+            break
+        
+        elif evento == '💾 Guardar Gasto':
+            dinero = valores['-DINERO-'].strip()
+            categoria = valores['-CATEGORIA-'].strip()
+            
+            if not dinero or not categoria:
+                ventana['-STATUS-'].update('⚠️ Completa todos los campos')
+                continue
+            
+            exito, resultado = guardar_gasto_automatico(dinero, categoria, archivo_gastos)
+            
+            if exito:
+                ventana['-STATUS-'].update(f'✅ Guardado: ${resultado[0]} - {resultado[1]} - {resultado[2]}')
+                # Limpiar campos
+                ventana['-DINERO-'].update('')
+                ventana['-CATEGORIA-'].update('')
+            else:
+                ventana['-STATUS-'].update(f'❌ Error: {resultado}')
+        
+        elif evento == '📊 Ver Gastos':
+            # Aquí podrías abrir otra ventana para mostrar los gastos
+            sg.popup(f'Los gastos están guardados en: {archivo_gastos}')
+    
+    ventana.close()
+
+if __name__ == '__main__':
+    main()
+```
+
+## Paso 7: Personalizar formato de fecha (Opcional)
+
+```python
+def obtener_fecha_personalizada(formato="dd/mm/yyyy"):
+    """Obtiene fecha en diferentes formatos"""
+    fecha = datetime.now()
+    
+    formatos = {
+        "dd/mm/yyyy": "%d/%m/%Y",        # 11/06/2025
+        "yyyy-mm-dd": "%Y-%m-%d",        # 2025-06-11
+        "dd-mm-yyyy": "%d-%m-%Y",        # 11-06-2025
+        "mm/dd/yyyy": "%m/%d/%Y",        # 06/11/2025
+        "completa": "%d/%m/%Y %H:%M:%S"  # 11/06/2025 14:30:25
+    }
+    
+    return fecha.strftime(formatos.get(formato, "%d/%m/%Y"))
+
+# Ejemplos:
+print(obtener_fecha_personalizada("dd/mm/yyyy"))  # 11/06/2025
+print(obtener_fecha_personalizada("yyyy-mm-dd"))  # 2025-06-11
+print(obtener_fecha_personalizada("completa"))    # 11/06/2025 14:30:25
+```
+
+## Resultado en el CSV:
+
+Tu archivo CSV se verá así:
+```
+Dinero,Categoria,Fecha
+250.5,Comida,11/06/2025
+1000,Renta,11/06/2025
+50,Transporte,11/06/2025
+75.25,Entretenimiento,11/06/2025
+```
+
+## Puntos clave:
+
+1. **Automático**: La fecha se añade sin intervención del usuario
+2. **Formato consistente**: Siempre DD/MM/YYYY
+3. **Validación**: Sigue validando el dinero como numérico
+4. **Tres columnas**: Dinero, Categoría, Fecha
+
+¿Te gustaría que agregue alguna funcionalidad adicional como hora específica, diferentes formatos de fecha, o validación de categorías?
