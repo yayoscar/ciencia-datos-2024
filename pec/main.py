@@ -1,6 +1,9 @@
 import FreeSimpleGUI as sg
+from numpy.ma.core import append
+
 from funciones import guardar_gasto, obtener_resumen
 
+nombre_archivo = "datos.csv"
 sg.theme("DarkRed")
 
 layout = [
@@ -26,15 +29,20 @@ while True:
         if monto and categoria:
             try:
                 monto = float(monto)
-                guardar_gasto(monto, categoria, fecha)
-                ventana["SALIDA"].update("Gasto guardado\n", append=True)
+                guardar_gasto(nombre_archivo, monto, categoria, fecha)
+                sg.popup("Gasto guardado correctamente.")
+                nuevo = f"Gasto Guardado: ${monto} - {categoria} - {fecha}\n"
+                ventana["SALIDA"].update(nuevo, append=True)
+                ventana["MONTO"].update("")
+                ventana["FECHA"].update("")
+                ventana["CATEGORIA"].update("")
             except ValueError:
-                ventana["SALIDA"].update("Monto inválido\n", append=True)
+                sg.popup_error("El monto debe ser un número válido.")
         else:
-            ventana["SALIDA"].update("Faltan datos obligatorios\n", append=True)
+            sg.popup_error("Debe completar el monto y la categoría.")
 
     elif evento == "Ver resumen":
-        resumen, total = obtener_resumen()
+        resumen, total = obtener_resumen(nombre_archivo)
         salida = ""
         for cat, suma in resumen.items():
             salida += f"{cat}: ${suma:.2f}\n"
