@@ -1,29 +1,25 @@
 import FreeSimpleGUI as sg
-import csv
-
+from funciones import guardar_gasto,ver_resumen
 layout = [
     [sg.Text("Monto del gasto:"), sg.Input(key="MONTO")],
     [sg.Text("Categoría:"), sg.Combo(["Comida", "Transporte", "Otros"], key="CATEGORIA")],
     [sg.Text("Fecha (opcional):"), sg.Input(key="FECHA")],
-    [sg.Button("Guardar gasto"), sg.Button("Ver resumen")]
+    [sg.Button("Guardar gasto"), sg.Button("Ver resumen")],
+    [sg.Multiline("", size=(30, 10), key="RESUMEN", disabled=True)]
 ]
-
-window = sg.Window("Registro de Gastos y Categorías", layout, font=('Arial', 25))
-
+ventana =  sg.Window(" Registro de Gastos y Categorías",layout,font=('Britannic Negrita',20))
 while True:
-    evento, values = window.read()
+    evento, values = ventana.read()
     if evento == sg.WIN_CLOSED:
         break
     elif evento == "Guardar gasto":
-        Monto = values["MONTO"]
-        Categoria = values["CATEGORIA"]
-        Fecha = values["FECHA"]
-
-        with open("datos.csv", "a", newline='') as archivo:
-            writer = csv.writer(archivo)
-            writer.writerow([f"El monto es de: {Monto}"])
-            writer.writerow([f"La categoría es: {Categoria}"])
-            writer.writerow([f"La fecha es: {Fecha}"])
-
-window.close()
+        monto = values["MONTO"]
+        categoria = values["CATEGORIA"]
+        fecha = values["FECHA"]
+        guardar_gasto(monto, categoria, fecha)
+    elif evento == "Ver resumen":
+        resumen = ver_resumen()
+        ventana['RESUMEN'].update(resumen)
+        ventana.read()
+ventana.close()
 
