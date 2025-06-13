@@ -1,3 +1,64 @@
+Yo: en si que es la libreria json?
+La **librería `json`** en Python es un **módulo estándar** que permite **trabajar con datos en formato JSON**.
+
+---
+
+### 📌 ¿Qué es JSON?
+
+**JSON** (JavaScript Object Notation) es un formato **ligero** y **legible por humanos** para almacenar y transportar datos. Se usa muchísimo para:
+
+* Comunicar datos entre aplicaciones (por ejemplo, entre un servidor y un navegador)
+* Guardar configuraciones o información estructurada
+* Almacenar bases de datos ligeras
+
+Ejemplo de JSON:
+
+```json
+{
+  "nombre": "Juan",
+  "edad": 30,
+  "hobbies": ["leer", "nadar"],
+  "activo": true
+}
+```
+
+---
+
+### 📚 ¿Qué hace la librería `json` en Python?
+
+Permite convertir entre:
+
+| JSON                 | Python                      |
+| -------------------- | --------------------------- |
+| `{"nombre": "Juan"}` | `{"nombre": "Juan"}` (dict) |
+| `"true"`             | `True`                      |
+| `"false"`            | `False`                     |
+| `"null"`             | `None`                      |
+| `[1, 2, 3]`          | `[1, 2, 3]` (list)          |
+
+---
+
+### 🔧 Funciones principales del módulo `json`
+
+| Función        | ¿Qué hace?                                  | Ejemplo breve                                |
+| -------------- | ------------------------------------------- | -------------------------------------------- |
+| `json.loads()` | Convierte una **cadena JSON** a un **dict** | `json.loads('{"x": 1}')` → `{"x": 1}`        |
+| `json.dumps()` | Convierte un **dict** a **cadena JSON**     | `json.dumps({"x": 1})` → `'{"x": 1}'`        |
+| `json.load()`  | Carga JSON desde un archivo a un dict       | `json.load(open("archivo.json"))`            |
+| `json.dump()`  | Guarda un dict como JSON en un archivo      | `json.dump(data, open("archivo.json", "w"))` |
+
+---
+
+### 🧠 En resumen:
+
+* `json` es una **librería estándar** (no necesitas instalar nada).
+* Se usa para **leer, escribir y convertir datos JSON** en Python.
+* Muy útil cuando trabajas con **APIs, archivos de configuración o almacenamiento de datos ligeros**.
+
+---
+
+¿Quieres que te muestre un ejemplo de cómo convertir entre JSON y diccionario paso a paso?
+
 YO:hazme un programa para aprender a usar json o csv en python
 
 IA:Claro, aquí tienes un programa sencillo en Python que te ayuda a aprender a usar **JSON** y **CSV**. Incluye ejemplos de lectura y escritura para ambos formatos.
@@ -122,3 +183,190 @@ para que sirven estas dos indent=4, ensure_ascii=False
 ¿Quieres que te ayude a probar un ejemplo donde uses estos parámetros para guardar datos con tildes y ñ?
 
  Yo: Esto me ayudo a entender comandos que yo no conocia
+Yo: hazme un curso de ejercicios en los que aprenda a usar json desde cero
+¡Perfecto! Aquí tienes un **curso de ejercicios para aprender a usar JSON desde cero con Python**, organizado en niveles progresivos. Puedes trabajar uno por uno y te iré ayudando si tienes dudas o quieres ampliar algo.
+
+---
+
+## 🧩 **Curso: Aprendiendo JSON con Python desde Cero**
+
+---
+
+### ✅ **Nivel 1: Fundamentos de JSON**
+
+#### 📌 Ejercicio 1: ¿Qué es JSON?
+
+**Objetivo**: Entender qué es JSON y cómo se ve.
+
+* Lee este JSON:
+
+```json
+{
+  "nombre": "Ana",
+  "edad": 30,
+  "ciudad": "Madrid"
+}
+```
+
+**Actividad**: Escribe un resumen en tus palabras:
+
+* ¿Qué tipo de datos ves?
+* ¿Cómo se estructuran?
+
+---
+
+#### 📌 Ejercicio 2: Convertir JSON a Diccionario en Python
+
+**Objetivo**: Cargar un JSON (en forma de cadena) a un diccionario.
+
+```python
+import json
+
+datos_json = '{"nombre": "Luis", "edad": 25, "ciudad": "Lima"}'
+diccionario = json.loads(datos_json)
+print(diccionario)
+```
+
+**Actividad**:
+
+* Modifica el JSON para incluir `"correo": "luis@example.com"`
+* Imprime el valor del correo desde el diccionario.
+
+---
+
+### ✅ **Nivel 2: Convertir entre Diccionario y JSON**
+
+#### 📌 Ejercicio 3: Diccionario a JSON (serialización)
+
+```python
+import json
+
+persona = {
+    "nombre": "Claudia",
+    "edad": 28,
+    "ciudad": "Bogotá"
+}
+
+json_string = json.dumps(persona)
+print(json_string)
+```
+
+**Actividad**:
+
+* Agrega una lista `"hobbies": ["leer", "correr", "viajar"]`
+* Usa `indent=4` en `json.dumps` para imprimir bonito (formato pretty).
+
+---
+
+### ✅ **Nivel 3: Leer y Escribir Archivos JSON**
+
+#### 📌 Ejercicio 4: Guardar un JSON en un archivo
+
+```python
+import json
+
+persona = {
+    "nombre": "Carlos",
+    "edad": 35,
+    "profesion": "Ingeniero"
+}
+
+with open("persona.json", "w") as archivo:
+    json.dump(persona, archivo)
+```
+
+**Actividad**:
+
+* Abre el archivo `persona.json` en tu editor. ¿Qué ves?
+* Agrega `"casado": False` al diccionario.
+
+---
+
+#### 📌 Ejercicio 5: Leer un JSON desde un archivo
+
+```python
+import json
+
+with open("persona.json", "r") as archivo:
+    datos = json.load(archivo)
+
+print(datos)
+```
+
+**Actividad**:
+
+* Accede a una clave del JSON y muéstrala con `print()`
+* ¿Qué pasa si accedes a una clave que no existe?
+
+---
+
+### ✅ **Nivel 4: Listas y Diccionarios en JSON**
+
+#### 📌 Ejercicio 6: Lista de personas
+
+```python
+personas = [
+    {"nombre": "Ana", "edad": 22},
+    {"nombre": "Pedro", "edad": 27},
+    {"nombre": "Lucía", "edad": 31}
+]
+
+with open("personas.json", "w") as archivo:
+    json.dump(personas, archivo, indent=4)
+```
+
+**Actividad**:
+
+* Lee el archivo y muestra los nombres con un `for`.
+
+---
+
+### ✅ **Nivel 5: Proyecto Mini**
+
+#### 📌 Ejercicio 7: Agenda simple
+
+**Actividad**:
+
+1. Crea un programa que:
+
+   * Lea un archivo `agenda.json` (si existe)
+   * Permita agregar un contacto: nombre, teléfono, email
+   * Guarde la agenda al cerrar
+
+**Pistas**:
+
+* Usa funciones para: `cargar_agenda()`, `guardar_agenda()`, `agregar_contacto()`
+* La agenda puede ser una lista de contactos
+
+---
+
+### ✅ **Nivel 6: Validación y manejo de errores**
+
+#### 📌 Ejercicio 8: Manejo de errores
+
+**Actividad**:
+
+* Intenta leer un archivo JSON corrupto o que no existe
+* Usa `try-except` para manejar `json.JSONDecodeError` y `FileNotFoundError`
+
+---
+
+¿Quieres que avancemos uno por uno y te ayudo con cada ejercicio? ¿O prefieres que te envíe todos los códigos listos en archivos separados?
+
+ yo:para que sirve el if not?
+ 👇 ¿Qué significa exactamente?
+Este if not está preguntando:
+
+"¿La lista datos["aportes"] está vacía?"
+
+Porque en Python:
+
+Una lista vacía ([]) se considera falsa.
+
+Una lista con datos ([500, 400]) se considera verdadera.
+
+Entonces:
+
+not [] → True
+
+not [500] → False

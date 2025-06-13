@@ -1,6 +1,4 @@
 import FreeSimpleGUI as sg
-from funciones import guardar_datos_en_archivo
-
 layout = [
 [sg.Text("Meta de ahorro:"), sg.Input(key="META")],
 [sg.Text("Número de semanas:"), sg.Input(key="SEMANAS")],
@@ -10,6 +8,7 @@ layout = [
 
 
 window = sg.Window("Reto de Ahorro", layout)
+
 
 while True:
     evento, valores = window.read()
