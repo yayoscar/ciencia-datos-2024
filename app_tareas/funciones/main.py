@@ -25,7 +25,7 @@ while True:
 
         todos.append(todo)
 
-        with open("todos.txt","w") as archivo:
+        with open("todos.txt", "w") as archivo:
                 archivo.writelines(todos)
     elif accion_usuario.startswith("mostrar"):
         with open("todos.txt", "r") as archivo:
