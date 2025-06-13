@@ -10,3 +10,6 @@ def datos_csv(nombre_archivo,datos,datos_usuario=None):
         if not archivo and datos_usuario:
             respuestas.writerow(datos_usuario)
         respuestas.writerow(datos)
+
+
+

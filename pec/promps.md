@@ -1,3 +1,4 @@
+promp 1
 Dime paso a paso como puedo crear  archivo csv 
 que guarde los datos que un usuario ingreso al usar  
 un código de Python que usa FreeSimpleGUI
@@ -72,6 +73,7 @@ Validar entradas (números, correos, etc.) antes de guardarlas.
 Guardar el archivo en otra carpeta: cambia 'usuarios.csv' por
 'datos/usuarios.csv', por ejemplo.
 
+promp 2
 Y como lo puedo hacer con una función?
 
 ¡Buena idea! Encapsular el guardado de datos en una función
@@ -137,3 +139,84 @@ ventana.close()
 Si luego quieres guardar en otro archivo, solo cambias el nombre.
 Puedes llamar esa función desde otros formularios o scripts.
 Mejora la legibilidad y mantenimiento del código.
+
+promp 3
+
+Dame un ejemplo explicado paso a paso de con que comando puedo 
+hacer que si el usuario no pone ninguna fecha, lo ponga de manera automática
+
+Claro, te explico paso a paso cómo puedes hacer que, si el usuario no ingresa ninguna fecha, el programa automáticamente use la fecha actual del sistema. Todo esto usando Python y PySimpleGUI.
+
+
+---
+
+🎯 Objetivo
+
+Cuando el usuario deja el campo "Fecha" vacío, se asigna automáticamente la fecha de hoy.
+
+
+---
+
+✅ Paso a paso
+
+🔹 Paso 1: Importar el módulo datetime
+
+Este módulo permite obtener la fecha actual del sistema.
+
+from datetime import datetime
+
+🔹 Paso 2: Leer el campo de fecha
+
+Cuando el usuario hace clic en el botón "Guardar gasto", lees el valor con:
+
+fecha_ingresada = values['FECHA']
+
+🔹 Paso 3: Verificar si está vacío y asignar fecha actual
+
+Usas una condición para verificar si el campo está vacío (""). Si lo está, usas:
+
+fecha = datetime.today().strftime('%Y-%m-%d')
+
+Esto genera la fecha de hoy en formato 2025-06-13.
+
+Entonces el código completo sería:
+
+# Si el usuario escribió una fecha, úsala. Si no, usa la fecha actual.
+fecha = fecha_ingresada if fecha_ingresada else datetime.today().strftime('%Y-%m-%d')
+
+
+---
+
+✅ Ejemplo práctico:
+
+from datetime import datetime
+
+# Simulamos lo que el usuario escribe en el formulario
+values = {'FECHA': ''}  # El usuario deja la fecha vacía
+
+# Paso 1: Leer lo que el usuario ingresó
+fecha_ingresada = values['FECHA']
+
+# Paso 2: Verificar si está vacío
+if fecha_ingresada == '':
+    # Paso 3: Usar fecha del sistema
+    fecha = datetime.today().strftime('%Y-%m-%d')
+else:
+    # Si no está vacío, usamos lo que escribió el usuario
+    fecha = fecha_ingresada
+
+print("Fecha final:", fecha)
+
+Resultado si el usuario deja la fecha vacía:
+
+Fecha final: 2025-06-13
+
+
+---
+
+💡 Resumen
+
+Condición	Resultado
+
+Usuario deja fecha vacía	Usa la fecha de hoy
+Usuario escribe una fecha manual	Usa la que escribió
