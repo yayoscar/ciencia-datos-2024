@@ -1,6 +1,4 @@
 import csv
-from os import write
-
 import FreeSimpleGUI as sg
 from FreeSimpleGUI import WIN_CLOSED
 from datetime import datetime
@@ -18,6 +16,7 @@ def añade_csv(fila):
     with open("datos.csv", "a", newline='', encoding='utf-8') as archivo:
         escritor = csv.writer(archivo)
         escritor.writerow(fila)
+    return True
 
 def leer_dict():
     with open('datos.csv', 'r') as csvfile:
@@ -27,23 +26,28 @@ def leer_dict():
 
 def comprobar(fila):
     valor = fila[0]
-    try:
-        valor= float(valor)
-        if float(valor).is_integer():
-            valor = int(valor)
-    except ValueError:
-        sg.popup("No se puede guardar, el valor de monto debe ser un número", title="Error")
-    ovalor = fila[1]
-    if ovalor == str:
-        ovalor = True
-    if ovalor:
-        return True
-    else:
-        sg.popup("No se puede guardar, debe poner la categoría", title="Error")
+    while True:
+        try:
+            valor= float(valor)
+            if float(valor).is_integer():
+                valor = int(valor)
+        except ValueError:
+            sg.popup("No se puede guardar, el valor de monto debe ser un número", title="Error", background_color="#611227", font=("Cascadia Mono", 14), button_color="#EA9CB1")
+            break
+        ovalor = fila[1]
+        if ovalor == str:
+            ovalor = True
+        if ovalor:
+            return True
+        else:
+            sg.popup("No se puede guardar, debe poner la categoría", title="Error", background_color="#611227", font=("Cascadia Mono", 14), button_color="#EA9CB1")
+            break
+    return False
+
 
 def leer_csv(nombre_archivo = 'datos.csv'):
     datos = []
-    with open(nombre_archivo, 'r', encoding='utf-8') as archivo:
+    with open(nombre_archivo, 'r') as archivo:
         lector = csv.reader(archivo)
         for fila in lector:
             datos.append(fila)
@@ -52,10 +56,10 @@ def leer_csv(nombre_archivo = 'datos.csv'):
 def mostrar_tabla():
     datos = leer_csv()
     layout2 = [
-        [sg.Table(values=datos, headings=['Montos', 'Categorías', 'Fechas'])],
-        [sg.Push(), sg.Button("Limpiar"), sg.Button("Cerrar")]
+        [sg.Table(values=datos, headings=['Montos', 'Categorías', 'Fechas'], background_color="#EA9CB1", sbar_background_color="#8F1535", header_text_color="#BA4329", text_color="#8F1535")],
+        [sg.Push(background_color="#ECAD83"), sg.Button("Limpiar", button_color="#8F1535"), sg.Button("Cerrar", button_color="#8F1535")]
     ]
-    window = sg.Window("Registro", layout2)
+    window = sg.Window("Registro", layout2, background_color="#ECAD83", font=("Cascadia Mono", 13))
     while True:
         evento, diccionario = window.read()
         if evento == "Cerrar" or evento == WIN_CLOSED:
@@ -65,12 +69,13 @@ def mostrar_tabla():
             break
     window.close()
 
+
 def borrar_registro():
     layout4 = [
-        [sg.Text("¿Estás seguro de borrar todos los registros?")],
-        [sg.Push(), sg.Button("Sí"), sg.Button("No")]
+        [sg.Text("¿Estás seguro de borrar todos los registros?", background_color="#BA4329")],
+        [sg.Push(background_color="#BA4329"), sg.Button("Sí", button_color="#8F1535"), sg.Button("No", button_color="#8F1535")]
     ]
-    ventana2 = sg.Window("Limpiar", layout4)
+    ventana2 = sg.Window("Limpiar", layout4, font=("Cascadia Mono", 14), background_color="#BA4329")
     while True:
         evento, valores = ventana2.read()
         if evento == "Sí":
@@ -126,17 +131,17 @@ def hacer_resumen():
 def mostrar_resumen():
     comida, salud, transporte, ropa_o_accesorios, impuestos, vivienda, otro, total = hacer_resumen()
     layout3 = [
-        [sg.Text("Gastos en Comida:"),sg.Push(), sg.Text(f"{comida}$")],
-        [sg.Text("Gastos en Transporte:"),sg.Push(), sg.Text(f"{transporte}$")],
-        [sg.Text("Gastos en Salud:"),sg.Push(), sg.Text(f"{salud}$")],
-        [sg.Text("Gastos en Ropa o accesorios:"),sg.Push(), sg.Text(f"{ropa_o_accesorios}$")],
-        [sg.Text("Gastos en Impuestos:"),sg.Push(), sg.Text(f"{impuestos}$")],
-        [sg.Text("Gastos en Vivienda:"),sg.Push(), sg.Text(f"{vivienda}$")],
-        [sg.Text("Gastos en Otros:"),sg.Push(), sg.Text(f"{otro}$")],
-        [sg.Text("Gastos totales:"), sg.Push(), sg.Text(f"{total}$")],
-        [sg.Push(), sg.Button("Cerrar")]
+        [sg.Text("Gastos en Comida:", background_color="#B04461"),sg.Push(background_color="#B04461"), sg.Text(f"{comida}$", background_color="#B04461")],
+        [sg.Text("Gastos en Transporte:", background_color="#B04461"),sg.Push(background_color="#B04461"), sg.Text(f"{transporte}$", background_color="#B04461")],
+        [sg.Text("Gastos en Salud:", background_color="#B04461"),sg.Push(background_color="#B04461"), sg.Text(f"{salud}$", background_color="#B04461")],
+        [sg.Text("Gastos en Ropa o accesorios:", background_color="#B04461"),sg.Push(background_color="#B04461"), sg.Text(f"{ropa_o_accesorios}$", background_color="#B04461")],
+        [sg.Text("Gastos en Impuestos:", background_color="#B04461"),sg.Push(background_color="#B04461"), sg.Text(f"{impuestos}$", background_color="#B04461")],
+        [sg.Text("Gastos en Vivienda:", background_color="#B04461"),sg.Push(background_color="#B04461"), sg.Text(f"{vivienda}$", background_color="#B04461")],
+        [sg.Text("Gastos en Otros:", background_color="#B04461"),sg.Push(background_color="#B04461"), sg.Text(f"{otro}$", background_color="#B04461")],
+        [sg.Text("Gastos totales:", background_color="#B04461"), sg.Push(background_color="#B04461"), sg.Text(f"{total}$", background_color="#B04461")],
+        [sg.Push(background_color="#B04461"), sg.Button("Cerrar", button_color="#BA4329")]
         ]
-    window2 = sg.Window("Resumen de gastos", layout3)
+    window2 = sg.Window("Resumen de gastos", layout3, font=("Cascadia Mono", 15), background_color="#B04461")
     while True:
         evento, diccionario = window2.read()
         if evento == "Cerrar" or evento == WIN_CLOSED:
@@ -146,3 +151,8 @@ def mostrar_resumen():
 def obtener_fecha():
     fecha_hoy = datetime.now()
     return fecha_hoy.strftime("%d/%m/%Y")
+
+def borrar_campos(ventana):
+    ventana["monto"].update("")
+    ventana["categoria"].update("")
+    ventana["fecha"].update("")
