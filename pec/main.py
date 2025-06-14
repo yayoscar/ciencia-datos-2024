@@ -1,14 +1,11 @@
 import FreeSimpleGUI as sg
-import csv
-import os
-import funciones
-from pec.funciones import guardar_gastos
+from pec.funciones import guardar_gastos,mostrar_datos
 
 layout= [
     [sg.Text("Monto del gasto: "), sg.Input(key="MONTO")],
     [sg.Text("Categoria"), sg.Combo(["Comida", "Transporte", "Otros"], key="CATEGORIA")],
     [sg.Text("Fecha (opcional)"), sg.Input(key="FECHA")],
-    [sg.Button("Guardar gasto"), sg.Button("Ver resumen")],
+    [sg.Button("Guardar gasto"), sg.Button("Ver resumen"), sg.Button("Salir")],
     [sg.Text('', size=(40,1), key='-STATUS-')]
 
 ]
@@ -24,5 +21,10 @@ while True:
         categoria= values["CATEGORIA"]
         fecha= values["FECHA"]
         guardar_gastos(ventana, fecha, monto, categoria)
+    elif event == 'Ver resumen':
+            try:
+                sg.popup("Resumen de gastos",mostrar_datos('datos.csv'))
+            except Exception as e:
+                ventana['-STATUS-'].update(f"Error al leer el archivo: {e}")
 
 ventana.close()
