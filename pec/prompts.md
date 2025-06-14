@@ -370,3 +370,22 @@ Entonces:
 not [] → True
 
 not [500] → False
+
+Yo: Puedo cambiar el icono de la ventana de free simple Gui?
+¡Sí, puedes cambiar el ícono de la ventana en FreeSimpleGUI!
+
+Para hacerlo, cuando creas la ventana con `sg.Window()`, usas el parámetro `icon`, donde pasas la ruta al archivo del ícono (.ico en Windows, .png en algunos casos).
+
+Por ejemplo:
+
+```python
+window = sg.Window("Reto de Ahorro", layout, icon="ruta/a/tu/icono.ico")
+```
+
+Algunas cosas importantes:
+
+* Lo más común es usar un archivo `.ico` (especialmente en Windows).
+* La ruta puede ser relativa o absoluta.
+* Si no pones un ícono válido, la ventana usará el ícono por defecto del sistema.
+
+¿Quieres que te ayude a crear un ícono?

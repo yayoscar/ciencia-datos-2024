@@ -21,6 +21,16 @@ def guardar_datos_en_archivo(metas,semanas,aportes):
     with open(archivo_datos, "w") as archivo_write:
         json.dump(datos,archivo_write,indent=2)
 
+#Para crear nuevas metas
+def reiniciar_meta():
+    datos = {
+        "meta": 0,
+        "semanas": 0,
+        "aportes": []
+    }
+    with open(archivo_datos,"w") as archivo_formateado:
+        json.dump(datos,archivo_formateado, indent=2)
+
 def calcular_progreso():
     datos = cargar_datos_json()
     total_ahorrado = sum(datos["aportes"])
@@ -29,7 +39,8 @@ def calcular_progreso():
     porcentaje = min(100, (total_ahorrado / meta * 100) if meta > 0 else 0)
     if total_ahorrado >= meta:
         mensaje = f"Felicidades haz ahorrado ${total_ahorrado} ({porcentaje:.2f}% Felicidades cumpliste la meta"
+        reiniciar_meta() #Para que se reinicie la meta automaticamente despues de haberla cumplido
     else:
-        mensaje = f"llevas ${total_ahorrado} ahorrado ({porcentaje:.2f}$. Te faltan {restante}"
+        mensaje = f"llevas ${total_ahorrado} ahorrado\n Porcentaje de ahorro:{porcentaje:.2f}%.\n Te faltan {restante}"
 
     return mensaje
