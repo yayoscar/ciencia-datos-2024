@@ -1,6 +1,5 @@
 import FreeSimpleGUI as sg
-
-
+import funciones as cal
 
 layout = [
     [sg.Text("Nombre del gasto hormiga:"), sg.Input(key="NOMBRE")],
@@ -11,3 +10,11 @@ layout = [
     [sg.Text("Resultados:", font=("Arial", 12, "bold"))],
     [sg.Multiline(size=(50, 10), key="RESULTADO", disabled=True)]
 ]
+ventana = sg.Window("Calculadora de ahorro hormiga", layout)
+gastos = {}
+while True:
+    evento, valores = ventana.read()
+    if evento == sg.WIN_CLOSED:
+        break
+    
+
