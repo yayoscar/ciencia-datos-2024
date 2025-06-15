@@ -1,3 +1,6 @@
+USE IA PROFE💔💔💔
+
+
 cuantas semanas hay por mes?
 
 En promedio, hay **4.3 semanas por mes**.
