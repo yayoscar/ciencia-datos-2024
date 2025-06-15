@@ -31,66 +31,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.IMC.executor": "Run",
-    "Python.aanlizar_contenido.executor": "Run",
-    "Python.actividades.executor": "Run",
-    "Python.buscar_palabra_en_archivo.executor": "Run",
-    "Python.cadena extra.executor": "Run",
-    "Python.cambio_y_pago_sofia_y_kamila.executor": "Run",
-    "Python.capitaliza_y_remplaza.executor": "Run",
-    "Python.christmastree.executor": "Run",
-    "Python.cin.executor": "Run",
-    "Python.contador_palabras.executor": "Run",
-    "Python.convertir_litros.executor": "Run",
-    "Python.corazón.executor": "Run",
-    "Python.crear_archivo_lista_ordenada.executor": "Run",
-    "Python.crear_archivo_texto.executor": "Run",
-    "Python.crear_archivos_desde_lista.executor": "Run",
-    "Python.def_calificaciones.executor": "Run",
-    "Python.dialogo.executor": "Run",
-    "Python.eliminar_espacios.executor": "Run",
-    "Python.enumerar_productos_capitalizados.executor": "Run",
-    "Python.examen.executor": "Run",
-    "Python.extraer_datos_de_una_cadena.executor": "Run",
-    "Python.for_contar_letras.executor": "Run",
-    "Python.for_contar_vocales.executor": "Run",
-    "Python.for_mayusculas.executor": "Run",
-    "Python.for_reverse_lista.executor": "Run",
-    "Python.imprimir_indices__y_longitudes.executor": "Run",
-    "Python.leer_imprimir_archivo.executor": "Run",
-    "Python.leer_modificar_imprimir.executor": "Run",
-    "Python.leer_y_contar_lineas.executor": "Run",
-    "Python.lower.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.match_case_dias.executor": "Run",
-    "Python.match_case_días.executor": "Run",
-    "Python.match_case_frutas.executor": "Run",
-    "Python.menu_interactivo_lista.executor": "Run",
-    "Python.orden_lista_con_sort.executor": "Run",
-    "Python.perimetro.executor": "Run",
-    "Python.promedio_de_calificaciones.executor": "Run",
-    "Python.python.executor": "Run",
-    "Python.red.executor": "Run",
-    "Python.reemplazo_palabras.executor": "Run",
-    "Python.remplazar_caracter_en_cadena.executor": "Run",
-    "Python.saludar.executor": "Run",
-    "Python.suma.executor": "Run",
-    "Python.usuarios_sin_espacios.executor": "Run",
-    "Python.velocidad.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "<unknown>",
-    "last_opened_file_path": "C:/Users/viann/OneDrive/Escritorio/repos/ciencia-datos-2024/tareas_del_bloque_1_codifica",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.IMC.executor&quot;: &quot;Run&quot;,
+    &quot;Python.aanlizar_contenido.executor&quot;: &quot;Run&quot;,
+    &quot;Python.actividades.executor&quot;: &quot;Run&quot;,
+    &quot;Python.buscar_palabra_en_archivo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cadena extra.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculadora_porcentaje-manejo_errores.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cambio_y_pago_sofia_y_kamila.executor&quot;: &quot;Run&quot;,
+    &quot;Python.capitaliza_y_remplaza.executor&quot;: &quot;Run&quot;,
+    &quot;Python.christmastree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ciclo_condicionales.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ciclo_condicionales_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ciclo_rebanado_archivos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cin.executor&quot;: &quot;Run&quot;,
+    &quot;Python.contador_palabras.executor&quot;: &quot;Run&quot;,
+    &quot;Python.convertir_litros.executor&quot;: &quot;Run&quot;,
+    &quot;Python.corazón.executor&quot;: &quot;Run&quot;,
+    &quot;Python.crear_archivo_lista_ordenada.executor&quot;: &quot;Run&quot;,
+    &quot;Python.crear_archivo_texto.executor&quot;: &quot;Run&quot;,
+    &quot;Python.crear_archivos_desde_lista.executor&quot;: &quot;Run&quot;,
+    &quot;Python.def_calificaciones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dialogo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eliminar_espacios.executor&quot;: &quot;Run&quot;,
+    &quot;Python.enumerar_productos_capitalizados.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eventos_de_ejemplo02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.examen.executor&quot;: &quot;Run&quot;,
+    &quot;Python.extraer_datos_de_una_cadena.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_contar_letras.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_contar_vocales.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_mayusculas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_reverse_lista.executor&quot;: &quot;Run&quot;,
+    &quot;Python.imprimir_indices__y_longitudes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.leer_imprimir_archivo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.leer_modificar_imprimir.executor&quot;: &quot;Run&quot;,
+    &quot;Python.leer_y_contar_lineas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lower.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.match_case_dias.executor&quot;: &quot;Run&quot;,
+    &quot;Python.match_case_días.executor&quot;: &quot;Run&quot;,
+    &quot;Python.match_case_frutas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.menu_interactivo_lista.executor&quot;: &quot;Run&quot;,
+    &quot;Python.orden_lista_con_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.perimetro.executor&quot;: &quot;Run&quot;,
+    &quot;Python.promedio_de_calificaciones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.proyecto_ahorro_hormiga.executor&quot;: &quot;Run&quot;,
+    &quot;Python.python.executor&quot;: &quot;Run&quot;,
+    &quot;Python.raul.executor&quot;: &quot;Run&quot;,
+    &quot;Python.red.executor&quot;: &quot;Run&quot;,
+    &quot;Python.reemplazo_palabras.executor&quot;: &quot;Run&quot;,
+    &quot;Python.remplazar_caracter_en_cadena.executor&quot;: &quot;Run&quot;,
+    &quot;Python.saludar.executor&quot;: &quot;Run&quot;,
+    &quot;Python.suma.executor&quot;: &quot;Run&quot;,
+    &quot;Python.usuarios_sin_espacios.executor&quot;: &quot;Run&quot;,
+    &quot;Python.velocidad.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;&lt;unknown&gt;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/viann/OneDrive/Escritorio/repos/ciencia-datos-2024/tareas_del_bloque_1_codifica&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\viann\OneDrive\Escritorio\repos\ciencia-datos-2024\tareas_del_bloque_1_codifica" />
@@ -101,50 +109,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="extraer_datos_de_una_cadena" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ciencia-datos-2024" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algoritmos" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algoritmos/extraer_datos_de_una_cadena.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="lower" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ciencia-datos-2024" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algoritmos" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algoritmos/lower.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="remplazar_caracter_en_cadena" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ciencia-datos-2024" />
       <option name="ENV_FILES" value="" />
@@ -191,9 +155,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.extraer_datos_de_una_cadena" />
         <item itemvalue="Python.remplazar_caracter_en_cadena" />
-        <item itemvalue="Python.lower" />
         <item itemvalue="Python.saludar" />
       </list>
     </recent_temporary>
