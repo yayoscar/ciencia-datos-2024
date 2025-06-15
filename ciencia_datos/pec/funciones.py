@@ -1,5 +1,6 @@
+import csv
 
-
-while True:
-    evento,valores= window.read()
-    if evento == "meta":
+def registro(aporte):
+    with open('registro_de_aportes.csv','a',newline='') as archivo:
+        ahorro = csv.writer(archivo)
+        ahorro.writerow([aporte])
