@@ -1,4 +1,5 @@
 import FreeSimpleGUI as sg
+import csv
 import funciones as cal
 
 layout = [
@@ -34,4 +35,10 @@ while True:
             resultado += f"Total: ${total:.2f}"
 
             ventana["RESULTADO"].update(resultado)
-           
+            with open("gastos_ahorro.csv", "w", newline="") as archivo:
+                escritor = csv.writer(archivo)
+                escritor.writerow(["Gasto", "Total"])
+
+            for nombre_gasto, total_gasto in gastos.items():
+                escritor.writerow([nombre_gasto, total_gasto])
+
