@@ -1,6 +1,6 @@
+from funciones import registro
 import FreeSimpleGUI as sg
 
-from ciencia_datos.pec.funciones import registro
 
 layout = [
  [sg.Text("META DE AHORRO:"), sg.Input(key="META")],
@@ -23,12 +23,12 @@ while True:
             registro(aporte)
             sg.popup(f"Aporte registrado: ${aporte:.2f}\nTotal ahorrado: ${total_ahorrado:.2f}")
         except:
-            sg.popup("se ha registrado correctamente.")
+            sg.popup("Error: ingresa un valor numérico válido..")
 
     elif evento == "VER PROGRESO":
         try:
             meta = float(valores["META"])
-            if meta ==(valores["META"])
+            if meta == 0:
                 sg.popup("La meta no puede ser 0.")
             else:
                 progreso = (total_ahorrado / meta) * 100

@@ -1,6 +1,9 @@
 import csv
 
 def registro(aporte):
-    with open('registro_de_aportes.csv','a',newline='') as archivo:
-        ahorro = csv.writer(archivo)
-        ahorro.writerow([aporte])
+    with open("registro_de _aportes.csv", mode="a", newline="") as archivo:
+        escritor = csv.writer(archivo)
+        escritor.writerow([aporte])
+
+
+
