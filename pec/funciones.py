@@ -22,5 +22,6 @@ def obtener_resumen(nombre_archivo):
                 except (IndexError, ValueError):
                     continue
     except FileNotFoundError:
-        pass
+        pass  # Si el archivo no existe aún, simplemente devuelve vacío
+
     return resumen, total

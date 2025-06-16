@@ -46,7 +46,7 @@ while True:
         salida = ""
         for cat, suma in resumen.items():
             salida += f"{cat}: ${suma:.2f}\n"
-        salida += f"\nTotal: ${total:.2f}\n"
+        salida += f"\nTotal: ${total:.2f}"
         ventana["SALIDA"].update(salida)
 
 ventana.close()
