@@ -1,33 +1,41 @@
 import FreeSimpleGUI as sg
+import csv
+from funciones import *
 
-
-layout=[
-    [sg.Text("Nombre del gasto hormiga (ej.Cafe):",size=(20, 1)), sg.Input(key="NOMBRE")],
-    [sg.Text("Precio por unidad",size=(20, 1)), sg.Input(key="PRECIO")],
-    [sg.Text("Veces por semana:",size=(20,1)), sg.Input(key="VECES")],
-    [sg.Text("Meses:",size=(20, 1)), sg.Input(key="VECES")],
-    [sg.Button("Calcular ahorro"), sg.Button("Salir")],
-    [sg.Text(size=(40, 2), key="RESULTADO")]
-
+layout = [
+    [sg.Text("Nombre del gasto:"), sg.InputText(key="nombre")],
+    [sg.Text("Precio por unidad:"), sg.InputText(key="precio")],
+    [sg.Text("Veces por semana:"), sg.InputText(key="veces")],
+    [sg.Text("Tiempo en meses:"), sg.InputText(key="meses")],
+    [sg.Button("Calcular"), sg.Button("Salir")],
+    [sg.Text("Resultado:"), sg.Text("", size=(40, 1), key="resultado")]
 ]
 
-ventana = sg.Window("Proyecto 3: Calcular ahorro",layout,font=("Arial", 20))
+ventana = sg.Window("Proyecto3: Calculadora de Gastos Hormiga ", layout,font=("Arial", 20))
+
 while True:
-   evento, valores = Window.read()
-    if evento ==sg.WIN_CLOSED or evento == "Salir":
+    evento, valores = ventana.read()
+
+    if evento == sg.WINDOW_CLOSED or evento == "Salir":
         break
-
-    if evento == "Calcular ahorro":
+    if evento == "Calcular":
         try:
-            nombre = valores["GASTO HORMIGA"]
-            precio = valores["PRECIO POR UNI"]
-            veces= valores["VECES POR SEMANA"]
-            meses = valores["MESES"]
+            nombre = valores["nombre"]
+            precio = float(valores["precio"])
+            veces = int(valores["veces"])
+            meses = int(valores["meses"])
 
-            gasto_total = precio * veces * 4 * meses
-            ventana["RESULTADO"]
+            semanas = meses * 4
+            total = precio * veces * semanas
 
+            resultado = f"Total en {meses} meses: ${total:.2f} en {nombre}."
+            ventana["resultado"].update(resultado)
 
+            with open("datos.csv", "a", newline="") as archivo:
+                writer = csv.writer(archivo)
+                writer.writerow([nombre, precio, veces, meses, total])
 
+        except ValueError:
+            sg.popup("ingresa datos tus datos.")
 
-Window.close()
+ventana.close()
