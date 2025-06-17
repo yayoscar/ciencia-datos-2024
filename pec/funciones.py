@@ -18,9 +18,8 @@ def leer_datos(fecha):
         for fila in reader:
             if len(fila) == 3:
                 datos.append(fila)
-            return datos
-
     return datos
+
 
 
 def mostrar_resumen():
