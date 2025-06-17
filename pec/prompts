@@ -1,0 +1,22 @@
+le pedi a IA que me aga una funcion no del codigo si no para basarme en
+eso para hacer el mio
+me mostro dos ejemplos:
+
+1.def nombre_de_la_funcion(parametros):
+    # bloque de código
+    return resultado
+2.def saludar(nombre):
+    mensaje = f"Hola, {nombre}!"
+    return mensaje
+
+# Llamar a la función
+print(saludar("Carlos"))
+
+tambien me explico esto:
+Explicación:
+def es la palabra clave que indica que vas a definir una función.
+nombre_de_la_funcion es el nombre que tú eliges para la función.
+(parametros) son los valores que puede recibir la función.
+return devuelve un resultado (opcional, si no lo usas, la función devuelve None).
+
+y recibi ayuda de algunos compañeros.
