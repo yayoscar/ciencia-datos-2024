@@ -100,7 +100,7 @@ sg.theme("LightGreen")
 ¿Quieres que revise un fragmento de tu código actual para darte sugerencias más específicas?
 O dime si te gustaría que te cree un mini-prototipo más avanzado con estas ideas aplicadas.
 
-2-
+2-despues de esto no use mas IA
 
 
 
