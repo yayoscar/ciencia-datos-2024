@@ -1,10 +1,4 @@
-
-5,0
-T,r,a,n,s,p,o,r,t,e
-1,2,-,0,6,-,2,5
-5,0
-T,r,a,n,s,p,o,r,t,e
-1,2,-,0,6,-,2,5
-5,0
-C,o,m,i,d,a
-1,2,-,0,6,-,2,5
+MONTO,CATEGORIA,FECHA
+100,Comida,2025-06-16
+50,Transporte,2025-06-16
+200,Transporte,16-06-25
