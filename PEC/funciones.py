@@ -23,33 +23,52 @@ def resumen():
         data_reader = csv.DictReader(data_file)
         comida = 0
         transporte = 0
-        salud= 0
-        ropa=0
-        entretenimiento=0
+        salud = 0
+        ropa = 0
+        entretenimiento = 0
         otros = 0
         total = 0
-        line_count = 0
         for row in data_reader:
-            total += float(row['MONTO'])
-            if row['CATEGORIA'] == 'Comida':
-                comida += float(row['MONTO'])
-            elif row['CATEGORIA'] == 'Transporte':
-                transporte += float(row['MONTO'])
-            elif row['CATEGORIA']=='Salud':
-                salud+=float(row['MONTO'])
-            elif row['CATEGORIA'] == 'Ropa':
-                ropa += float(row['MONTO'])
-            elif row['CATEGORIA'] == 'Entretenimiento':
-                entretenimiento += float(row['MONTO'])
-            elif row['CATEGORIA'] == 'Otros':
-                otros += float(row['MONTO'])
-        print(f'Total en comida: {comida}')
-        print(f'Total en transporte: {transporte}')
-        print(f'Total en salud: {salud}')
-        print(f'Total en ropa: {ropa}')
-        print(f'Total en entretenimiento: {entretenimiento}')
-        print(f'Total en otros: {otros}')
-        print(f'Total general: {total}')
+            monto = float(row['MONTO'])
+            total += monto
+            categoria = row['CATEGORIA']
+            if categoria == 'Comida':
+                comida += monto
+            elif categoria == 'Transporte':
+                transporte += monto
+            elif categoria == 'Salud':
+                salud += monto
+            elif categoria == 'Ropa':
+                ropa += monto
+            elif categoria == 'Entretenimiento':
+                entretenimiento += monto
+            elif categoria == 'Otros':
+                otros += monto
+    encabezado = ['Categoría', 'Total']
+    data = [
+        ['Comida', f'{comida:.2f}'],
+        ['Transporte', f'{transporte:.2f}'],
+        ['Salud', f'{salud:.2f}'],
+        ['Ropa', f'{ropa:.2f}'],
+        ['Entretenimiento', f'{entretenimiento:.2f}'],
+        ['Otros', f'{otros:.2f}'],
+        ['Total General', f'{total:.2f}']
+    ]
+    layout = [
+        [sg.Table(values=data,
+                  headings=encabezado,
+                  auto_size_columns=True,
+                  justification='center',
+                  num_rows=min(len(data), 10))],
+        [sg.Button('Cerrar')]
+    ]
+    window = sg.Window('Resumen de gastos', layout)
+
+    while True:
+        event, values = window.read()
+        if event in (sg.WINDOW_CLOSED, 'Cerrar'):
+            break
+    window.close()
 def abrir():
     ventana = sg.Window("PEC", layout(), font=("Arial", 20))
     while True:
