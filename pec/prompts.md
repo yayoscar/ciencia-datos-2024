@@ -164,6 +164,5 @@ archivo_crear(archivo, datos)
 
 Se define una lista de datos y se llama a la función archivo_crear para agregar la fila de datos al archivo CSV.
 
-
 � Aplicación:
 Este codigo lo use pero usando el que generaba las colunmnas en una funcion, adapatando los datos(recibiendolos desde el combo y lo que recibian las ventanas en cada uno de los espacios)

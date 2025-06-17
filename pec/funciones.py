@@ -1,5 +1,13 @@
 import FreeSimpleGUI as sg
 import csv
+
+
+def verificar_campos(values):
+    if not all(values.values()):
+        sg.popup("Por favor, complete todos los campos")
+        return False
+    return True
+
 def crear(archivo):
     try:
         with open(archivo, "r") as f:
@@ -10,18 +18,15 @@ def crear(archivo):
             writer.writerow(["Monto Inicial", "Ahorro Mensual", "Meses", "Banco", "Resultado"])
 
 def guardar_datos(archivo,values):
-    try:
         with open(archivo, "a", newline="") as f:
             writer=csv.writer(f)
             writer.writerow(values)
-        sg.popup("Datos guardados correctamente")
-    except Exception as e:
-        sg.popup("Error al guardar datos:", str(e))
 
 def calculo(tasa_mensual,meses,ahorro_mensual,monto_inicial):
     monto_final=monto_inicial*(1+tasa_mensual)**meses+ahorro_mensual*(((1+tasa_mensual)**meses-1)/tasa_mensual)
     resultado=f"Tendrias {monto_final} al finalizar los {meses} meses"
     return resultado
+
 def ventana():
     layout = [
         [sg.Text("Monto inicial:", background_color="#4b5861"), sg.Input(key="INICIAL", background_color="#f6f2e6")],
