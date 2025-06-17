@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5295bac5-2918-4db5-9d93-f7648a5b416c" name="Changes" comment="Todas mis actividades por ahora">
+      <change afterPath="$PROJECT_DIR$/Parcial-2/Lección-9/diccionario_tuplas_temperaturas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parcial-2/Lección-9/slice_lista_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parcial-2/Lección-9/slice_lista_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parcial-2/Lección-9/slice_lista_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parcial-2/Lección-9/validar_contraseña.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parcial-2/Lección-9/validar_contraseña_avanzada.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parcial-2/archivos/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parcial-2/password.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parcial-3/Lección-14/entradas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parcial-3/Lección-14/matematicas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Parcial-3/Lección-14/operaciones.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcial-3/Lección-15/Manejo-de-Evento-y-Lectura-de-Valores-en-FreeSimpleGUI/Ejercicio-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Parcial-3/Lección-15/Manejo-de-Evento-y-Lectura-de-Valores-en-FreeSimpleGUI/Ejercicio-2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snake_case/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake_case/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2tAndDAV8lY2HRlGO3S1JfMMHyg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.01_capitaliza_y_reemplaza.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_crear_archivo_lista_ordenada.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_leer_y_contar_lineas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_match_case_dias.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_enumerar_productos_capitalizados.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_buscar_palabra_en_archivo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_usuarios_sin_espacios.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08_crear_archivos_desde_lista.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09_menu_interactivo_lista.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10_imprimir_indices_y_longitudes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Bonus-1 password_de_usuario.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Bonus-2 password_de_usuario.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ej2_match_case_dias.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ej2_match_case_frutas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio-02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio-03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio-04.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio-05.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio-1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio-2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio-3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio-4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ejercicio-5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Reto_de_Ahorro_Personalizado.executor&quot;: &quot;Run&quot;,
+    &quot;Python.append_lista.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bucle_for_y_lista_ordenada.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bucle_infinito_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bucle_while_entrada_usuario.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculadora_porcentaje_manejo_errores.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculo_de_longitud_en_un_bucle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.capitalize_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.capitalize_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.capitalize_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.concatenar_cadenas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.contador_palabras.executor&quot;: &quot;Run&quot;,
+    &quot;Python.control_de_volumen.executor&quot;: &quot;Run&quot;,
+    &quot;Python.convertidor_texto.executor&quot;: &quot;Run&quot;,
+    &quot;Python.convertir_litros.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diagnostico_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diagnostico_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diagnostico_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diccionario_tuplas_temperaturas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eliminar_elementos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eliminar_espacios.executor&quot;: &quot;Run&quot;,
+    &quot;Python.else_elif.executor&quot;: &quot;Run&quot;,
+    &quot;Python.encontrar_la_longitud.executor&quot;: &quot;Run&quot;,
+    &quot;Python.entradas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.enumeracion_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.enumeracion_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.enumeracion_f-strings_y_capitalizacion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eventos_ejemplo 4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fix_replace_lista.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_contar_letras.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_contar_vocales.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_mayusculas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_nombres.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_reverse_lista.executor&quot;: &quot;Run&quot;,
+    &quot;Python.formato_nombre.executor&quot;: &quot;Run&quot;,
+    &quot;Python.formulario_simple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funcion_area_cuadrado.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funcion_cadena.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funcion_contar_elementos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funcion_edad.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funcion_lista_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funcion_lista_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funcion_numero.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funciones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gui.executor&quot;: &quot;Run&quot;,
+    &quot;Python.indexar_lista.executor&quot;: &quot;Run&quot;,
+    &quot;Python.indexar_numeros_serie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.leccion_csv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.leer_archivo_con_with.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lista_de_cuatro_elementos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lista_de_tres_elementos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.match_case_paises.executor&quot;: &quot;Run&quot;,
+    &quot;Python.matematicas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.operaciones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.password.executor&quot;: &quot;Run&quot;,
+    &quot;Python.preguntas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.promedio_lista.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pruebas_with.executor&quot;: &quot;Run&quot;,
+    &quot;Python.reemplazo_palabras.executor&quot;: &quot;Run&quot;,
+    &quot;Python.replace_cadena.executor&quot;: &quot;Run&quot;,
+    &quot;Python.replace_cadena_for.executor&quot;: &quot;Run&quot;,
+    &quot;Python.saludo_capitalizado.executor&quot;: &quot;Run&quot;,
+    &quot;Python.saludo_nombre.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selector_de_color_favorito.executor&quot;: &quot;Run&quot;,
+    &quot;Python.slice_lista_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.slice_lista_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.slice_lista_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.temperaturas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tupla_tuplas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.validar_contraseña.executor&quot;: &quot;Run&quot;,
+    &quot;Python.validar_contraseña_avanzada.executor&quot;: &quot;Run&quot;,
+    &quot;Python.variables_cadena.executor&quot;: &quot;Run&quot;,
+    &quot;Python.verificador_longitud_contrasena.executor&quot;: &quot;Run&quot;,
+    &quot;Python.verificador_temperatura.executor&quot;: &quot;Run&quot;,
+    &quot;Python.while_1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;e614e31a&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/minip/OneDrive/Documentos/!-Elabora Algoritmos-!&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\minip\OneDrive\Documentos\Repos\ciencia-datos-2024\Parcial-3\Lección-15\Tutorial-de-FreeSimpleGUI" />
+      <recent name="C:\Users\minip\OneDrive\Documentos\Repos\ciencia-datos-2024\Parcial-3\Lección-14" />
+      <recent name="C:\Users\minip\OneDrive\Documentos\Repos\ciencia-datos-2024\Parcial-2\Lección-9" />
+      <recent name="C:\Users\minip\OneDrive\Documentos\Repos\ciencia-datos-2024\Parcial-2\archivos" />
+      <recent name="C:\Users\minip\OneDrive\Documentos\Repos\ciencia-datos-2024\Parcial-1" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-a5bc9544c897-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.23654.177" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5295bac5-2918-4db5-9d93-f7648a5b416c" name="Changes" comment="" />
+      <created>1739803832262</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739803832262</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Todas mis actividades por ahora">
+      <option name="closed" value="true" />
+      <created>1749234153220</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749234153220</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/cabrera-karin" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mis actividades" />
+    <MESSAGE value="Todas mis actividades por ahora" />
+    <option name="LAST_COMMIT_MESSAGE" value="Todas mis actividades por ahora" />
+  </component>
+</project>
