@@ -1,6 +1,6 @@
 def obtener_tasa(banco):
     tasas = {
-        "Hey Banco": 0.10,  
+        "Hey Banco": 0.10,
         "NU": 0.085,
         "Finsus": 0.12
     }
