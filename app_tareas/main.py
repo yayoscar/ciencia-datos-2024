@@ -1,15 +1,10 @@
-def leer_tareas(ruta_archivo="todos.txt"):
-    """Retorna una lista de tareas a partir de una ruta"""
-    with open(ruta_archivo, "r") as archivo_local:
-        todos_local = archivo_local.readlines()
-    return todos_local
+from  funciones import funciones_main
+from datetime import datetime
 
-def guardar_tareas(todos_arg,ruta_archivo="todos.txt"):
-    """Guarda en un archivo la lista de tareas"""
-    with open(ruta_archivo, "w") as archivo_local:
-        archivo_local.writelines(todos_arg)
+fecha = datetime.now()
 
-
+fecha_str = fecha.strftime("%d %b %Y %H:%M")
+print("La fecha actual es ",fecha_str)
 mensaje = "Ingrese una tarea: "
 todos = []
 while True:
@@ -21,15 +16,15 @@ while True:
         todo = accion_usuario[8:]
         todo = f"{todo}\n"
 
-        todos = leer_tareas()
+        todos = funciones_main.leer_tareas()
 
         todos.append(todo)
 
-        guardar_tareas(todos)
+        funciones_main.guardar_tareas(todos)
 
 
     elif accion_usuario.startswith("mostrar"):
-        todos = leer_tareas()
+        todos = funciones_main.leer_tareas()
 
 
         # todos_sin_espacio = [ elemento.strip('\n') for elemento in todos ]
@@ -44,9 +39,9 @@ while True:
             indice= int(accion_usuario[7:])
             nueva_tarea = input("Ingrese el nuevo valor para la tarea: ")
             nueva_tarea = f"{nueva_tarea}\n"
-            todos = leer_tareas()
+            todos = funciones_main.leer_tareas()
             todos[indice-1] = nueva_tarea
-            guardar_tareas(todos)
+            funciones_main.guardar_tareas(todos)
         except ValueError:
             print("Estas ingresando un valor inválido")
             continue
@@ -57,9 +52,9 @@ while True:
         try:
             indice= int(accion_usuario[10:])
             indice -= 1
-            todos = leer_tareas()
+            todos = funciones_main.leer_tareas()
             todos.pop(indice)
-            guardar_tareas(todos)
+            funciones_main.guardar_tareas(todos)
         except ValueError:
             print("Estas ingresando un valor inválido")
             continue
