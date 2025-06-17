@@ -5,7 +5,6 @@ layout = [
     [sg.Text("Categoría:"), sg.Combo(["Comida", "Transporte", "Otros"], key="CATEGORIA")],
     [sg.Text("Fecha (opcional):"), sg.Input(key="FECHA")],
     [sg.Button("Guardar gasto"), sg.Button("Ver resumen"),sg.Button("Ver gastos")],
-    [sg.Multiline("", size=(20, 10), key="RESUMEN", disabled=True)]
 ]
 
 ventana = sg.Window("Registro de Gastos y Categorías", layout, font=('Britannic Negrita', 16))
@@ -23,14 +22,14 @@ while True:
             fecha = obtener_fecha()
 
         mensaje = guardar_gasto(monto, categoria, fecha)
-        ventana['RESUMEN'].update(mensaje)
+        sg.popup("Gasto guardado correctamente.")
 
     elif evento == "Ver resumen":
         resumen = mostrar_resumen()
-        ventana['RESUMEN'].update(resumen)
+        sg.popup(resumen)
     elif evento == "Ver gastos":
         gastos = mostrar_gastos()
-        ventana['RESUMEN'].update(gastos)
+        sg.popup(gastos)
 
 
 ventana.close()
