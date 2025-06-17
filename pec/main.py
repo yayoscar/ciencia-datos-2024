@@ -28,7 +28,7 @@ while True:
             tasa = obtener_tasa(banco)
             total = calcular_ahorro(inicial, mensual, meses, tasa)
 
-            sg.popup(f"Tendrías ${total} al finalizar los {meses} meses.")
+            sg.popup(f"Tendrías ${total} al terminar los {meses} meses.")
 
             guardar_resultado_csv("pec/datos.csv", inicial, mensual, meses, banco, total)
 
