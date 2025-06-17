@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d90a47b4-d6f1-4cd7-92a4-dd95eda4c969" name="Changes" comment="proyecto terminado" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Tut-Karen" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2tAnkWyVVx3vfMHcmRsLd6FujUX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.#bonus1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_leer_imprimir_archivo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_crear_archivo_lista_ordenada.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_leer_y_contar_lineas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_match_case_dias.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_enumerar_productos_capitalizados.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_buscar_palabras_en_archivo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_usuarios_sin_espacios.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08_crar_archivos_desde_lista.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09_menu_interactivo_lista.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10_imprimir_indices_y_longitudes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DIAGNOSTICO_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.IMC.executor&quot;: &quot;Run&quot;,
+    &quot;Python.IVA.executor&quot;: &quot;Run&quot;,
+    &quot;Python.algoritexa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.archivo_por_idioma_con_with.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bonnus_leccion6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bonus2_leccion_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bucle_for_lista_ordenada.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bucle_infinito_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calcula_velocidad_02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculo_de_perimetros.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculo_longitud_en_un_bucle_for.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculo_velocidad.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calidad_del_aire.executor&quot;: &quot;Run&quot;,
+    &quot;Python.capitalize_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.capitalize_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.capitalize_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.christmastree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cilo_for.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cilo_while.executor&quot;: &quot;Run&quot;,
+    &quot;Python.contador_palabras.executor&quot;: &quot;Run&quot;,
+    &quot;Python.contraseña.executor&quot;: &quot;Run&quot;,
+    &quot;Python.convertidor_litros.executor&quot;: &quot;Run&quot;,
+    &quot;Python.convertidor_texto.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dataframe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.detalle_calificaciones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diagnostico_.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diagnostico_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diagnostico_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diagnostico_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diagnostico_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dialogo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diccionario_temperaturas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diccionario_temperaturas}.executor&quot;: &quot;Run&quot;,
+    &quot;Python.diccionario_tuplas_temperaturas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejemplo_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio04.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio05.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_04.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_05.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.ejercicio_06.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_07.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_08.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_09.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_15.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_16.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_17.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_18.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio_19.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercico_05.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eliminar_elementos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eliminar_espacios.executor&quot;: &quot;Run&quot;,
+    &quot;Python.enameracion_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.encontrar_longitud.executor&quot;: &quot;Run&quot;,
+    &quot;Python.entradas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.enumeracio_f-strings y capitalizacion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.enumeracion_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.enumeracion_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.errores.executor&quot;: &quot;Run&quot;,
+    &quot;Python.escribe_archivo_con_with.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eventos_ejemplo02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eventos_ejemplo03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eventos_ejemplo_01.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.examen.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_contar__letras.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_contar_vocales.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_mayusculas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_nombres.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_numeros.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_reverse_lista.executor&quot;: &quot;Run&quot;,
+    &quot;Python.formato_nombre.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funcion_area_cuadrado.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funcion_contar_elementos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funcion_edad.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funcion_lista.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funcion_lista_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funcion_numero.executor&quot;: &quot;Run&quot;,
+    &quot;Python.funciones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gui.executor&quot;: &quot;Run&quot;,
+    &quot;Python.jornada.executor&quot;: &quot;Run&quot;,
+    &quot;Python.leer_archivo_con_with.executor&quot;: &quot;Run&quot;,
+    &quot;Python.leer_imprimir_archivo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lista_comprimida.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lista_comprimida_02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.match_case_ paises.executor&quot;: &quot;Run&quot;,
+    &quot;Python.match_case_dias.executor&quot;: &quot;Run&quot;,
+    &quot;Python.match_case_frutas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.matematicas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mayor_de_edad.executor&quot;: &quot;Run&quot;,
+    &quot;Python.numero.executor&quot;: &quot;Run&quot;,
+    &quot;Python.operaciones.executor&quot;: &quot;Run&quot;,
+    &quot;Python.operaciones_.executor&quot;: &quot;Run&quot;,
+    &quot;Python.operaciones_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.par_numero.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pass.word.executor&quot;: &quot;Run&quot;,
+    &quot;Python.perimetros.executor&quot;: &quot;Run&quot;,
+    &quot;Python.problematica.executor&quot;: &quot;Run&quot;,
+    &quot;Python.programa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.promedio_lista.executor&quot;: &quot;Run&quot;,
+    &quot;Python.proyecto_03 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.proyecto_03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pruebas_with.executor&quot;: &quot;Run&quot;,
+    &quot;Python.red_social.executor&quot;: &quot;Run&quot;,
+    &quot;Python.reemplazo_palabras.executor&quot;: &quot;Run&quot;,
+    &quot;Python.saludo_capitalizado.executor&quot;: &quot;Run&quot;,
+    &quot;Python.saludo_nombre.executor&quot;: &quot;Run&quot;,
+    &quot;Python.slice_lista_02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.slice_lista_03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.slice_lista_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.suma de numeros.executor&quot;: &quot;Run&quot;,
+    &quot;Python.temperatura.executor&quot;: &quot;Run&quot;,
+    &quot;Python.temperaturas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.validar_contraseña.executor&quot;: &quot;Run&quot;,
+    &quot;Python.validar_contraseña_basica.executor&quot;: &quot;Run&quot;,
+    &quot;Python.variables.executor&quot;: &quot;Run&quot;,
+    &quot;Python.variables_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.velocidad.executor&quot;: &quot;Run&quot;,
+    &quot;Python.verificador_longitud_contraseña.executor&quot;: &quot;Run&quot;,
+    &quot;Python.verificador_temperatura.executor&quot;: &quot;Run&quot;,
+    &quot;Python.while_1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/karen/ciencia-datos-2024&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\karen\ciencia-datos-2024" />
+      <recent name="C:\Users\karen\ciencia-datos-2024\Algoritmos\3_parcial_rossana" />
+      <recent name="C:\Users\karen\ciencia-datos-2024\parcial 2\lecciones" />
+      <recent name="C:\Users\karen\ciencia-datos-2024\parcial 2\ejercicios\leccion_6\leccion_09" />
+      <recent name="C:\Users\karen\ciencia-datos-2024\parcial 2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="ciencia-datos-2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ejercicio_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ciencia-datos-2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app_tareas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app_tareas/ejercicio_01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="eventos_ejemplo03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ciencia-datos-2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app_tareas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app_tareas/eventos_ejemplo03.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ciencia-datos-2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pec" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pec/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="proyecto_03 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ciencia-datos-2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/parcial 3/leccion_14" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parcial 3/leccion_14/proyecto_03.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="proyecto_03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ciencia-datos-2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pec" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pec/proyecto_03.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="ciencia-datos-2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="ciencia-datos-2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="ciencia-datos-2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="ciencia-datos-2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="ciencia-datos-2024" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.proyecto_03" />
+        <item itemvalue="Python.proyecto_03 (1)" />
+        <item itemvalue="Python.eventos_ejemplo03" />
+        <item itemvalue="Python.ejercicio_01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fc1d50d2d915-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.24978.54" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\karen\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d90a47b4-d6f1-4cd7-92a4-dd95eda4c969" name="Changes" comment="" />
+      <created>1739803889229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739803889229</updated>
+    </task>
+    <task id="LOCAL-00001" summary="examen">
+      <option name="closed" value="true" />
+      <created>1747839730329</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747839730329</updated>
+    </task>
+    <task id="LOCAL-00002" summary="examen2">
+      <option name="closed" value="true" />
+      <created>1747839775806</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747839775806</updated>
+    </task>
+    <task id="LOCAL-00003" summary="examen2">
+      <option name="closed" value="true" />
+      <created>1749664968064</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749664968064</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Avances">
+      <option name="closed" value="true" />
+      <created>1749748580683</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749748580683</updated>
+    </task>
+    <task id="LOCAL-00005" summary="proyecto terminado">
+      <option name="closed" value="true" />
+      <created>1750168619550</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1750168619550</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="examen" />
+    <MESSAGE value="examen2" />
+    <MESSAGE value="Avances" />
+    <MESSAGE value="proyecto.-" />
+    <MESSAGE value="proyecto terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="proyecto terminado" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Parcial 1/tareas/formato_nombre.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Algoritmos/dialogo.py</url>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Algoritmos/red_social.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Algoritmos/numero.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Algoritmos/calidad_del_aire.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parcial 2/lecciones/leccion_09/diccionario_temperaturas.py</url>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Algoritmos/ejercico_05.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
