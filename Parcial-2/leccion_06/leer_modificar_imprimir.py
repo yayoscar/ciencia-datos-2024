@@ -1,0 +1,1 @@
+archivo = open("ensayo.txt")

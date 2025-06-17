@@ -1,0 +1,5 @@
+oracion = input("Ingresa una oración: ")
+palabra_antigua = input("Palabra a reemplazar: ")
+palabra_nueva = input("Nueva palabra: ")
+nueva_oracion = oracion.replace(palabra_antigua, palabra_nueva)
+print("Oración modificada:", nueva_oracion)
