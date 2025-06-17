@@ -19,3 +19,19 @@ elif event == sg.WIN_CLOSED:
 por esto y lo coloque en la linea correcta:
  if event == sg.WIN_CLOSED:
             break
+
+### Prompt 2
+🗨 Pregunta a la IA:
+Estoy guardando datos en un archivo .csv, 
+pero al abrirlo en Excel se ve todo junto no separado en columnas
+como hago para que cada dato aparezca en su propia celda?
+
+📥 Respuesta:
+La IA me explicó que, si uso comas para separar los datos, 
+Excel a veces no los interpreta bien si está configurado en idioma español
+La solución fue usar delimiter=';' al crear el writer de CSV
+
+🧠 Aplicación:
+Esto me ayudo a que los datos que guardo, como nombre, precio y total
+ya se vean ordenados en columnas cuando abro el archivo .csv con excel
+antes se veía todo en una sola celda, ahora cada cosa está en su cuadrito

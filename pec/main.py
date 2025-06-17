@@ -1,5 +1,4 @@
 import FreeSimpleGUI as sg
-from funciones import calcular_ahorro
 from funciones import calculadora
 
 layout = [
