@@ -1,3 +1,3 @@
-lisa|leer|30|Lectura2024
-carlos|caminar|45|caminar
-ana|estudiar|60|AnaFuerte123
+Error en línea: Error en línea: lisa|leer|30|Lectura2024
+Error en línea: Error en línea: carlos|caminar|45|caminar
+Error en línea: Error en línea: ana|estudiar|60|AnaFuerte123
