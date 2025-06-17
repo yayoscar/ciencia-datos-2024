@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="22e00156-8460-4b70-9c68-b27f111cf445" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app_tareas/funciones/funciones_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_tareas/gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_3/leccion_14/hobbies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_3/leccion_14/leccion_csv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_3/seccion_free_simple_gui/ejemplo01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_3/seccion_free_simple_gui/ejercicio05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_3/seccion_free_simple_gui/eventos_ejemplo01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_3/seccion_free_simple_gui/eventos_ejemplo02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_3/seccion_free_simple_gui/eventos_ejemplo03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_3/seccion_free_simple_gui/eventos_ejemplo04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parcial_3/seccion_free_simple_gui/formulario_simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pec/prompts.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcial 1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_tareas/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parcial 1/todos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app_tareas/todos.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2xUrOfzwksqUgGpgkerqnG0vpFc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Examen.executor": "Run",
+    "Python.csv.executor": "Run",
+    "Python.ejemplo01.executor": "Run",
+    "Python.ejercicio05.executor": "Run",
+    "Python.entradas.executor": "Run",
+    "Python.eventos_ejemplo01.executor": "Run",
+    "Python.eventos_ejemplo02.executor": "Run",
+    "Python.eventos_ejemplo03.executor": "Run",
+    "Python.eventos_ejemplo04.executor": "Run",
+    "Python.examen.executor": "Run",
+    "Python.examen_temperaturas.executor": "Run",
+    "Python.formulario_simple.executor": "Run",
+    "Python.funciones_main.executor": "Run",
+    "Python.gui.executor": "Run",
+    "Python.leccion_csv.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.operaciones.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "rama-maestro",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Repos\ciencia-datos-2024\app_tareas" />
+      <recent name="C:\Users\Administrator\Repos\ciencia-datos-2024\parcial_3" />
+      <recent name="C:\Users\Administrator\Repos\ciencia-datos-2024" />
+      <recent name="C:\Users\Administrator\Repos\ciencia-datos-2024\Parcial 1\funciones" />
+      <recent name="C:\Users\Administrator\Repos\ciencia-datos-2024\Parcial 3\Leccion 14" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-a5bc9544c897-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.23654.177" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22e00156-8460-4b70-9c68-b27f111cf445" name="Changes" comment="" />
+      <created>1748003465370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748003465370</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Parcial 3/Leccion 14/operaciones.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app_tareas/main.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
