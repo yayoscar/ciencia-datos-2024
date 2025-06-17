@@ -1,22 +1,13 @@
 from funciones import *
+ventana=ventana()
 
-layout = [
- [sg.Text("Monto inicial:",background_color="#4b5861"), sg.Input(key="INICIAL",background_color="#f6f2e6")],
- [sg.Text("Ahorro mensual:",background_color="#4b5861"), sg.Input(key="MENSUAL",background_color="#f6f2e6")],
- [sg.Text("Meses:",background_color="#4b5861"), sg.Input(key="MESES",background_color="#f6f2e6")],
- [sg.Text("Banco:",background_color="#4b5861"), sg.Combo(["Hey Banco", "NU", "Finsus"], key="BANCO", background_color="#293b3d",text_color="#a8bcba")],
- [sg.Button("Calcular",button_color="#4b5861")],[sg.Button("Cerrar",button_color="#4b5861")]
- ]
-
-banco_valores={
+banco_valores = {
     "Hey Banco": 0.10,
-    "NU":0.135,
-    "Finsus":0.145
+    "NU": 0.135,
+    "Finsus": 0.145
 }
-archivo = " Simulador de Ahorro en Bancos Digitales.csv"
+archivo = "Simulador de Ahorro en Bancos Digitales.csv"
 crear(archivo)
-ventana = sg.Window("Ahorro en bancos digitales", layout, icon="JaneDoeChibi.ico", background_color="#839d9e")#Le agregue icono y color
-
 while True:
     event, values=ventana.read()
     if event=="Cerrar" or event==sg.WIN_CLOSED:
