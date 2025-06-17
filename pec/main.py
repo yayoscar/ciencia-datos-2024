@@ -1,5 +1,6 @@
 import FreeSimpleGUI as sg
 import csv
+from funciones import funcion_main
 
 layout = [
     [sg.Text("Nombre del producto:"), sg.Input(key="PRODUCTO")],
