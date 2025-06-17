@@ -3,36 +3,33 @@ import os
 
 ARCHIVO = "datos.csv"
 
-
 def registrar_aporte(aporte):
     with open(ARCHIVO, "a", newline="") as archivo:
-        xd = csv.writer(archivo)
-        xd.writerow([aporte])
-
+        writer = csv.writer(archivo)
+        writer.writerow([aporte])
 
 def leer_aportes():
     if not os.path.exists(ARCHIVO):
-        return ()
-
+        return []
     with open(ARCHIVO, "r") as archivo:
-        nose = csv.reader(archivo)
-        return (float(fila[0]) for fila in nose if fila)
-
+        reader = csv.reader(archivo)
+        return [float(fila[0]) for fila in reader if fila]
 
 def calcular_progreso(meta, semanas):
     aportes = leer_aportes()
     total_ahorrado = sum(aportes)
     faltante = max(0, meta - total_ahorrado)
+    semanas_transcurridas = len(aportes)
 
-    mensaje = f"Has ahorrado ${total_ahorrado:.2f}."
+    mensaje = f"""Has ahorrado: ${total_ahorrado:.2f} de ${meta:.2f}.
+     Semanas transcurridas: {semanas_transcurridas} de {semanas}"""
+
     if total_ahorrado >= meta:
-        mensaje = "ERES UN CRACK LO LOGRASTE, META CUMPLITDA"
+        mensaje += "Meta alcanzada, eres un crack, idolo, genio, master, mastodonte "
+    elif semanas_transcurridas < semanas:
+        mensaje += f" Te falta ${faltante:.2f} pesos, sigue asi crack"
     else:
-        mensaje = f" Te faltan ${faltante:.2f}."
-        if len(aportes) < semanas:
-            mensaje = f" Aún te quedan {semanas - len(aportes)} semana crack para completar tu meta."
-        else:
-            mensaje = "que paso ahi crack has terminado tus semanas y no alcanzaste la meta :("
+        mensaje += f"Meta no alcanzado que paso crack te falto ${faltante:.2f}."
 
     return mensaje
 

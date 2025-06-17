@@ -235,3 +235,33 @@ def calcular_progreso(meta, semanas):
             mensaje += "😓 Ya pasaron las semanas y no alcanzaste la meta. ¡No te rindas!"
 
     return mensaje
+
+que significa el import os
+
+El import os en Python sirve para importar el módulo os, que te permite interactuar con el sistema operativo desde tu programa.
+
+🔧 ¿Qué puedes hacer con os?
+Aquí algunos ejemplos comunes:
+
+Función de os	¿Qué hace?
+os.path.exists()	Verifica si un archivo o carpeta existe ✅
+os.remove()	Borra archivos
+os.mkdir()	Crea una carpeta nueva
+os.getcwd()	Devuelve la ruta actual del programa
+os.listdir()	Lista archivos/carpetas en un directorio
+
+👇 En tu proyecto, ¿para qué sirve?
+En tu archivo funciones.py, se usa:
+
+python
+Copiar
+Editar
+if not os.path.exists(ARCHIVO):
+    return []
+Esto significa:
+
+"Si el archivo datos.csv no existe, entonces no intentes leerlo y solo devuelve una lista vacía."
+
+👉 Esto evita errores cuando el archivo aún no se ha creado, como al ejecutar el programa por primera vez.
+
+¿Quieres que te muestre ejemplos simples usando os para otras tareas útiles?
