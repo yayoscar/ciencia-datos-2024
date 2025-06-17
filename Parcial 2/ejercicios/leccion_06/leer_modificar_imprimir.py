@@ -1,0 +1,5 @@
+archivo = open("ensayo.txt", "r")
+contenido = archivo.read()
+contenido_modificado = contenido.title()
+print(contenido_modificado)
+archivo.close()

@@ -25,4 +25,5 @@ def procesar_temperaturas():
         salida.write(f"Máxima: {max(temperaturas):.1f}\n")
         salida.write(f"Mínima: {min(temperaturas):.1f}\n")
         salida.write("Archivos: " + ", ".join(nombres_archivos) + "\n")
-        procesar_temperaturas()
+
+procesar_temperaturas()

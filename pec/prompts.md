@@ -1,3 +1,4 @@
+Yo: Le mandé mi código(Ya que ya había hecho uno) y le dije que me explicara mis errores.
 ¡Por supuesto! Aquí tienes el **código corregido y funcionando**, incluyendo los detalles que había que ajustar:
 
 ---
@@ -101,6 +102,7 @@ def obtener_resumen(nombre_archivo):
 
 ¿Quieres que también agregue una validación para que la **fecha tenga un formato válido** (como `2025-06-11`) o prefieres dejarlo libre como está ahora?
 
+Yo: Pedí explicación de mi código para verificar que si corriera como debía.
 ¡Claro! Aquí tienes una explicación simple y clara de lo que hace tu código:
 
 ---
@@ -166,7 +168,7 @@ Lee todos los gastos del archivo y devuelve:
 
 Si quieres, también puedo ayudarte a agregar nuevas funciones, como editar o eliminar un gasto, o mostrar los gastos por fecha. ¿Te interesa?
 
-
+Yo: Pedí que me ayudara con un problemita en la ventana.
 ¡Buena pregunta! Si quieres que, **después de guardar un gasto**, se muestre ese gasto directamente en el recuadro de salida (`SALIDA`) dentro de la ventana, puedes hacerlo agregando unas líneas justo después de guardar el dato.
 
 ---
