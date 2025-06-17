@@ -9,9 +9,8 @@ def guardar_tareas(todos_arg,ruta_archivo="todos.txt"):
     """"guarda en un archivo la lista de tareas"""
     with open(ruta_archivo, "w") as archivo_local:
         archivo_local.writelines(todos_arg)
-        
 
-mensaje = "ingrese una tarea: "
+        mensaje = "ingrese una tarea: "
 todos = []
 while True:
     accion_usuario =input("indica que accion desea hacer agregar/mostrar/editar/completar/salir: ")

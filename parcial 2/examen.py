@@ -21,7 +21,8 @@ def validar_contraseña(contraseña="actividades.txt"):
 
 def formatear_lineas():
     with open("actividades.txt","r") as archivo:
-        return
+        try:
+            nombre,actividad,tiempo,contraseña= "alv"
 
 
 
