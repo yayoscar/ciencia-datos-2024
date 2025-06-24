@@ -39,7 +39,7 @@ Este archivo solo tiene la función que recibe números, los suma y devuelve el 
 ### Archivo: `main.py`
 
 ```python
-# main.py
+# mainn.py
 import PySimpleGUI as sg
 from funciones import sumar  # Importas la función sumar del otro archivo
 
@@ -97,4 +97,86 @@ Si ejecutas `main.py`, verás la ventana, puedes ingresar números y al presiona
 
 ---
 
-¿Quieres que te prepare un ejemplo para copiar y pegar y probar directamente?
+2. como se lee y guarda un archivo csv en python?
+
+¡Muy bien! Vamos con una explicación clara y completa sobre **cómo leer y guardar archivos `.csv` en Python** usando el módulo `csv`, que es el más común y fácil de usar.
+
+---
+
+## 📌 ¿Qué es un archivo CSV?
+
+Es un archivo de texto donde los datos están separados por comas (`,`).
+Cada línea representa una fila, y cada valor separado por comas es una columna.
+
+**Ejemplo `datos.csv`:**
+
+```
+Producto,Precio,Veces,Meses,Ahorro
+Café,30,3,6,2160
+Chicles,5,7,4,560
+```
+
+---
+
+## ✅ 1. Cómo **leer** un archivo CSV en Python
+
+### ▶️ Código básico para leer:
+
+```python
+import csv
+
+with open("datos.csv", mode="r", newline='', encoding="utf-8") as archivo:
+    lector = csv.reader(archivo)
+    for fila in lector:
+        print(fila)
+```
+---
+
+## ✅ 2. Cómo **guardar (escribir)** en un archivo CSV
+
+### ▶️ Código para guardar datos:
+
+```python
+import csv
+
+datos = [
+    ['Producto', 'Precio', 'Veces', 'Meses', 'Ahorro'],
+    ['Chicles', '5', '7', '4', '560']
+]
+
+with open("datos.csv", mode="w", newline='', encoding="utf-8") as archivo:
+    escritor = csv.writer(archivo)
+    escritor.writerows(datos)
+```
+
+🎯 `writerows()` guarda **todas las filas** (una lista de listas).
+🎯 `"w"` significa **escribir desde cero** (borra el contenido anterior).
+
+---
+
+## ✅ 3. Cómo **agregar** una nueva fila al final
+
+Si quieres **agregar** (sin borrar lo anterior), usa `"a"` (append):
+
+```python
+nueva_fila = ['Refresco', '20', '2', '5', '800']
+
+with open("datos.csv", mode="a", newline='', encoding="utf-8") as archivo:
+    escritor = csv.writer(archivo)
+    escritor.writerow(nueva_fila)
+```
+
+---
+
+## 🧠 Resumen rápido:
+
+| Acción   | Código                                   |
+| -------- | ---------------------------------------- |
+| Leer     | `csv.reader(archivo)`                    |
+| Escribir | `csv.writer(archivo).writerows()`        |
+| Agregar  | Abrir con `mode="a"` y usar `writerow()` |
+
+---
+
+¿Quieres que te dé un ejemplo en tu propio proyecto para guardar los gastos hormiga?
+
