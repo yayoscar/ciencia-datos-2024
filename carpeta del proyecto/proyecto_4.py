@@ -4,11 +4,11 @@ import os
 
 ARCHIVO_CSV = "aportes.csv"
 
-# Crear archivo si no existe, con encabezado
+
 if not os.path.exists(ARCHIVO_CSV):
     with open(ARCHIVO_CSV, mode='w', newline='') as file:
         writer = csv.writer(file)
-        writer.writerow(["Aporte"])  # Encabezado
+        writer.writerow(["Aporte"])
 
 layout = [
     [sg.Text("Meta de ahorro:"), sg.Input(key="META")],
@@ -44,10 +44,10 @@ while True:
             meta = float(values["META"])
             total_aportado = 0.0
 
-            # Leer todos los aportes del archivo CSV
+
             with open(ARCHIVO_CSV, mode='r') as file:
                 reader = csv.reader(file)
-                next(reader)  # Saltar encabezado
+                next(reader) 
                 for row in reader:
                     if row and row[0].strip():
                         total_aportado += float(row[0])
