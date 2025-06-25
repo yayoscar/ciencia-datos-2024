@@ -1,15 +1,15 @@
 import FreeSimpleGUI as sg
 import os
-from funciones import guardar_datos_en_archivo
-from funciones import calcular_progreso
-from funciones import reiniciar_meta
+from funciones import guardar_datos_en_archivo,calcular_progreso,reiniciar_meta
 
 layout = [
-[sg.Text("Meta de ahorro:"), sg.Input(key="META")],
-[sg.Text("Número de semanas:"), sg.Input(key="SEMANAS")],
-[sg.Text("Aporte actual:"), sg.Input(key="APORTE")],
-[sg.Text("Ejemplo de aporte: 200,300,600,500,400")],
-[sg.Button("Registrar aporte"), sg.Button("Ver progreso"), sg.Button("Reiniciar metas")]
+[sg.Text("Meta de ahorro:",size=(18,1),text_color="white", background_color="green"), sg.Input(key="META"), ],
+[sg.Text("Número de semanas:",size=(18,1),text_color="white", background_color="green"), sg.Input(key="SEMANAS")],
+[sg.Text("Aporte actual:",size=(18,1),text_color="white", background_color="green"), sg.Input(key="APORTE")],
+[sg.Text("Ejemplo de aporte: 200,300,600,500,400",text_color="white", background_color="green")],
+[sg.Button("Registrar aporte",size=(15,1)),
+ sg.Button("Ver progreso",size=(15,1)),
+ sg.Button("Reiniciar metas",size=(15,1))]
 ]
 
 ruta_icono = "Aigis-icon.ico"
@@ -32,9 +32,9 @@ while True:
                 aporte = aporte.strip()
                 if aporte:
                     guardar_datos_en_archivo(meta_usuario,semanas_usuario,float(aporte))
-            sg.popup("Aporte registrado con exito :)")
+            sg.popup("Aporte registrado con exito :)", auto_close_duration=2)
         except ValueError:
-            sg.popup("Porfavor ingrese datos validos")
+            sg.popup("Porfavor Ingrese Datos Validos")
 
     elif evento == "Ver progreso":
         mensaje = calcular_progreso()
