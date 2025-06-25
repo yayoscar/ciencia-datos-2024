@@ -29,7 +29,7 @@ def guardar_resultado(values, gasto_total):
         values (dict): Diccionario con los valores de entrada.
         gasto_total (float): Gasto total calculado.
     """
-    with open('resultados.csv', 'a', newline='') as csvfile:
+    with open('datos.csv', 'a', newline='') as csvfile:
         fieldnames = ['nombre', 'precio', 'veces', 'meses', 'gasto_total']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
