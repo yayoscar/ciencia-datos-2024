@@ -1,9 +1,2 @@
-barrer
-Ver operadores logicos
-Fumigar
-Tarea editada con funcion
-Agregar nueva tarea
-tarea con funcion
-nueva
-tarea nueva
-otra tarea nueva
+Deployar mi app
+Deployar nuestra aplicacion

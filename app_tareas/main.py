@@ -1,4 +1,4 @@
-from  funciones import funciones_main
+from app_tareas import funciones_main
 from datetime import datetime
 
 fecha = datetime.now()

@@ -1,9 +1,12 @@
-RUTA = "todos.txt"
+RUTA = r"C:\Users\Administrator\Repos\ciencia-datos-2024\app_tareas\todos.txt"
 
 def leer_tareas(ruta_archivo=RUTA):
     """Retorna una lista de tareas a partir de una ruta"""
-    with open(ruta_archivo, "r") as archivo_local:
-        todos_local = archivo_local.readlines()
+    try:
+        with open(ruta_archivo, "r") as archivo_local:
+            todos_local = archivo_local.readlines()
+    except FileNotFoundError:
+        return []
     return todos_local
 
 def guardar_tareas(todos_arg,ruta_archivo=RUTA):
