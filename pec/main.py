@@ -8,14 +8,14 @@ layout = [
     [sg.Text("Categoría: ", background_color="#ECAD83", text_color="#611227"),sg.Push(background_color="#ECAD83"), sg.Combo(["Comida","Transporte","Salud","Ropa o accesorios","Impuestos","Vivienda","Otro"], key = "categoria", size=(19,19), button_background_color="#8F1535")],
     [sg.Text("Fecha (Opcional): ", background_color="#ECAD83", text_color="#611227"),sg.Push(background_color="#ECAD83"), sg.Input(key= "fecha", size=(20, 90), text_color="#611227")],
     [sg.Push(background_color="#ECAD83"), sg.Text("DD/MM/AAAA", background_color="#ECAD83", text_color="#611227")],
-    [sg.Image(sg.EMOJI_BASE64_HEAD_EXPLODE, background_color="#ECAD83"),sg.Push(background_color="#ECAD83"), sg.Button("Guardar", button_color="#8F1535"), sg.Button("Ver registro", button_color="#8F1535"), sg.Button("Ver resumen", button_color="#8F1535"), sg.Button("Salir", button_color="#8F1535")]
+    [sg.Image(sg.EMOJI_BASE64_GLASSES, background_color="#ECAD83"),sg.Push(background_color="#ECAD83"), sg.Button("Guardar", button_color="#8F1535"), sg.Button("Ver registro", button_color="#8F1535"), sg.Button("Ver resumen", button_color="#8F1535"), sg.Button("Salir", button_color="#8F1535")]
 ]
 ventana = sg.Window("Registro de Gastos y Categorías", layout, font= ("Cascadia Mono", 15), icon=(sg.EMOJI_BASE64_JASON), background_color="#ECAD83")
 
 while True:
     evento, valor = ventana.read()
     if evento == sg.WIN_CLOSED or evento == "Salir":
-        sg.popup("Hecho por Yana, páseme con 10", font=("Cascadia Mono", 50), background_color="black", text_color="White", button_color="Yellow")
+        #sg.popup("Hecho por Yana, páseme con 10", font=("Cascadia Mono", 50), background_color="black", text_color="White", button_color="Yellow")
         break
     elif evento == "Guardar":
         fila = func.prepara_datos(valor)
